@@ -27,6 +27,8 @@
 | 灵感和待办总在切换应用时丢掉 | [桌面流转台](https://afdian.com/album/1f24622aa83511f184a452540025c377) | 先在桌面接住，再保存为 Markdown，按需连接 Obsidian / Codex | macOS v1.0.0；Windows v1.0.3 |
 | 每天盯着 Codex 原生界面，想换成更像自己的工作台 | [Codex 皮肤工坊](https://afdian.com/album/26288eaca83511f19cc352540025c377) | 搜索、预览、安装、切换和恢复皮肤 | macOS，免费领取 |
 | 每次做选题都要重新找资料、筛方向、整理结果 | [小燃选题员工](https://afdian.com/a/lydiahub2026) | 把重复的选题步骤交给固定流程，留下真正需要人判断的部分 | 正式版 |
+| 询盘散在表格里，不知道先跟谁、还缺什么证据 | [Lydia 外贸系统](https://github.com/lydiahub19921013/lydia-foreign-trade-system) | 导入 CSV / JSON，查看分级、缺失证据和下一步，再由人确认跟进 | MIT 开源，Node.js 20+ 本地运行 |
+| 买覆盖物、土壤或堆肥前，想把尺寸、体积和袋数算清楚 | [CoverCalc Pro 工具包](https://github.com/lydiahub19921013/covercalcpro-landscape-quantity-kit) | 检查矩形或圆形体积，核对公式、袋装规格和采购清单 | MIT 开源，浏览器可用；[在线工具](https://covercalcpro.com/#calculator) |
 
 第一次来，可以直接打开[上手页](GETTING-STARTED.md)。不用先研究技术名词，按自己正在卡住的事选一个就行。
 
@@ -54,6 +56,26 @@
 
 ---
 
+## 新增开源项目 · 看得到代码，也能自己试
+
+### Lydia 外贸系统 · 先把询盘分清，再决定跟进
+
+从自己已有的询盘表开始，不先做一套复杂 CRM。导入前核对列名，导入后看 A / B / C / D / HOLD 分级、缺失证据和下一步；需要补证时，再主动查询公开企业资料。不同客户可以分开保存，重要批次可以导出完整备份。
+
+界面与截图使用虚构样例，不代表真实客户或成交结果。默认本地运行，不自动群发；本机数据未加密，使用边界在项目里写清楚。
+
+**[查看项目与真实运行截图](https://github.com/lydiahub19921013/lydia-foreign-trade-system)** · [英文上手说明](https://github.com/lydiahub19921013/lydia-foreign-trade-system/blob/main/docs/README.en.md) · [反馈问题](https://github.com/lydiahub19921013/lydia-foreign-trade-system/issues)
+
+### CoverCalc Pro · 下单前，把用量算清楚
+
+量出的长、宽和深度，与袋子上印的体积，是两种不同的信息。这个开源工具包把它们分开：尺寸算空间，包装规格算袋数；矩形或圆形都能检查，公式、字段表和覆盖率 CSV 都可以查看。
+
+单区检查器是一个可以直接在浏览器打开的 HTML 文件，不需要账号或第三方依赖。完整在线计算工具在 covercalcpro.com；仓库里的示例不会猜价格、密度或供应商规则。
+
+**[打开在线计算工具](https://covercalcpro.com/#calculator)** · [查看开源工具包与演示](https://github.com/lydiahub19921013/covercalcpro-landscape-quantity-kit) · [本机试用步骤](https://github.com/lydiahub19921013/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md)
+
+---
+
 ## 其他正在持续维护的方向
 
 - **桌面流转台**：把一闪而过的待办和灵感留在桌面，再按需进入 Obsidian、Codex 或复盘流程。
@@ -73,6 +95,8 @@
 
 ## 下载与内测
 
+- [GitHub：Lydia 外贸系统源码与上手说明](https://github.com/lydiahub19921013/lydia-foreign-trade-system)
+- [CoverCalc Pro：在线计算](https://covercalcpro.com/#calculator) / [开源公式与本机检查器](https://github.com/lydiahub19921013/covercalcpro-landscape-quantity-kit)
 - [GitHub：说人话最新版](https://github.com/lydiahub19921013/shuorenhua/releases/latest)
 - [爱发电：工具领取与更新入口](https://afdian.com/a/lydiahub2026)
 - [飞书：Lydiahub 免费产品领取中心](https://jcnrbes3t04e.feishu.cn/drive/folder/VRnafPFVDlcNXrdtpSwcWaWFnEj)
@@ -83,6 +107,7 @@
 
 ## 最近更新
 
+- **2026-09-28**：补齐 Lydia 外贸系统与 CoverCalc Pro 开源工具包的项目入口、试用说明和运行演示；原有产品、封面与下载入口继续保留。
 - **2026-09-08**：「别返工」完成 v0.1.0 内测候选版，真实识别新增工作、原约定变化和待确认问题。
 - **2026-09-07**：「说人话」发布 v0.9.0，可从 GitHub Releases 下载。
 - **2026-09-04**：桌面流转台更新为 Windows v1.0.3，并在 Windows 10、11 完成核心路径验证；Mac 使用 v1.0.0 DMG。
