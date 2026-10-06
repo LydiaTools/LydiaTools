@@ -56,8 +56,6 @@ The single-area checker is an HTML file you can open directly in a browser, with
 
 ---
 
-<a id="按你现在卡住的事来选"></a>
-
 ## Choose by the problem
 
 | What is getting in your way? | Tool | What it helps you do | Current status |
@@ -157,16 +155,12 @@ Projects without a public download are labeled in development or in testing. A l
 
 I also work with the [BFTOOLS team](https://github.com/mercedesbestsupplier-maker) on product direction, user experience, and public product pages, with a current focus on promoting the content-operations tool. [BFTiles](https://github.com/mercedesbestsupplier-maker/BFTiles) was originally developed by [@dingzd1995](https://github.com/dingzd1995).
 
-<a id="我做产品时守的边界"></a>
-
 ## What matters to me
 
 - **Start with a real task.** Make one specific thing work well before adding more features.
 - **Keep data local when practical.** Projects, agreements, and records that can stay on your computer aren't uploaded by default.
 - **Keep key decisions yours.** Replies are reviewed before sending; project scope changes after your confirmation.
 - **Be honest about status.** Tests, device verification, signing, notarization, and public release are reported separately.
-
-<a id="下载与内测"></a>
 
 ## Downloads & early access
 
