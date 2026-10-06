@@ -1,7 +1,5 @@
 # Lydiahub · 从这里开始
 
-个人作品总入口：[LydiaHub2026](https://github.com/lydiahub2026)。公司产品：[BFTiles](https://github.com/mercedesbestsupplier-maker/BFTiles)。
-
 不用先研究一堆功能。先看自己现在卡在哪一步，再选对应工具。
 
 ## 1. 你现在遇到什么问题？
