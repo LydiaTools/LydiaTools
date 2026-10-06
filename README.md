@@ -29,6 +29,7 @@
 | 每次做选题都要重新找资料、筛方向、整理结果 | [小燃选题员工](https://afdian.com/a/lydiahub2026) | 把重复的选题步骤交给固定流程，留下真正需要人判断的部分 | 正式版 |
 | 询盘散在表格里，不知道先跟谁、还缺什么证据 | [Lydia 外贸系统](https://github.com/lydiahub19921013/lydia-foreign-trade-system) | 导入 CSV / JSON，查看分级、缺失证据和下一步，再由人确认跟进 | MIT 开源，Node.js 20+ 本地运行 |
 | 买覆盖物、土壤或堆肥前，想把尺寸、体积和袋数算清楚 | [CoverCalc Pro 工具包](https://github.com/lydiahub19921013/covercalcpro-landscape-quantity-kit) | 检查矩形或圆形体积，核对公式、袋装规格和采购清单 | MIT 开源，浏览器可用；[在线工具](https://covercalcpro.com/#calculator) |
+| 浏览器 Agent 超时、失忆或重复提交，不清楚实际做到了哪一步 | [Browser Agent Blueprint](https://github.com/lydiahub19921013/browser-agent-blueprint) | 复用提示词模块，运行本地合成页面核对检查点、风险门禁与恢复边界 | MIT 开源；12 模块、4 工作流模板、6 演示场景；模型集成未实测 |
 
 第一次来，可以直接打开[上手页](GETTING-STARTED.md)。不用先研究技术名词，按自己正在卡住的事选一个就行。
 
@@ -57,6 +58,14 @@
 ---
 
 ## 新增开源项目 · 看得到代码，也能自己试
+
+### Browser Agent Blueprint · 回执丢了，先核对，再决定是否重试
+
+浏览器 Agent 点保存后超时，重启后直接再点一次，可能产生重复记录。这个项目把已验证操作、未知提交和剩余预算分开记录：12 个原创 txt 提示词模块、4 类工作流模板，配真实本地浏览器 demo，可用两个独立进程检查恢复后保存次数仍为 1。
+
+示例是确定性宿主控制代码，不调用模型；Muse/Grok/Codex 提供接入约定，尚未进行对应模型实测。自动唤醒和生产级崩溃一致性需要宿主实现，边界与来源在仓库里写清楚。
+
+**[查看模块与可复现 demo](https://github.com/lydiahub19921013/browser-agent-blueprint)** · [中文上手说明](https://github.com/lydiahub19921013/browser-agent-blueprint/blob/main/README.zh-CN.md) · [报告合成失败案例](https://github.com/lydiahub19921013/browser-agent-blueprint/issues)
 
 ### Lydia 外贸系统 · 先把询盘分清，再决定跟进
 
@@ -107,6 +116,7 @@
 
 ## 最近更新
 
+- **2026-10-06**：新增 Browser Agent Blueprint：原创浏览器 Agent 提示词模块、本地恢复演示与明确标注未实测的接入约定。
 - **2026-09-28**：补齐 Lydia 外贸系统与 CoverCalc Pro 开源工具包的项目入口、试用说明和运行演示；为「说人话」增加英文说明入口；原有产品、封面与下载入口继续保留。
 - **2026-09-08**：「别返工」完成 v0.1.0 内测候选版，真实识别新增工作、原约定变化和待确认问题。
 - **2026-09-07**：「说人话」发布 v0.9.0，可从 GitHub Releases 下载。
