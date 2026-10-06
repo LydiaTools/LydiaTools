@@ -1,12 +1,6 @@
 <div align="center">
 
-# LydiaHub Code · 源码与发布
-
-这是 Lydia 的个人项目源码与发布账号。
-
-**[个人作品总入口：LydiaHub2026](https://github.com/lydiahub2026)** · [公司产品：BFTiles](https://github.com/mercedesbestsupplier-maker/BFTiles)
-
-内容生产助手、Codex 皮肤工坊和这里列出的其他独立工具属于 Lydia 的个人产品；BFTiles 属于公司产品。项目源码、Release 和 Star 继续使用各自真实仓库地址。
+# Lydiahub
 
 <img src="assets/hero.svg" alt="Lydiahub · 把想到的，做成做得到的" width="100%">
 
