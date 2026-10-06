@@ -20,6 +20,43 @@ Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier
 
 ---
 
+## Featured now · Two projects to try
+
+### CoverCalc Pro · Check the quantities before placing an order
+
+**From volume to an actual buying decision.** Whole bags, bulk minimums, order increments, and delivery fees are calculated together. In the website's worked example, a 2 yd³ supplier minimum changes the bulk order: 14 bags cost USD 80 delivered, while bulk costs USD 105.
+
+<a href="https://covercalcpro.com/#calculator"><picture><source media="(max-width: 600px)" srcset="assets/covercalc-cost-mobile.png"><img src="assets/covercalc-cost-comparison.png" alt="Real CoverCalc Pro result: 14 whole bags cost USD 80 including delivery; the 2-cubic-yard minimum bulk order costs USD 105" width="720"></picture></a>
+
+*Real calculator output using the site's example inputs: 100 ft² at 3 in, 10% allowance, a 2 yd³ bulk minimum, and illustrative prices.*
+
+<details>
+<summary>See the measurements, allowance, and supplier rules behind that result</summary>
+
+<img src="assets/covercalc-pro-live.png" alt="The measured 0.926 cubic yards becomes 14 whole bags or a 2-cubic-yard bulk minimum in CoverCalc Pro" width="720">
+
+</details>
+
+Measured length, width, and depth tell you how much space to fill. The volume printed on a bag tells you how many bags to buy. This toolkit keeps the two calculations separate. Check rectangular or circular spaces and inspect the formulas, field definitions, and coverage CSV.
+
+The single-area checker is an HTML file you can open directly in a browser, without an account or third-party dependencies. The full live calculator is at covercalcpro.com. Repository examples don't guess prices, densities, or supplier rules.
+
+**[Open the live calculator](https://covercalcpro.com/#calculator)** · [Toolkit and demo](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) · [Try the local checker](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md)
+
+### Browser Agent Blueprint · A lost receipt calls for verification before retrying
+
+A browser agent clicks Save and times out. If it clicks again after restarting, it may create a duplicate record. This project records verified actions, uncertain submissions, and remaining budgets separately: 12 original plain-text prompt modules, 4 workflow templates, and a real local browser demo. Two separate processes let you check that the saved-record count remains 1 after resume.
+
+The demo uses deterministic host code and makes no model calls. Muse, Grok, and Codex have integration contracts; those model integrations have not been live-tested. Automatic wake-up and production crash consistency need host support. The repository explains its scope and provenance.
+
+<a href="https://github.com/LydiaTools/browser-agent-blueprint#quick-start"><img src="assets/browser-agent-recovery.png" alt="Browser Agent Blueprint recovery evidence: two separate processes, one saved record, and a DONE checkpoint after readback" width="720"></a>
+
+*Two separate processes; one saved record after resume. Actual synthetic-fixture capture and recorded run output, with an explanatory layout.*
+
+**[Modules and reproducible demo](https://github.com/LydiaTools/browser-agent-blueprint)** · [Getting started](https://github.com/LydiaTools/browser-agent-blueprint#quick-start) · [Report a synthetic failure case](https://github.com/LydiaTools/browser-agent-blueprint/issues)
+
+---
+
 <a id="按你现在卡住的事来选"></a>
 
 ## Choose by the problem
@@ -39,26 +76,6 @@ New here? Open the [getting-started page](GETTING-STARTED.md). Pick the problem 
 
 ---
 
-## Featured now · Two projects to try
-
-### CoverCalc Pro · Check the quantities before placing an order
-
-Measured length, width, and depth tell you how much space to fill. The volume printed on a bag tells you how many bags to buy. This toolkit keeps the two calculations separate. Check rectangular or circular spaces and inspect the formulas, field definitions, and coverage CSV.
-
-The single-area checker is an HTML file you can open directly in a browser, without an account or third-party dependencies. The full live calculator is at covercalcpro.com. Repository examples don't guess prices, densities, or supplier rules.
-
-**[Open the live calculator](https://covercalcpro.com/#calculator)** · [Toolkit and demo](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) · [Try the local checker](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md)
-
-### Browser Agent Blueprint · A lost receipt calls for verification before retrying
-
-A browser agent clicks Save and times out. If it clicks again after restarting, it may create a duplicate record. This project records verified actions, uncertain submissions, and remaining budgets separately: 12 original plain-text prompt modules, 4 workflow templates, and a real local browser demo. Two separate processes let you check that the saved-record count remains 1 after resume.
-
-The demo uses deterministic host code and makes no model calls. Muse, Grok, and Codex have integration contracts; those model integrations have not been live-tested. Automatic wake-up and production crash consistency need host support. The repository explains its scope and provenance.
-
-**[Modules and reproducible demo](https://github.com/LydiaTools/browser-agent-blueprint)** · [Getting started](https://github.com/LydiaTools/browser-agent-blueprint#quick-start) · [Report a synthetic failure case](https://github.com/LydiaTools/browser-agent-blueprint/issues)
-
----
-
 ## Two more tools I keep improving
 
 ### Say It Plainly · Understand the message, then reply in your own words
@@ -66,6 +83,12 @@ The demo uses deterministic host code and makes no model calls. Muse, Grok, and 
 “Find a lever for user value and close the loop quickly.” You know the words. The hard part is figuring out what to do first, how far to take it, and how to reply without pretending the request was clear.
 
 Say It Plainly breaks a message into actions and the questions worth checking, then drafts a reply around what you actually mean. It checks for added promises about timing, scope, responsibility, or guarantees. The draft goes back into your chat input; you review it before sending.
+
+**One message, two decisions.** First identify the actions and the missing meeting time. Then write a reply from the user's stated intent and check its timing, scope, and responsibility.
+
+<p><img src="assets/say-it-plainly-v0.9.0.png" alt="Actual Say It Plainly output: three action items and a question about the meeting time" width="320"> <img src="assets/say-it-plainly-reply.png" alt="Actual Say It Plainly reply preserves the user's tomorrow-morning delivery intention and asks for the meeting time; intent check is shown" width="320"></p>
+
+*v0.9.0, Chinese interface. Real generated results from a fictional work message; the reply remained unsent.*
 
 **[Product and v0.9.0 downloads](https://github.com/LydiaTools/shuorenhua)** · [English overview](https://github.com/LydiaTools/shuorenhua/blob/main/README.en.md)
 
@@ -75,7 +98,9 @@ To a client, it may be “just add a mobile version.” For the person doing the
 
 Scope Check keeps the agreement currently confirmed for each project. Paste a new client message and it highlights additions, changes to the agreement, and details that need clarification before work starts. It also drafts a calm confirmation reply that doesn't commit you in advance.
 
-<img src="assets/biefangong-v0.1.0.png" alt="Scope Check v0.1.0 running in its current Chinese interface" width="520">
+<img src="assets/biefangong-v0.1.0.png" alt="Scope Check identifies mobile adaptation and data export as additions to the saved agreement, asks about the unchanged deadline, and drafts a confirmation reply" width="440">
+
+*v0.1.0, Chinese interface. Fictional scope-change example; the saved agreement is the comparison baseline.*
 
 **[Features and testing status](products/biefangong/README.md)**
 
@@ -89,14 +114,42 @@ Start with an inquiry sheet you already have. Check the columns before importing
 
 The interface and screenshots use fictional examples, not actual customers or sales results. It runs locally by default and does not send bulk messages. Local data is not encrypted; the project explains its use boundaries.
 
+<a href="https://github.com/LydiaTools/lydia-foreign-trade-system"><img src="assets/foreign-trade-demo.png" alt="Lydia Foreign Trade System: example companies graded B, C, D, and HOLD, with missing evidence and next actions" width="680"></a>
+
+*Chinese interface, fictional demo inquiries.*
+
 **[Project and real screenshots](https://github.com/LydiaTools/lydia-foreign-trade-system)** · [English getting started](https://github.com/LydiaTools/lydia-foreign-trade-system/blob/main/docs/README.en.md) · [Report an issue](https://github.com/LydiaTools/lydia-foreign-trade-system/issues)
 
 ---
 
 ## More tools and ideas
 
-- **Desktop Flow:** keep a fleeting task or idea on your desktop, then move it into Obsidian, Codex, or a review workflow when useful.
-- **Codex Skin Workshop:** make a daily workspace more comfortable, with a way to restore the original appearance. [@luhaozwork](https://github.com/luhaozwork) developed the original app; I contribute feature enhancements and a collection of several hundred skins.
+### Desktop Flow · Catch the thought before switching apps
+
+Keep a fleeting task or idea on your desktop, then move it into Obsidian, Codex, or a review workflow when useful.
+
+<a href="https://afdian.com/album/1f24622aa83511f184a452540025c377"><img src="assets/desktop-flow-capture-proof.png" alt="Desktop Flow evidence: the captured demo task appears in the application and the same task is read back from the created Markdown file" width="720"></a>
+
+*macOS v1.0.0. Actual app capture and Markdown readback; an explanatory layout. Optional Codex review was not run for this capture.*
+
+### Codex Skin Workshop · Make the daily workspace yours
+
+Make a daily workspace more comfortable, with a way to restore the original appearance. [@luhaozwork](https://github.com/luhaozwork) developed the original app; I contribute feature enhancements and a collection of several hundred skins.
+
+<a href="https://github.com/mercedesbestsupplier-maker/bifang-codex-skins"><img src="assets/skin-workshop-library.png" alt="Actual Skin Workshop manager: searchable preview library, import controls, and apply-and-verify buttons" width="720"></a>
+
+*The manager shows 151 skins in this installed build, searchable previews, and an apply-and-verify control. Original application by @luhaozwork; my contributions are the enhancements and skin collection.*
+
+### Xiaoran Topic Assistant · Turn a brief into topics you can develop
+
+Put repeated research and topic-sorting steps into a workflow, leaving the judgment to you.
+
+<a href="https://afdian.com/a/lydiahub2026"><img src="assets/xiaoran-output-excerpt.svg" alt="Translated excerpt from Xiaoran's recorded sample: a topic proposal connects the audience's problem to a useful deliverable and an opening line" width="720"></a>
+
+*One translated excerpt from a recorded WorkBuddy sample, highlighting the output fields rather than a decorative cover.*
+
+[Preview sources and capture notes](assets/PREVIEW-SOURCES.md)
+
 - **WorkBuddy Digital Employee Workbench:** turn repeated research, topic selection, formatting, and checking into workflows you can run.
 - **Echo:** make room for conversations about life stages, choices, and relationships that you can return to later.
 - **AI Cost Copilot:** see where API costs go before choosing models and assembling workflows.

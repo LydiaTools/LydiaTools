@@ -1,0 +1,16 @@
+# Project preview sources
+
+The profile previews highlight concrete workflows and outputs. Capture date: 6 October 2026, unless the recorded source below says otherwise. The original product text and contributor credits are retained.
+
+| Preview | Source and what is shown |
+| --- | --- |
+| CoverCalc Pro | The live website's worked example was entered into the real calculator: 100 ft², 3 in, 10% allowance, a 2 yd³ bulk minimum, and a 0.5 yd³ increment. Example prices and fees produce 14 bags / USD 80 and 2 yd³ bulk / USD 105. These are illustrative inputs from the site's own example. |
+| Browser Agent Blueprint | The existing deterministic prepare/resume run, source commit `f6ed4f796efcbb40795369476e2d1a741ab49b03`, supplies the fixture screenshot and recorded result: save count 1, checkpoint DONE, revision 2. The surrounding explanation is authored. Vendor/model integrations were not live-tested. |
+| Say It Plainly | The published v0.9.0 macOS package was checked against its release SHA-256 manifest. A fictional work message produced an action list and missing-time question. A second real generation used the stated delivery intent and produced the displayed reply. The draft remained unsent. |
+| Scope Check | The v0.1.0 app compared a fictional mobile-adaptation/data-export request with the existing demo agreement and displayed additions, questions, and a confirmation draft. The agreement was not updated. |
+| Lydia Foreign Trade System | Existing project screenshot `docs/assets/workbench-demo.png`, with fictional demo companies and example contacts. It shows grades, missing evidence, and suggested next actions. |
+| Desktop Flow | The v1.0.0 app captured an explicitly labeled screenshot-demo task. The matching line was read from the actual Markdown file. The explanatory graphic contains that real screenshot and line; the optional Codex review was not executed. |
+| Codex Skin Workshop | The installed v1.2.1 manager, showing 151 skins in that build, search, previews, import, and apply-and-verify controls. No skin was changed during capture. Original application: [luhaozwork](https://github.com/luhaozwork). Lydia contributes enhancements and skins. |
+| Xiaoran | An English translation of one topic proposal from Lydia's previously recorded Chinese WorkBuddy output. The editorial SVG shows an output excerpt, rather than imitating the app interface. The source recording was reviewed on 4 September 2026. |
+
+Virtual pointers were excluded from the selected native captures. Rejected captures are not referenced by this profile. No application text or generated result was recreated by an image model.

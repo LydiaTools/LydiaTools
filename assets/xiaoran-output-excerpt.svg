@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Xiaoran: a topic connects the audience problem, useful deliverable, and opening line</title>
+  <desc id="desc">English translation of one topic from Lydia's recorded Chinese WorkBuddy sample. This is an output excerpt, not a software interface.</desc>
+  <rect width="1200" height="750" fill="#faf9f5"/>
+  <g font-family="Arial, sans-serif" fill="#222b37">
+    <text x="48" y="58" font-size="19" font-weight="700" fill="#6652ba">XIAORAN · RECORDED OUTPUT EXCERPT</text>
+    <text x="48" y="116" font-size="38" font-weight="700">A useful topic has more than a title.</text>
+    <text x="48" y="154" font-size="20" fill="#5e6671">Sample brief: a child photography studio, ages 3–8, seeking saves and inquiries.</text>
+    <path d="M48 185H1152" stroke="#c9c6bd"/>
+    <text x="48" y="231" font-size="17" font-weight="700" fill="#6652ba">TOPIC PROPOSAL</text>
+    <text x="48" y="272" font-size="27" font-weight="700">Pre-shoot checklist for ages 3–8: 18 things to bring</text>
+    <path d="M48 307H1152" stroke="#c9c6bd"/>
+    <text x="48" y="353" font-size="18" font-weight="700">AUDIENCE PROBLEM</text>
+    <text x="350" y="353" font-size="21">Parents arrive without a comfort item or spare clothes;</text>
+    <text x="350" y="386" font-size="21">an unsettled child makes the shoot harder.</text>
+    <path d="M48 419H1152" stroke="#dedbd3"/>
+    <text x="48" y="463" font-size="18" font-weight="700">USEFUL DELIVERABLE</text>
+    <text x="350" y="463" font-size="21">A shoot-day packing checklist: clothes, comfort items,</text>
+    <text x="350" y="496" font-size="21">snacks, and timing — something parents can save.</text>
+    <path d="M48 529H1152" stroke="#dedbd3"/>
+    <text x="48" y="573" font-size="18" font-weight="700">OPENING LINE</text>
+    <text x="350" y="573" font-size="21">“The worry is often what you forgot before leaving,</text>
+    <text x="350" y="606" font-size="21">not whether your child will cooperate. Save this checklist.”</text>
+    <path d="M48 655H1152" stroke="#c9c6bd"/>
+    <text x="48" y="700" font-size="17" fill="#5e6671">Translated excerpt from Lydia's recorded WorkBuddy sample · Original output in Chinese.</text>
+    <text x="48" y="727" font-size="17" fill="#5e6671">The pictured output proposes a topic and deliverable; it does not contain the full 18-item checklist.</text>
+  </g>
+</svg>
