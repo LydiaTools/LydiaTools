@@ -2,17 +2,16 @@
 
 # LydiaHub
 
-<img src="assets/hero.svg" alt="LydiaHub · Turn an idea into something useful" width="100%">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
+  <img src="assets/hero.svg" alt="LydiaHub · Browser Agent Blueprint and CoverCalc Pro" width="100%">
+</picture>
 
-> **I turn those “surely I shouldn't have to struggle with this again” moments at work into small tools you can actually use.**
+> **I turn those “there must be a clearer way” moments into small tools people can try.**
 >
-> Start with one specific problem. Build something usable. Improve it with real feedback.
+> Right now: a reproducible browser-agent recovery demo and a garden-material calculator that checks bags, bulk minimums, and delivery together.
 
-[![Free tools](https://img.shields.io/badge/Basic_tools-Free-2ea44f?style=flat-square)](https://afdian.com/a/lydiahub2026)
-[![Local first](https://img.shields.io/badge/Local--first-By_design-6f42c1?style=flat-square)](#what-matters-to-me)
-[![Latest release](https://img.shields.io/badge/Download-Say_It_Plainly_v0.9.0-0969da?style=flat-square)](https://github.com/LydiaTools/shuorenhua/releases/latest)
-
-[Try CoverCalc Pro](https://covercalcpro.com/#calculator) · [Run the Browser Agent Blueprint demo](https://github.com/LydiaTools/browser-agent-blueprint#quick-start) · [Find your tool](#choose-by-the-problem)
+[Run the Browser Agent Blueprint demo](https://github.com/LydiaTools/browser-agent-blueprint#quick-start) · [Try CoverCalc Pro](https://covercalcpro.com/#calculator) · [Explore the other tools](#choose-by-the-problem)
 
 Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products)
 
@@ -20,7 +19,19 @@ Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier
 
 ---
 
-## Featured now · Two projects to try
+## Start here · Two projects you can try
+
+### Browser Agent Blueprint · Check what happened before trying again
+
+**Save timed out. Did the record go through?** The blueprint separates attempted actions from verified outcomes so a resumed run checks the page before retrying. Try the local browser demo in two separate processes: it finishes with one saved record. The repository includes 12 original plain-text prompt modules, 4 workflow templates, and 6 reproducible scenarios.
+
+<a href="https://github.com/LydiaTools/browser-agent-blueprint#quick-start"><img src="assets/browser-agent-recovery.png" alt="Browser Agent Blueprint recovery evidence: two separate processes, one saved record, and a DONE checkpoint after readback" width="720"></a>
+
+*Two separate processes; one saved record after resume. Actual synthetic-fixture capture and recorded run output, with an explanatory layout.*
+
+The demo uses deterministic host code and makes no model calls. Muse, Grok, and Codex integration contracts are provided but have not been live-tested. Automatic wake-up and production crash consistency need host support.
+
+**[Modules and reproducible demo](https://github.com/LydiaTools/browser-agent-blueprint)** · [Getting started](https://github.com/LydiaTools/browser-agent-blueprint#quick-start) · [Report a synthetic failure case](https://github.com/LydiaTools/browser-agent-blueprint/issues)
 
 ### CoverCalc Pro · Check the quantities before placing an order
 
@@ -43,18 +54,6 @@ The single-area checker is an HTML file you can open directly in a browser, with
 
 **[Open the live calculator](https://covercalcpro.com/#calculator)** · [Toolkit and demo](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) · [Try the local checker](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md)
 
-### Browser Agent Blueprint · A lost receipt calls for verification before retrying
-
-A browser agent clicks Save and times out. If it clicks again after restarting, it may create a duplicate record. This project records verified actions, uncertain submissions, and remaining budgets separately: 12 original plain-text prompt modules, 4 workflow templates, and a real local browser demo. Two separate processes let you check that the saved-record count remains 1 after resume.
-
-The demo uses deterministic host code and makes no model calls. Muse, Grok, and Codex have integration contracts; those model integrations have not been live-tested. Automatic wake-up and production crash consistency need host support. The repository explains its scope and provenance.
-
-<a href="https://github.com/LydiaTools/browser-agent-blueprint#quick-start"><img src="assets/browser-agent-recovery.png" alt="Browser Agent Blueprint recovery evidence: two separate processes, one saved record, and a DONE checkpoint after readback" width="720"></a>
-
-*Two separate processes; one saved record after resume. Actual synthetic-fixture capture and recorded run output, with an explanatory layout.*
-
-**[Modules and reproducible demo](https://github.com/LydiaTools/browser-agent-blueprint)** · [Getting started](https://github.com/LydiaTools/browser-agent-blueprint#quick-start) · [Report a synthetic failure case](https://github.com/LydiaTools/browser-agent-blueprint/issues)
-
 ---
 
 <a id="按你现在卡住的事来选"></a>
@@ -63,8 +62,8 @@ The demo uses deterministic host code and makes no model calls. Muse, Grok, and 
 
 | What is getting in your way? | Tool | What it helps you do | Current status |
 | --- | --- | --- | --- |
-| You want to check dimensions, volume, and bag counts before buying landscape materials | [CoverCalc Pro toolkit](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) | Check rectangular or circular volumes, formulas, pack sizes, and shopping quantities | MIT; browser checker / [live calculator](https://covercalcpro.com/#calculator) |
 | A browser agent times out, loses its place, or submits twice, and you can't tell what happened | [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) | Reuse prompt modules and run a real local browser against a synthetic page to inspect checkpoints, risk gates, and resume boundaries | MIT; 12 modules, 4 workflow templates, 6 demo scenarios; model integrations not tested |
+| You want to check dimensions, volume, and bag counts before buying landscape materials | [CoverCalc Pro toolkit](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) | Check rectangular or circular volumes, formulas, pack sizes, and shopping quantities | MIT; browser checker / [live calculator](https://covercalcpro.com/#calculator) |
 | You understand every word of a long message, but still don't know what you're being asked to do | [Say It Plainly](https://github.com/LydiaTools/shuorenhua/blob/main/README.en.md) | Identify actions and questions, then draft a reply that reflects what you actually mean | macOS v0.9.0; download available; Chinese interface |
 | A client's “small change” keeps growing, and nobody can say how much extra work it adds | [Scope Check](products/biefangong/README.md) | Compare a new request with the agreed scope; spot additions, changes, and unanswered questions | macOS v0.1.0; private testing; Chinese interface |
 | Ideas and tasks disappear while you switch between apps | [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) | Catch them on your desktop, save as Markdown, and connect to Obsidian or Codex when useful | macOS v1.0.0; Windows v1.0.3 |
