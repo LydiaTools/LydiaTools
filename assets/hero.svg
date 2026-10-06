@@ -19,8 +19,8 @@
   <circle cx="80" cy="380" r="220" fill="#0EA5E9" fill-opacity="0.07"/>
 
   <text x="72" y="92" fill="#A5F3FC" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="18" letter-spacing="4">LYDIAHUB · SMALL TOOLS, REAL USE</text>
-  <text x="72" y="158" fill="white" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="52" font-weight="700">把想到的，做成做得到的</text>
-  <text x="74" y="199" fill="#CBD5E1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20">记录、工作流、界面和人生对话，都是从一个真实的卡点开始。</text>
+  <text x="72" y="158" fill="white" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="52" font-weight="700">Turn an idea into something useful.</text>
+  <text x="74" y="199" fill="#CBD5E1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20">Notes, workflows, workspaces and conversations start with one real sticking point.</text>
 
   <g filter="url(#shadow)">
     <rect x="72" y="252" width="250" height="112" rx="18" fill="#F8FAFC"/>
@@ -32,20 +32,20 @@
   <circle cx="106" cy="287" r="14" fill="#8B5CF6"/>
   <path d="M100 287h12M106 281v12" stroke="white" stroke-width="2" stroke-linecap="round"/>
   <text x="132" y="292" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="19" font-weight="700">Obsidian</text>
-  <text x="96" y="326" fill="#475569" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15">把灵感接住，走到下一步</text>
+  <text x="96" y="326" fill="#475569" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15">Catch ideas. Take a next step.</text>
 
   <circle cx="376" cy="287" r="14" fill="#06B6D4"/>
   <path d="M369 291l7-10 7 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="402" y="292" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="19" font-weight="700">Codex skins</text>
-  <text x="366" y="326" fill="#475569" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15">让长期工作的界面像自己</text>
+  <text x="366" y="326" fill="#475569" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15">A workspace that feels like you</text>
 
   <circle cx="646" cy="287" r="14" fill="#F59E0B"/>
   <path d="M638 287h16M646 279v16" stroke="white" stroke-width="2" stroke-linecap="round"/>
   <text x="672" y="292" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="19" font-weight="700">WorkBuddy</text>
-  <text x="636" y="326" fill="#475569" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15">把重复工作交给流程</text>
+  <text x="636" y="326" fill="#475569" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15">Give repeated work a workflow</text>
 
   <circle cx="916" cy="287" r="14" fill="#EC4899"/>
   <path d="M909 287c4-7 10-7 14 0-4 7-10 7-14 0Z" stroke="white" stroke-width="2"/>
-  <text x="942" y="292" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="19" font-weight="700">回声</text>
-  <text x="906" y="326" fill="#475569" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15">给重要问题留一段对话</text>
+  <text x="942" y="292" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="19" font-weight="700">Echo</text>
+  <text x="906" y="326" fill="#475569" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15">Time for a real conversation</text>
 </svg>

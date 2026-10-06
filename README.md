@@ -1,128 +1,144 @@
 <div align="center">
 
-# Lydiahub
+# LydiaHub
 
-<img src="assets/hero.svg" alt="Lydiahub · 把想到的，做成做得到的" width="100%">
+<img src="assets/hero.svg" alt="LydiaHub · Turn an idea into something useful" width="100%">
 
-> **我把真实工作里那些“明明可以少受一遍罪”的卡点，做成真能用起来的小工具。**
+> **I turn those “surely I shouldn't have to struggle with this again” moments at work into small tools you can actually use.**
 >
-> 先解决一件具体的事，再根据真实反馈继续迭代。
+> Start with one specific problem. Build something usable. Improve it with real feedback.
 
-[![Free tools](https://img.shields.io/badge/基础工具-免费领取-2ea44f?style=flat-square)](https://afdian.com/a/lydiahub2026)
-[![Local first](https://img.shields.io/badge/Local--first-本地优先-6f42c1?style=flat-square)](#我做产品时守的边界)
-[![Latest release](https://img.shields.io/badge/最新公开版-说人话_v0.9.0-0969da?style=flat-square)](https://github.com/lydiahub19921013/shuorenhua/releases/latest)
+[![Free tools](https://img.shields.io/badge/Basic_tools-Free-2ea44f?style=flat-square)](https://afdian.com/a/lydiahub2026)
+[![Local first](https://img.shields.io/badge/Local--first-By_design-6f42c1?style=flat-square)](#what-matters-to-me)
+[![Latest release](https://img.shields.io/badge/Download-Say_It_Plainly_v0.9.0-0969da?style=flat-square)](https://github.com/lydiahub19921013/shuorenhua/releases/latest)
 
-[按问题找工具](#按你现在卡住的事来选) · [下载与内测](#下载与内测) · [最近更新](#最近更新)
+[Find your tool](#choose-by-the-problem) · [Downloads & early access](#downloads--early-access) · [Recent updates](#recent-updates)
+
+Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products) · [Portfolio](https://github.com/lydiahub2026)
 
 </div>
 
 ---
 
-## 按你现在卡住的事来选
+<a id="按你现在卡住的事来选"></a>
 
-| 你现在正烦什么 | 工具 | 它能帮你得到什么 | 当前状态 |
+## Choose by the problem
+
+| What is getting in your way? | Tool | What it helps you do | Current status |
 | --- | --- | --- | --- |
-| 对方说了一大段，每个字都认识，还是不知道到底要我干什么 | [说人话](https://github.com/lydiahub19921013/shuorenhua) | 拆出行动和确认点，再按你的真实意思写成能发的回复 | macOS v0.9.0，可下载 |
-| 客户一句“顺便改一下”，做着做着就说不清到底多了多少活 | [别返工](products/biefangong/README.md) | 对照已经说定的范围，挑出新增、变更和没说清的地方 | macOS v0.1.0，招募内测 |
-| 灵感和待办总在切换应用时丢掉 | [桌面流转台](https://afdian.com/album/1f24622aa83511f184a452540025c377) | 先在桌面接住，再保存为 Markdown，按需连接 Obsidian / Codex | macOS v1.0.0；Windows v1.0.3 |
-| 每天盯着 Codex 原生界面，想换成更像自己的工作台 | [Codex 皮肤工坊](https://afdian.com/album/26288eaca83511f19cc352540025c377) | 搜索、预览、安装、切换和恢复皮肤 | macOS，免费领取 |
-| 每次做选题都要重新找资料、筛方向、整理结果 | [小燃选题员工](https://afdian.com/a/lydiahub2026) | 把重复的选题步骤交给固定流程，留下真正需要人判断的部分 | 正式版 |
-| 询盘散在表格里，不知道先跟谁、还缺什么证据 | [Lydia 外贸系统](https://github.com/lydiahub19921013/lydia-foreign-trade-system) | 导入 CSV / JSON，查看分级、缺失证据和下一步，再由人确认跟进 | MIT 开源，Node.js 20+ 本地运行 |
-| 买覆盖物、土壤或堆肥前，想把尺寸、体积和袋数算清楚 | [CoverCalc Pro 工具包](https://github.com/lydiahub19921013/covercalcpro-landscape-quantity-kit) | 检查矩形或圆形体积，核对公式、袋装规格和采购清单 | MIT 开源，浏览器可用；[在线工具](https://covercalcpro.com/#calculator) |
-| 浏览器 Agent 超时、失忆或重复提交，不清楚实际做到了哪一步 | [Browser Agent Blueprint](https://github.com/lydiahub19921013/browser-agent-blueprint) | 复用提示词模块，运行本地合成页面核对检查点、风险门禁与恢复边界 | MIT 开源；12 模块、4 工作流模板、6 演示场景；模型集成未实测 |
+| You understand every word of a long message, but still don't know what you're being asked to do | [Say It Plainly](https://github.com/lydiahub19921013/shuorenhua/blob/main/README.en.md) | Identify actions and questions, then draft a reply that reflects what you actually mean | macOS v0.9.0; download available; Chinese interface |
+| A client's “small change” keeps growing, and nobody can say how much extra work it adds | [Scope Check](products/biefangong/README.md) | Compare a new request with the agreed scope; spot additions, changes, and unanswered questions | macOS v0.1.0; private testing; Chinese interface |
+| Ideas and tasks disappear while you switch between apps | [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) | Catch them on your desktop, save as Markdown, and connect to Obsidian or Codex when useful | macOS v1.0.0; Windows v1.0.3 |
+| You spend hours in Codex and want a workspace that feels more like yours | [Codex Skin Workshop](https://afdian.com/album/26288eaca83511f19cc352540025c377) | Search, preview, install, switch, and restore skins | macOS; free access; original app by [@luhaozwork](https://github.com/luhaozwork), my enhancements and skins |
+| Every new content topic sends you back through the same research and sorting steps | [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026) | Put repeated research steps into a workflow, leaving the judgment to you | Released; see the access page |
+| Inquiries sit in a spreadsheet, with no clear priority or next step | [Lydia Foreign Trade System](https://github.com/lydiahub19921013/lydia-foreign-trade-system) | Import CSV or JSON; review grades, missing evidence, and next actions before confirming follow-up | MIT; local setup with Node.js 20+ |
+| You want to check dimensions, volume, and bag counts before buying landscape materials | [CoverCalc Pro toolkit](https://github.com/lydiahub19921013/covercalcpro-landscape-quantity-kit) | Check rectangular or circular volumes, formulas, pack sizes, and shopping quantities | MIT; browser checker / [live calculator](https://covercalcpro.com/#calculator) |
+| A browser agent times out, loses its place, or submits twice, and you can't tell what happened | [Browser Agent Blueprint](https://github.com/lydiahub19921013/browser-agent-blueprint) | Reuse prompt modules and run a real local browser against a synthetic page to inspect checkpoints, risk gates, and resume boundaries | MIT; 12 modules, 4 workflow templates, 6 demo scenarios; model integrations not tested |
 
-第一次来，可以直接打开[上手页](GETTING-STARTED.md)。不用先研究技术名词，按自己正在卡住的事选一个就行。
-
----
-
-## 这轮正在重点做的两个产品
-
-### 说人话 · 先听懂，再按你的意思回
-
-“围绕用户价值找抓手，尽快形成闭环。”每个字都认识，可真正难的是：先做哪件，做到什么程度，怎么回才不显得没听懂。
-
-「说人话」会把原话拆成真正要做的事和最该确认的坑，再按照你本人的意思组织回复。生成内容如果偷偷多答应了时间、范围、责任或保证，会先拦住；草稿只放回聊天输入框，由你确认后发送。
-
-**[查看产品与下载 v0.9.0](https://github.com/lydiahub19921013/shuorenhua)** · [English overview](https://github.com/lydiahub19921013/shuorenhua/blob/main/README.en.md)
-
-### 别返工 · 先把这次到底多做什么说清楚
-
-客户嘴里可能只是“移动端也顺便做一下”，落到接单者这里，却是页面、接口、测试和交付时间一起变化。
-
-「别返工」会保存每个项目当前已经确认的约定。客户再发新消息时，把整段贴进去，它会挑出后来加的、原约定变了的、还不能直接开工的内容，并写出一段不吵架、也不先答应的确认回复。
-
-<img src="assets/biefangong-v0.1.0.png" alt="别返工 v0.1.0 真实运行界面" width="520">
-
-**[查看产品边界与内测状态](products/biefangong/README.md)**
+New here? Open the [getting-started page](GETTING-STARTED.md). Pick the problem you recognize and try one tool.
 
 ---
 
-## 新增开源项目 · 看得到代码，也能自己试
+## Two products I'm focusing on
 
-### Browser Agent Blueprint · 回执丢了，先核对，再决定是否重试
+### Say It Plainly · Understand the message, then reply in your own words
 
-浏览器 Agent 点保存后超时，重启后直接再点一次，可能产生重复记录。这个项目把已验证操作、未知提交和剩余预算分开记录：12 个原创 txt 提示词模块、4 类工作流模板，配真实本地浏览器 demo，可用两个独立进程检查恢复后保存次数仍为 1。
+“Find a lever for user value and close the loop quickly.” You know the words. The hard part is figuring out what to do first, how far to take it, and how to reply without pretending the request was clear.
 
-示例是确定性宿主控制代码，不调用模型；Muse/Grok/Codex 提供接入约定，尚未进行对应模型实测。自动唤醒和生产级崩溃一致性需要宿主实现，边界与来源在仓库里写清楚。
+Say It Plainly breaks a message into actions and the questions worth checking, then drafts a reply around what you actually mean. It checks for added promises about timing, scope, responsibility, or guarantees. The draft goes back into your chat input; you review it before sending.
 
-**[查看模块与可复现 demo](https://github.com/lydiahub19921013/browser-agent-blueprint)** · [中文上手说明](https://github.com/lydiahub19921013/browser-agent-blueprint/blob/main/README.zh-CN.md) · [报告合成失败案例](https://github.com/lydiahub19921013/browser-agent-blueprint/issues)
+**[Product and v0.9.0 downloads](https://github.com/lydiahub19921013/shuorenhua)** · [English overview](https://github.com/lydiahub19921013/shuorenhua/blob/main/README.en.md)
 
-### Lydia 外贸系统 · 先把询盘分清，再决定跟进
+### Scope Check · Make the extra work clear before doing it
 
-从自己已有的询盘表开始，不先做一套复杂 CRM。导入前核对列名，导入后看 A / B / C / D / HOLD 分级、缺失证据和下一步；需要补证时，再主动查询公开企业资料。不同客户可以分开保存，重要批次可以导出完整备份。
+To a client, it may be “just add a mobile version.” For the person doing the work, it can change the pages, APIs, tests, and delivery date together.
 
-界面与截图使用虚构样例，不代表真实客户或成交结果。默认本地运行，不自动群发；本机数据未加密，使用边界在项目里写清楚。
+Scope Check keeps the agreement currently confirmed for each project. Paste a new client message and it highlights additions, changes to the agreement, and details that need clarification before work starts. It also drafts a calm confirmation reply that doesn't commit you in advance.
 
-**[查看项目与真实运行截图](https://github.com/lydiahub19921013/lydia-foreign-trade-system)** · [英文上手说明](https://github.com/lydiahub19921013/lydia-foreign-trade-system/blob/main/docs/README.en.md) · [反馈问题](https://github.com/lydiahub19921013/lydia-foreign-trade-system/issues)
+<img src="assets/biefangong-v0.1.0.png" alt="Scope Check v0.1.0 running in its current Chinese interface" width="520">
 
-### CoverCalc Pro · 下单前，把用量算清楚
-
-量出的长、宽和深度，与袋子上印的体积，是两种不同的信息。这个开源工具包把它们分开：尺寸算空间，包装规格算袋数；矩形或圆形都能检查，公式、字段表和覆盖率 CSV 都可以查看。
-
-单区检查器是一个可以直接在浏览器打开的 HTML 文件，不需要账号或第三方依赖。完整在线计算工具在 covercalcpro.com；仓库里的示例不会猜价格、密度或供应商规则。
-
-**[打开在线计算工具](https://covercalcpro.com/#calculator)** · [查看开源工具包与演示](https://github.com/lydiahub19921013/covercalcpro-landscape-quantity-kit) · [本机试用步骤](https://github.com/lydiahub19921013/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md)
+**[Features and testing status](products/biefangong/README.md)**
 
 ---
 
-## 其他正在持续维护的方向
+## Open-source projects · See the code and try it yourself
 
-- **桌面流转台**：把一闪而过的待办和灵感留在桌面，再按需进入 Obsidian、Codex 或复盘流程。
-- **Codex 皮肤工坊**：让长期使用的工作界面更舒服，也保留一键恢复原状的安全出口。
-- **WorkBuddy 数字员工工作台**：把找资料、列选题、改格式、做检查等重复步骤变成可执行流程。
-- **回声 APP**：给人生阶段、选择和关系留一段以后还能回来的对话。
-- **一人公司 AI 成本副驾驶**：在选模型和搭流程前，先看清调用成本会花在哪里。
+### Browser Agent Blueprint · A lost receipt calls for verification before retrying
 
-没有公开下载的项目会明确写成“开发中”或“内测中”，不会拿本地构建冒充正式发布。
+A browser agent clicks Save and times out. If it clicks again after restarting, it may create a duplicate record. This project records verified actions, uncertain submissions, and remaining budgets separately: 12 original plain-text prompt modules, 4 workflow templates, and a real local browser demo. Two separate processes let you check that the saved-record count remains 1 after resume.
 
-## 我做产品时守的边界
+The demo uses deterministic host code and makes no model calls. Muse, Grok, and Codex have integration contracts; those model integrations have not been live-tested. Automatic wake-up and production crash consistency need host support. The repository explains its scope and provenance.
 
-- **先有真实任务**：不是先堆功能，再找一个听起来合理的用途。
-- **尽量本地保存**：能留在用户电脑里的项目、约定和记录，不默认上传。
-- **关键动作由人确认**：回复不自动发送，项目范围不在用户确认前更新。
-- **状态说实话**：测试通过、真实设备验证、签名、公证和正式发布是不同层级，分别说明。
+**[Modules and reproducible demo](https://github.com/lydiahub19921013/browser-agent-blueprint)** · [Getting started](https://github.com/lydiahub19921013/browser-agent-blueprint#quick-start) · [Report a synthetic failure case](https://github.com/lydiahub19921013/browser-agent-blueprint/issues)
 
-## 下载与内测
+### Lydia Foreign Trade System · Sort the inquiries before deciding who to follow up with
 
-- [GitHub：Lydia 外贸系统源码与上手说明](https://github.com/lydiahub19921013/lydia-foreign-trade-system)
-- [CoverCalc Pro：在线计算](https://covercalcpro.com/#calculator) / [开源公式与本机检查器](https://github.com/lydiahub19921013/covercalcpro-landscape-quantity-kit)
-- [GitHub：说人话最新版](https://github.com/lydiahub19921013/shuorenhua/releases/latest)
-- [爱发电：工具领取与更新入口](https://afdian.com/a/lydiahub2026)
-- [飞书：Lydiahub 免费产品领取中心](https://jcnrbes3t04e.feishu.cn/drive/folder/VRnafPFVDlcNXrdtpSwcWaWFnEj)
-- Bug 和功能建议：在对应公开仓库提交 Issue
-- 内测、定制和长期维护：微信 `lydiahub2026`
+Start with an inquiry sheet you already have. Check the columns before importing, then review A / B / C / D / HOLD grades, missing evidence, and next actions. When evidence is missing, look up public company information as needed. Keep customer groups separate and export important batches as complete backups.
 
-基础工具会继续免费分享。企业或团队需要定制功能、部署适配、数据迁移或长期维护时，再单独沟通。
+The interface and screenshots use fictional examples, not actual customers or sales results. It runs locally by default and does not send bulk messages. Local data is not encrypted; the project explains its use boundaries.
 
-## 最近更新
+**[Project and real screenshots](https://github.com/lydiahub19921013/lydia-foreign-trade-system)** · [English getting started](https://github.com/lydiahub19921013/lydia-foreign-trade-system/blob/main/docs/README.en.md) · [Report an issue](https://github.com/lydiahub19921013/lydia-foreign-trade-system/issues)
 
-- **2026-10-06**：新增 Browser Agent Blueprint：原创浏览器 Agent 提示词模块、本地恢复演示与明确标注未实测的接入约定。
-- **2026-09-28**：补齐 Lydia 外贸系统与 CoverCalc Pro 开源工具包的项目入口、试用说明和运行演示；为「说人话」增加英文说明入口；原有产品、封面与下载入口继续保留。
-- **2026-09-08**：「别返工」完成 v0.1.0 内测候选版，真实识别新增工作、原约定变化和待确认问题。
-- **2026-09-07**：「说人话」发布 v0.9.0，可从 GitHub Releases 下载。
-- **2026-09-04**：桌面流转台更新为 Windows v1.0.3，并在 Windows 10、11 完成核心路径验证；Mac 使用 v1.0.0 DMG。
-- **2026-09-04**：爱发电首页改为先展示桌面流转台、Codex 皮肤工坊和综合产品入口。
+### CoverCalc Pro · Check the quantities before placing an order
+
+Measured length, width, and depth tell you how much space to fill. The volume printed on a bag tells you how many bags to buy. This toolkit keeps the two calculations separate. Check rectangular or circular spaces and inspect the formulas, field definitions, and coverage CSV.
+
+The single-area checker is an HTML file you can open directly in a browser, without an account or third-party dependencies. The full live calculator is at covercalcpro.com. Repository examples don't guess prices, densities, or supplier rules.
+
+**[Open the live calculator](https://covercalcpro.com/#calculator)** · [Toolkit and demo](https://github.com/lydiahub19921013/covercalcpro-landscape-quantity-kit) · [Try the local checker](https://github.com/lydiahub19921013/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md)
 
 ---
 
-**好工具不是替你生活，而是帮你少猜一点、少返工一点，把力气留给真正需要你决定的事。**
+## Other work I keep improving
+
+- **Desktop Flow:** keep a fleeting task or idea on your desktop, then move it into Obsidian, Codex, or a review workflow when useful.
+- **Codex Skin Workshop:** make a daily workspace more comfortable, with a way to restore the original appearance. [@luhaozwork](https://github.com/luhaozwork) developed the original app; I contribute feature enhancements and a collection of several hundred skins.
+- **WorkBuddy Digital Employee Workbench:** turn repeated research, topic selection, formatting, and checking into workflows you can run.
+- **Echo:** make room for conversations about life stages, choices, and relationships that you can return to later.
+- **AI Cost Copilot:** see where API costs go before choosing models and assembling workflows.
+
+Projects without a public download are labeled in development or in testing. A local build is a different state from a public release.
+
+I also work with the [BFTOOLS team](https://github.com/mercedesbestsupplier-maker) on product direction, user experience, and public product pages, with a current focus on promoting the content-operations tool. [BFTiles](https://github.com/mercedesbestsupplier-maker/BFTiles) was originally developed by [@dingzd1995](https://github.com/dingzd1995).
+
+<a id="我做产品时守的边界"></a>
+
+## What matters to me
+
+- **Start with a real task.** Make one specific thing work well before adding more features.
+- **Keep data local when practical.** Projects, agreements, and records that can stay on your computer aren't uploaded by default.
+- **Keep key decisions yours.** Replies are reviewed before sending; project scope changes after your confirmation.
+- **Be honest about status.** Tests, device verification, signing, notarization, and public release are reported separately.
+
+<a id="下载与内测"></a>
+
+## Downloads & early access
+
+- [Lydia Foreign Trade System: source and setup](https://github.com/lydiahub19921013/lydia-foreign-trade-system)
+- [CoverCalc Pro: live calculator](https://covercalcpro.com/#calculator) / [formulas and local checker](https://github.com/lydiahub19921013/covercalcpro-landscape-quantity-kit)
+- [Say It Plainly: latest download](https://github.com/lydiahub19921013/shuorenhua/releases/latest)
+- [Afdian: tools and updates](https://afdian.com/a/lydiahub2026)
+- [Feishu: free product collection](https://jcnrbes3t04e.feishu.cn/drive/folder/VRnafPFVDlcNXrdtpSwcWaWFnEj)
+- Bugs and feature ideas: open an Issue in the relevant public repository.
+- Early access, custom work, and maintenance: WeChat `lydiahub2026`.
+
+Basic tools will continue to be shared for free. Custom features, deployment help, data migration, and ongoing maintenance can be discussed separately. Some linked interfaces and distribution pages currently use Chinese.
+
+## Find me online
+
+[Facebook · Mercedes Costa](https://www.facebook.com/people/Mercedes-Costa/100074622692401/) · [Quora · MercedesCosta](https://www.quora.com/profile/MercedesCosta) · [TikTok · @covercalcpro](https://www.tiktok.com/@covercalcpro) · [X · MA HIBBERD](https://x.com/LRosamarina)
+
+<a id="最近更新"></a>
+
+## Recent updates
+
+- **2026-10-06:** added Browser Agent Blueprint: original browser-agent prompt modules, a local resume demo, and integration contracts clearly labeled as not live-tested.
+- **2026-09-28:** added project links, setup guides, and demos for Lydia Foreign Trade System and the CoverCalc Pro toolkit; linked the English overview for Say It Plainly while keeping existing products, covers, and downloads.
+- **2026-09-08:** Scope Check reached its v0.1.0 testing candidate, identifying added work, changed agreements, and questions needing confirmation.
+- **2026-09-07:** Say It Plainly v0.9.0 became available through GitHub Releases.
+- **2026-09-04:** Desktop Flow updated to Windows v1.0.3, with its core workflow verified on Windows 10 and 11; Mac uses the v1.0.0 DMG.
+- **2026-09-04:** reorganized the Afdian page around Desktop Flow, Codex Skin Workshop, and the combined product entry.
+
+---
+
+**A good tool helps you guess less, redo less, and save your energy for the decisions that need you.**
