@@ -11,7 +11,7 @@
 >
 > Right now: a reproducible browser-agent recovery demo and a garden-material calculator that checks bags, bulk minimums, and delivery together.
 
-[Run the Browser Agent Blueprint demo](https://github.com/LydiaTools/browser-agent-blueprint#quick-start) · [Try CoverCalc Pro](https://covercalcpro.com/#calculator) · [Explore the other tools](#choose-by-the-problem)
+[Run the Browser Agent Blueprint demo](https://github.com/LydiaTools/browser-agent-blueprint#quick-start) · [Try CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Explore the other tools](#choose-by-the-problem)
 
 Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products)
 
@@ -37,7 +37,7 @@ The demo uses deterministic host code and makes no model calls. Muse, Grok, and 
 
 **From volume to an actual buying decision.** Whole bags, bulk minimums, order increments, and delivery fees are calculated together. In the website's worked example, a 2 yd³ supplier minimum changes the bulk order: 14 bags cost USD 80 delivered, while bulk costs USD 105.
 
-<a href="https://covercalcpro.com/#calculator"><picture><source media="(max-width: 600px)" srcset="assets/covercalc-cost-mobile.png"><img src="assets/covercalc-cost-comparison.png" alt="Real CoverCalc Pro result: 14 whole bags cost USD 80 including delivery; the 2-cubic-yard minimum bulk order costs USD 105" width="720"></picture></a>
+<a href="https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator"><picture><source media="(max-width: 600px)" srcset="assets/covercalc-cost-mobile.png"><img src="assets/covercalc-cost-comparison.png" alt="Real CoverCalc Pro result: 14 whole bags cost USD 80 including delivery; the 2-cubic-yard minimum bulk order costs USD 105" width="720"></picture></a>
 
 *Real calculator output using the site's example inputs: 100 ft² at 3 in, 10% allowance, a 2 yd³ bulk minimum, and illustrative prices.*
 
@@ -52,7 +52,7 @@ Measured length, width, and depth tell you how much space to fill. The volume pr
 
 The single-area checker is an HTML file you can open directly in a browser, without an account or third-party dependencies. The full live calculator is at covercalcpro.com. Repository examples don't guess prices, densities, or supplier rules.
 
-**[Open the live calculator](https://covercalcpro.com/#calculator)** · [Toolkit and demo](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) · [Try the local checker](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md)
+**[Open the live calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator)** · [Toolkit and demo](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) · [Try the local checker](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md)
 
 ---
 
@@ -61,7 +61,7 @@ The single-area checker is an HTML file you can open directly in a browser, with
 | What is getting in your way? | Tool | What it helps you do | Current status |
 | --- | --- | --- | --- |
 | A browser agent times out, loses its place, or submits twice, and you can't tell what happened | [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) | Reuse prompt modules and run a real local browser against a synthetic page to inspect checkpoints, risk gates, and resume boundaries | MIT; 12 modules, 4 workflow templates, 6 demo scenarios; model integrations not tested |
-| You want to check dimensions, volume, and bag counts before buying landscape materials | [CoverCalc Pro toolkit](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) | Check rectangular or circular volumes, formulas, pack sizes, and shopping quantities | MIT; browser checker / [live calculator](https://covercalcpro.com/#calculator) |
+| You want to check dimensions, volume, and bag counts before buying landscape materials | [CoverCalc Pro toolkit](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) | Check rectangular or circular volumes, formulas, pack sizes, and shopping quantities | MIT; browser checker / [live calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) |
 | You understand every word of a long message, but still don't know what you're being asked to do | [Say It Plainly](https://github.com/LydiaTools/shuorenhua/blob/main/README.en.md) | Identify actions and questions, then draft a reply that reflects what you actually mean | macOS v0.9.0; download available; Chinese interface |
 | A client's “small change” keeps growing, and nobody can say how much extra work it adds | [Scope Check](products/biefangong/README.md) | Compare a new request with the agreed scope; spot additions, changes, and unanswered questions | macOS v0.1.0; private testing; Chinese interface |
 | Ideas and tasks disappear while you switch between apps | [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) | Catch them on your desktop, save as Markdown, and connect to Obsidian or Codex when useful | macOS v1.0.0; Windows v1.0.3 |
@@ -165,7 +165,7 @@ I also work with the [BFTOOLS team](https://github.com/mercedesbestsupplier-make
 ## Downloads & early access
 
 - [Lydia Foreign Trade System: source and setup](https://github.com/LydiaTools/lydia-foreign-trade-system)
-- [CoverCalc Pro: live calculator](https://covercalcpro.com/#calculator) / [formulas and local checker](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit)
+- [CoverCalc Pro: live calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) / [formulas and local checker](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit)
 - [Say It Plainly: latest download](https://github.com/LydiaTools/shuorenhua/releases/latest)
 - [Afdian: tools and updates](https://afdian.com/a/lydiahub2026)
 - [Feishu: free product collection](https://jcnrbes3t04e.feishu.cn/drive/folder/VRnafPFVDlcNXrdtpSwcWaWFnEj)

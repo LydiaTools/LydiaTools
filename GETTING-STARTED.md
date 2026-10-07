@@ -12,7 +12,7 @@ Start with the step that is getting in your way, then choose the tool that fits.
 | You want to search, preview, and switch Codex skins | Codex Skin Workshop | [Free Mac access](https://afdian.com/album/26288eaca83511f19cc352540025c377); original app by [@luhaozwork](https://github.com/luhaozwork), enhanced by Lydia |
 | Choosing a content topic sends you through the same research and sorting every time | Xiaoran Topic Assistant | [Afdian introduction](https://afdian.com/a/lydiahub2026) |
 | Your inquiry spreadsheet needs priorities, evidence checks, and next actions | Lydia Foreign Trade System | [Source, fictional examples, and local setup](https://github.com/LydiaTools/lydia-foreign-trade-system) |
-| You want to check dimensions, volume, and bag counts before buying landscape materials | CoverCalc Pro | [Live calculator](https://covercalcpro.com/#calculator) / [local checker](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md) |
+| You want to check dimensions, volume, and bag counts before buying landscape materials | CoverCalc Pro | [Live calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) / [local checker](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md) |
 
 ## 2. Check availability before downloading
 
