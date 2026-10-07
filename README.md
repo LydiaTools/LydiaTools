@@ -11,7 +11,7 @@
 >
 > Right now: a reproducible browser-agent recovery demo and a garden-material calculator that checks bags, bulk minimums, and delivery together.
 
-[Explore Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) · [Try CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Explore the other tools](#choose-by-the-problem)
+[Open the Blueprint demo guide](https://lydiatools.github.io/browser-agent-blueprint/) · [Try CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Explore the other tools](#choose-by-the-problem)
 
 Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products)
 
@@ -23,7 +23,7 @@ Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier
 
 ### Browser Agent Blueprint · Check what happened before trying again
 
-**Save timed out. Did the record go through?** The blueprint separates attempted actions from verified outcomes so a resumed run checks the page before retrying. The [synthetic browser page](https://lydiatools.github.io/browser-agent-blueprint/demo/fixture.html) lets you save once, reload, and read back the saved count. The local recovery runner uses two separate processes and finishes with one saved record. The repository includes 12 original plain-text prompt modules, 4 workflow templates, and 6 reproducible scenarios.
+**Save timed out. Did the record go through?** The blueprint separates attempted actions from verified outcomes so a resumed run checks the page before retrying. The [project demo guide](https://lydiatools.github.io/browser-agent-blueprint/) explains the browser-only test fixture and the full local recovery runner. The [fixture page](https://lydiatools.github.io/browser-agent-blueprint/demo/fixture.html) lets you save once, reload, and read back the saved count; it does not run an agent. The local recovery runner uses two separate processes and finishes with one saved record. The repository includes 12 original plain-text prompt modules, 4 workflow templates, and 6 reproducible scenarios.
 
 <a href="https://github.com/LydiaTools/browser-agent-blueprint#quick-start"><img src="assets/browser-agent-recovery.png" alt="Browser Agent Blueprint recovery evidence: two separate processes, one saved record, and a DONE checkpoint after readback" width="720"></a>
 
@@ -31,7 +31,7 @@ Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier
 
 The demo uses deterministic host code and makes no model calls. Muse, Grok, and Codex integration contracts are provided but have not been live-tested. Automatic wake-up and production crash consistency need host support.
 
-**[Project, modules and recovery demo](https://github.com/LydiaTools/browser-agent-blueprint)** · [Open the synthetic test page](https://lydiatools.github.io/browser-agent-blueprint/demo/fixture.html) · [Getting started](https://github.com/LydiaTools/browser-agent-blueprint#quick-start) · [Report a synthetic failure case](https://github.com/LydiaTools/browser-agent-blueprint/issues)
+**[Project overview and demo guide](https://lydiatools.github.io/browser-agent-blueprint/)** · [Open the browser-only fixture](https://lydiatools.github.io/browser-agent-blueprint/demo/fixture.html) · [Modules and full recovery demo](https://github.com/LydiaTools/browser-agent-blueprint#quick-start) · [Report a synthetic failure case](https://github.com/LydiaTools/browser-agent-blueprint/issues)
 
 ### CoverCalc Pro · Check the quantities before placing an order
 
@@ -60,7 +60,7 @@ The single-area checker runs on GitHub Pages or as an HTML file you can open off
 
 | What is getting in your way? | Tool | What it helps you do | Current status |
 | --- | --- | --- | --- |
-| A browser agent times out, loses its place, or submits twice, and you can't tell what happened | [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) | Reuse prompt modules and run a real local browser against a synthetic page to inspect checkpoints, risk gates, and resume boundaries | MIT; [live synthetic page](https://lydiatools.github.io/browser-agent-blueprint/demo/fixture.html) plus local recovery runner; model integrations not tested |
+| A browser agent times out, loses its place, or submits twice, and you can't tell what happened | [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) | Reuse prompt modules and run a real local browser against a synthetic page to inspect checkpoints, risk gates, and resume boundaries | MIT; [project demo guide](https://lydiatools.github.io/browser-agent-blueprint/), [browser-only fixture](https://lydiatools.github.io/browser-agent-blueprint/demo/fixture.html), and local recovery runner; model integrations not tested |
 | You want to check dimensions, volume, and bag counts before buying landscape materials | [CoverCalc Pro toolkit](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) | Check rectangular or circular volumes, formulas, pack sizes, and shopping quantities | MIT; [live open-source checker](https://lydiatools.github.io/covercalcpro-landscape-quantity-kit/tools/landscape-volume-check.html) / [offline HTML v0.1.1](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/tag/v0.1.1) / [full calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) |
 | You understand every word of a long message, but still don't know what you're being asked to do | [Say It Plainly](https://github.com/LydiaTools/shuorenhua/blob/main/README.en.md) | Identify actions and questions, then draft a reply that reflects what you actually mean | macOS v0.9.0; download available; Chinese interface |
 | A client's “small change” keeps growing, and nobody can say how much extra work it adds | [Scope Check](products/biefangong/README.md) | Compare a new request with the agreed scope; spot additions, changes, and unanswered questions | macOS v0.1.0; private testing; Chinese interface |
