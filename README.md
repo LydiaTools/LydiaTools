@@ -11,7 +11,7 @@
 >
 > Right now: a reproducible browser-agent recovery demo and a garden-material calculator that checks bags, bulk minimums, and delivery together.
 
-[Try the Blueprint test page](https://lydiatools.github.io/browser-agent-blueprint/demo/fixture.html) · [Try CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Explore the other tools](#choose-by-the-problem)
+[Explore Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) · [Try CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Explore the other tools](#choose-by-the-problem)
 
 Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products)
 
@@ -31,7 +31,7 @@ Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier
 
 The demo uses deterministic host code and makes no model calls. Muse, Grok, and Codex integration contracts are provided but have not been live-tested. Automatic wake-up and production crash consistency need host support.
 
-**[Try the synthetic page](https://lydiatools.github.io/browser-agent-blueprint/demo/fixture.html)** · [Modules and full recovery demo](https://github.com/LydiaTools/browser-agent-blueprint) · [Getting started](https://github.com/LydiaTools/browser-agent-blueprint#quick-start) · [Report a synthetic failure case](https://github.com/LydiaTools/browser-agent-blueprint/issues)
+**[Project, modules and recovery demo](https://github.com/LydiaTools/browser-agent-blueprint)** · [Open the synthetic test page](https://lydiatools.github.io/browser-agent-blueprint/demo/fixture.html) · [Getting started](https://github.com/LydiaTools/browser-agent-blueprint#quick-start) · [Report a synthetic failure case](https://github.com/LydiaTools/browser-agent-blueprint/issues)
 
 ### CoverCalc Pro · Check the quantities before placing an order
 
