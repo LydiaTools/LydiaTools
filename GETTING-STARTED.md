@@ -12,14 +12,14 @@ Start with the step that is getting in your way, then choose the tool that fits.
 | You want to search, preview, and switch Codex skins | Codex Skin Workshop | [Free Mac access](https://afdian.com/album/26288eaca83511f19cc352540025c377); original app by [@luhaozwork](https://github.com/luhaozwork), enhanced by Lydia |
 | Choosing a content topic sends you through the same research and sorting every time | Xiaoran Topic Assistant | [Afdian introduction](https://afdian.com/a/lydiahub2026) |
 | Your inquiry spreadsheet needs priorities, evidence checks, and next actions | Lydia Foreign Trade System | [Source, fictional examples, and local setup](https://github.com/LydiaTools/lydia-foreign-trade-system) |
-| You want to check dimensions, volume, and bag counts before buying landscape materials | CoverCalc Pro | [Live calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) / [local checker](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md) |
+| You want to check dimensions, volume, and bag counts before buying landscape materials | CoverCalc Pro | [Live calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) / [offline HTML v0.1.0 download](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/download/v0.1.0/CoverCalcPro-Landscape-Volume-Check-v0.1.0.zip) / [worked example](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md) |
 
 ## 2. Check availability before downloading
 
-- **Download available:** a version, platform, and installer are listed.
+- **Download available:** a published version, supported runtime or platform, and actual downloadable file are listed; an installer is only needed for apps that use one.
 - **In testing:** the product completes a real task, but early users are still checking the experience; no public download is offered.
 - **In development:** work is in progress, with no promised release date.
-- **Open-source setup available:** source and startup steps are public; this is different from a signed installer or hosted service. Lydia Foreign Trade System needs Node.js 20+. CoverCalc Pro's single-area checker opens directly as an HTML file.
+- **Open-source setup available:** source and startup steps are public; this is different from a signed installer or hosted service. Lydia Foreign Trade System needs Node.js 20+. CoverCalc Pro's downloadable single-area checker opens directly as an HTML file.
 
 Each product states its supported platform. A macOS installer won't run on Windows, and a Windows installer won't run on a Mac. Some linked interfaces and access pages currently use Chinese.
 
