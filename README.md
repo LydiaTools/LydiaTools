@@ -50,9 +50,9 @@ The demo uses deterministic host code and makes no model calls. Muse, Grok, and 
 
 Measured length, width, and depth tell you how much space to fill. The volume printed on a bag tells you how many bags to buy. This toolkit keeps the two calculations separate. Check rectangular or circular spaces and inspect the formulas, field definitions, and coverage CSV.
 
-The single-area checker is an HTML file you can open directly in a browser, without an account or third-party dependencies. The full live calculator is at covercalcpro.com. Repository examples don't guess prices, densities, or supplier rules.
+The single-area checker runs on GitHub Pages or as an HTML file you can open offline, without an account or third-party dependencies. The full live calculator is at covercalcpro.com. Repository examples don't guess prices, densities, or supplier rules.
 
-**[Open the live calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator)** · **[Download the offline checker](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/download/v0.1.0/CoverCalcPro-Landscape-Volume-Check-v0.1.0.zip)** · [Toolkit and source](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) · [Try the example](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md)
+**[Try the open-source checker](https://lydiatools.github.io/covercalcpro-landscape-quantity-kit/tools/landscape-volume-check.html)** · **[Open the full live calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator)** · **[Download the offline checker](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/download/v0.1.0/CoverCalcPro-Landscape-Volume-Check-v0.1.0.zip)** · [Toolkit and source](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) · [Try the example](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md)
 
 ---
 
@@ -61,7 +61,7 @@ The single-area checker is an HTML file you can open directly in a browser, with
 | What is getting in your way? | Tool | What it helps you do | Current status |
 | --- | --- | --- | --- |
 | A browser agent times out, loses its place, or submits twice, and you can't tell what happened | [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) | Reuse prompt modules and run a real local browser against a synthetic page to inspect checkpoints, risk gates, and resume boundaries | MIT; 12 modules, 4 workflow templates, 6 demo scenarios; model integrations not tested |
-| You want to check dimensions, volume, and bag counts before buying landscape materials | [CoverCalc Pro toolkit](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) | Check rectangular or circular volumes, formulas, pack sizes, and shopping quantities | MIT; [offline HTML v0.1.0](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/tag/v0.1.0) / [live calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) |
+| You want to check dimensions, volume, and bag counts before buying landscape materials | [CoverCalc Pro toolkit](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) | Check rectangular or circular volumes, formulas, pack sizes, and shopping quantities | MIT; [live open-source checker](https://lydiatools.github.io/covercalcpro-landscape-quantity-kit/tools/landscape-volume-check.html) / [offline HTML v0.1.0](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/tag/v0.1.0) / [full calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) |
 | You understand every word of a long message, but still don't know what you're being asked to do | [Say It Plainly](https://github.com/LydiaTools/shuorenhua/blob/main/README.en.md) | Identify actions and questions, then draft a reply that reflects what you actually mean | macOS v0.9.0; download available; Chinese interface |
 | A client's “small change” keeps growing, and nobody can say how much extra work it adds | [Scope Check](products/biefangong/README.md) | Compare a new request with the agreed scope; spot additions, changes, and unanswered questions | macOS v0.1.0; private testing; Chinese interface |
 | Ideas and tasks disappear while you switch between apps | [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) | Catch them on your desktop, save as Markdown, and connect to Obsidian or Codex when useful | macOS v1.0.0; Windows v1.0.3 |
@@ -165,7 +165,7 @@ I also work with the [BFTOOLS team](https://github.com/mercedesbestsupplier-make
 ## Downloads & early access
 
 - [Lydia Foreign Trade System: source and setup](https://github.com/LydiaTools/lydia-foreign-trade-system)
-- [CoverCalc Pro: live calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) / [offline checker v0.1.0 download](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/download/v0.1.0/CoverCalcPro-Landscape-Volume-Check-v0.1.0.zip) / [source and formulas](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit)
+- [CoverCalc Pro: live open-source checker](https://lydiatools.github.io/covercalcpro-landscape-quantity-kit/tools/landscape-volume-check.html) / [full website calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) / [offline checker v0.1.0 download](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/download/v0.1.0/CoverCalcPro-Landscape-Volume-Check-v0.1.0.zip) / [source and formulas](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit)
 - [Say It Plainly: latest download](https://github.com/LydiaTools/shuorenhua/releases/latest)
 - [Afdian: tools and updates](https://afdian.com/a/lydiahub2026)
 - [Feishu: free product collection](https://jcnrbes3t04e.feishu.cn/drive/folder/VRnafPFVDlcNXrdtpSwcWaWFnEj)
@@ -182,7 +182,7 @@ Basic tools will continue to be shared for free. Custom features, deployment hel
 
 ## Recent updates
 
-- **2026-10-07:** published the CoverCalc Pro landscape kit's first offline HTML download, with source and a reproducible calculation example.
+- **2026-10-07:** published the CoverCalc Pro landscape kit's first offline HTML download and live open-source checker, with source and a reproducible calculation example.
 - **2026-10-06:** added Browser Agent Blueprint: original browser-agent prompt modules, a local resume demo, and integration contracts clearly labeled as not live-tested.
 - **2026-09-28:** added project links, setup guides, and demos for Lydia Foreign Trade System and the CoverCalc Pro toolkit; linked the English overview for Say It Plainly while keeping existing products, covers, and downloads.
 - **2026-09-08:** Scope Check reached its v0.1.0 testing candidate, identifying added work, changed agreements, and questions needing confirmation.
