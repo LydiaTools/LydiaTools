@@ -13,7 +13,7 @@
 
 [Open the Blueprint demo guide](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Try CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Explore the other tools](#choose-by-the-problem)
 
-Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products)
+Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker)
 
 </div>
 
