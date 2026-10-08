@@ -32,7 +32,7 @@ Each product states its supported platform. A macOS installer won't run on Windo
 - Lydia Foreign Trade System: start with the fictional sample to try importing and grading before importing your own files. [English guide](https://github.com/LydiaTools/lydia-foreign-trade-system/blob/main/docs/README.en.md) / [Issues](https://github.com/LydiaTools/lydia-foreign-trade-system/issues).
 - CoverCalc Pro: [check a result with a sample calculation](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md). Include the shape, units, dimensions, depth, and observed result in a report; your address isn't needed.
 - Say It Plainly: report problems through [public Issues](https://github.com/LydiaTools/shuorenhua/issues).
-- Desktop Flow, Skin Workshop, and Xiaoran access details are on [Afdian](https://afdian.com/a/lydiahub2026) and the [Feishu collection](https://jcnrbes3t04e.feishu.cn/drive/folder/VRnafPFVDlcNXrdtpSwcWaWFnEj).
+- Desktop Flow, Skin Workshop, and Xiaoran access details are on public [Afdian](https://afdian.com/a/lydiahub2026). The [Feishu collection](https://jcnrbes3t04e.feishu.cn/drive/folder/VRnafPFVDlcNXrdtpSwcWaWFnEj) opens sign-in for guests.
 - For Scope Check testing, custom work, deployment help, or ongoing maintenance, contact me on WeChat: `lydiahub2026`.
 
 ## 4. Privacy and key actions

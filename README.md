@@ -203,7 +203,7 @@ I also work with the [BFTOOLS team](https://github.com/mercedesbestsupplier-make
 - [CoverCalc Pro: live open-source checker](https://lydiatools.github.io/covercalcpro-landscape-quantity-kit/tools/landscape-volume-check.html) / [full website calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) / [offline checker v0.1.1 download](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/download/v0.1.1/CoverCalcPro-Landscape-Volume-Check-v0.1.1.zip) / [source and formulas](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit)
 - [Say It Plainly: latest download](https://github.com/LydiaTools/shuorenhua/releases/latest)
 - [Afdian: tools and updates](https://afdian.com/a/lydiahub2026)
-- [Feishu: free product collection](https://jcnrbes3t04e.feishu.cn/drive/folder/VRnafPFVDlcNXrdtpSwcWaWFnEj)
+- [Feishu: product collection (opens sign-in for guests)](https://jcnrbes3t04e.feishu.cn/drive/folder/VRnafPFVDlcNXrdtpSwcWaWFnEj)
 - Bugs and feature ideas: open an Issue in the relevant public repository.
 - Early access, custom work, and maintenance: WeChat `lydiahub2026`.
 
