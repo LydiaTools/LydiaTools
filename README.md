@@ -82,7 +82,7 @@ New here? Open the [getting-started page](GETTING-STARTED.md). Pick the problem 
 
 *Actual sample exports from four platform and style combinations, arranged for comparison; this is not one batch export or a published campaign.*
 
-**[Try the English studio](https://lydiatools.github.io/aspectory/)** · [中文体验](https://lydiatools.github.io/aspectory/zh.html) · [Source and feedback](https://github.com/LydiaTools/aspectory)
+**[Try the English studio](https://lydiatools.github.io/aspectory/)** · [中文体验](https://lydiatools.github.io/aspectory/zh.html) · [Source](https://github.com/LydiaTools/aspectory) · [Report an export or layout issue](https://github.com/LydiaTools/aspectory/issues/new?template=use-feedback.yml)
 
 ### Xiaohongshu NoteSignal · Turn visible notes into source-linked observations
 
@@ -92,7 +92,7 @@ Capture a note you can see, correct the extracted fields, add your own judgment,
 
 *Actual popup interface with an empty local library. Live signed-in Xiaohongshu capture is not yet accepted; this screenshot does not show collected content.*
 
-**[Source and setup](https://github.com/LydiaTools/notesignal)** · [Download early-preview ZIP](https://github.com/LydiaTools/notesignal/releases/download/v0.1.1/notesignal-v0.1.1.zip) · [Release notes and checksum](https://github.com/LydiaTools/notesignal/releases/tag/v0.1.1)
+**[Source and setup](https://github.com/LydiaTools/notesignal)** · [Download early-preview ZIP](https://github.com/LydiaTools/notesignal/releases/download/v0.1.1/notesignal-v0.1.1.zip) · [Release notes and checksum](https://github.com/LydiaTools/notesignal/releases/tag/v0.1.1) · [Report a capture or setup issue](https://github.com/LydiaTools/notesignal/issues/new?template=use-feedback.yml)
 
 ### Global Longform SEO Studio · Build a creator IP and its article pipeline
 
@@ -102,7 +102,7 @@ Enter keywords and an audience to suggest a creator positioning, or write your o
 
 *Actual local app using its built-in gardening sample and offline article plan. No model-generated article, publication result, ranking, or revenue is represented.*
 
-**[Try the browser planning demo](https://lydiatools.github.io/longform-atlas/)** · [中文体验](https://lydiatools.github.io/longform-atlas/?lang=zh) · [Source and quick start](https://github.com/LydiaTools/longform-atlas) · [Download v0.2.0 local ZIP](https://github.com/LydiaTools/longform-atlas/releases/download/v0.2.0/longform-atlas-v0.2.0.zip)
+**[Try the browser planning demo](https://lydiatools.github.io/longform-atlas/)** · [中文体验](https://lydiatools.github.io/longform-atlas/?lang=zh) · [Source and quick start](https://github.com/LydiaTools/longform-atlas) · [Download v0.2.0 local ZIP](https://github.com/LydiaTools/longform-atlas/releases/download/v0.2.0/longform-atlas-v0.2.0.zip) · [Report a planning or export issue](https://github.com/LydiaTools/longform-atlas/issues/new?template=workflow-observation.yml)
 
 ---
 
