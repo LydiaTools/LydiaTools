@@ -58,6 +58,8 @@ The single-area checker runs on GitHub Pages or as an HTML file you can open off
 
 ## Choose by the problem
 
+New creator tools: **[NoteSignal · Xiaohongshu research](https://github.com/LydiaTools/notesignal)** and **[Longform Atlas · overseas long-form writing](https://github.com/LydiaTools/longform-atlas)**. Their working screens and download links are directly below the table.
+
 | What is getting in your way? | Tool | What it helps you do | Current status |
 | --- | --- | --- | --- |
 | A browser agent times out, loses its place, or submits twice, and you can't tell what happened | [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) | Reuse prompt modules and run a real local browser against a synthetic page to inspect checkpoints, risk gates, and resume boundaries | MIT; [project demo guide](https://lydiatools.github.io/browser-agent-blueprint/), and local recovery runner; model integrations not tested |
@@ -72,6 +74,26 @@ The single-area checker runs on GitHub Pages or as an HTML file you can open off
 | Inquiries sit in a spreadsheet, with no clear priority or next step | [Lydia Foreign Trade System](https://github.com/LydiaTools/lydia-foreign-trade-system) | Import CSV or JSON; review grades, missing evidence, and next actions before confirming follow-up | MIT; local setup with Node.js 20+ |
 
 New here? Open the [getting-started page](GETTING-STARTED.md). Pick the problem you recognize and try one tool.
+
+### NoteSignal · Turn visible notes into source-linked observations
+
+Capture a note you can see, correct the extracted fields, add your own judgment, and compare saved examples. The optional visible-browser runner collects a small bounded sample into JSON for review; it stops at verification or account warnings.
+
+<a href="https://github.com/LydiaTools/notesignal"><img src="assets/notesignal-popup-empty.png" alt="NoteSignal's actual bilingual Chrome extension popup in its empty state, showing manual note capture and visible-result review" width="360"></a>
+
+*Actual popup interface with an empty local library. Live signed-in Xiaohongshu capture is not yet accepted; this screenshot does not show collected content.*
+
+**[Source and setup](https://github.com/LydiaTools/notesignal)** · [Early-preview ZIP](https://github.com/LydiaTools/notesignal/releases/tag/v0.1.0)
+
+### Longform Atlas · Go from evidence to an editable article
+
+Keep the reader, original angle, sources, and search intent together. Build an outline offline or use your own compatible model to draft for X Articles, Medium, Quora, LinkedIn, or Substack, then edit and export Markdown.
+
+<a href="https://github.com/LydiaTools/longform-atlas"><img src="assets/longform-atlas-draft-workflow.png" alt="Actual Longform Atlas local writing screen with the offline outline, optional model fields, editable Markdown and export controls" width="720"></a>
+
+*Actual local app using its built-in gardening sample and offline outline. No model-generated article, publication result, ranking, or revenue is represented.*
+
+**[Source and quick start](https://github.com/LydiaTools/longform-atlas)** · [v0.1.0 ZIP](https://github.com/LydiaTools/longform-atlas/releases/tag/v0.1.0)
 
 ---
 
