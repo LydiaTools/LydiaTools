@@ -65,8 +65,8 @@ New creator tools: **[Xiaohongshu NoteSignal · 小红书笔记风向标](https:
 | A browser agent times out, loses its place, or submits twice, and you can't tell what happened | [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) | Reuse prompt modules and run a real local browser against a synthetic page to inspect checkpoints, risk gates, and resume boundaries | MIT; [project demo guide](https://lydiatools.github.io/browser-agent-blueprint/demo/), and local recovery runner; model integrations not tested |
 | You want to check dimensions, volume, and bag counts before buying landscape materials | [CoverCalc Pro toolkit](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) | Check rectangular or circular volumes, formulas, pack sizes, and shopping quantities | MIT; [live open-source checker](https://lydiatools.github.io/covercalcpro-landscape-quantity-kit/tools/landscape-volume-check.html) / [offline HTML v0.1.1](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/tag/v0.1.1) / [full calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) |
 | One useful idea needs four platform images, but reusing one crop loses the point | [Social Post Image Maker](https://github.com/LydiaTools/aspectory) / 出海社媒配图助手 | Compose Pinterest, Instagram, Lemon8, and Facebook images from the same verified insight; pick a visual style and export four native PNGs in one ZIP | MIT; [English studio](https://lydiatools.github.io/aspectory/) / [中文体验](https://lydiatools.github.io/aspectory/zh.html); local image composition, no automatic posting |
-| You need source-linked Xiaohongshu examples for your own content research | [Xiaohongshu NoteSignal](https://github.com/LydiaTools/notesignal) | Review visible notes in a bilingual Chrome extension; optional bounded visible-browser collection saves a small sample for later checking | MIT; [v0.1.1 early preview](https://github.com/LydiaTools/notesignal/releases/tag/v0.1.1); live signed-in capture not yet accepted |
-| You have keywords but need a creator identity and a repeatable overseas article pipeline | [Global Longform SEO Studio](https://github.com/LydiaTools/longform-atlas) | Define your IP, build distinct evidence-led plans for X Articles, Quora, Medium, LinkedIn or Substack, then draft and export in English or Chinese | MIT; [v0.2.0 local download](https://github.com/LydiaTools/longform-atlas/releases/tag/v0.2.0); offline plan/outline works without an API |
+| You need source-linked Xiaohongshu examples for your own content research | [Xiaohongshu NoteSignal](https://github.com/LydiaTools/notesignal) | Review visible notes in a bilingual Chrome extension; optional bounded visible-browser collection saves a small sample for later checking | MIT; [v0.1.1 ZIP](https://github.com/LydiaTools/notesignal/releases/download/v0.1.1/notesignal-v0.1.1.zip) / [release notes](https://github.com/LydiaTools/notesignal/releases/tag/v0.1.1); live signed-in capture not yet accepted |
+| You have keywords but need a creator identity and a repeatable overseas article pipeline | [Global Longform SEO Studio](https://github.com/LydiaTools/longform-atlas) | Define your IP, build distinct evidence-led plans for X Articles, Quora, Medium, LinkedIn or Substack, then draft and export in English or Chinese | MIT; [v0.2.0 ZIP](https://github.com/LydiaTools/longform-atlas/releases/download/v0.2.0/longform-atlas-v0.2.0.zip) / [release notes](https://github.com/LydiaTools/longform-atlas/releases/tag/v0.2.0); offline plan/outline works without an API |
 | You understand every word of a long message, but still don't know what you're being asked to do | [Say It Plainly](https://github.com/LydiaTools/shuorenhua/blob/main/README.en.md) | Identify actions and questions, then draft a reply that reflects what you actually mean | macOS v0.9.0; download available; Chinese interface |
 | A client's “small change” keeps growing, and nobody can say how much extra work it adds | [Scope Check](products/biefangong/README.md) | Compare a new request with the agreed scope; spot additions, changes, and unanswered questions | macOS v0.1.0; private testing; Chinese interface |
 | Ideas and tasks disappear while you switch between apps | [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) | Catch them on your desktop, save as Markdown, and connect to Obsidian or Codex when useful | macOS v1.0.0; Windows v1.0.3 |
@@ -92,7 +92,7 @@ Capture a note you can see, correct the extracted fields, add your own judgment,
 
 *Actual popup interface with an empty local library. Live signed-in Xiaohongshu capture is not yet accepted; this screenshot does not show collected content.*
 
-**[Source and setup](https://github.com/LydiaTools/notesignal)** · [Early-preview ZIP](https://github.com/LydiaTools/notesignal/releases/tag/v0.1.1)
+**[Source and setup](https://github.com/LydiaTools/notesignal)** · [Download early-preview ZIP](https://github.com/LydiaTools/notesignal/releases/download/v0.1.1/notesignal-v0.1.1.zip) · [Release notes and checksum](https://github.com/LydiaTools/notesignal/releases/tag/v0.1.1)
 
 ### Global Longform SEO Studio · Build a creator IP and its article pipeline
 
@@ -102,7 +102,7 @@ Enter keywords and an audience to suggest a creator positioning, or write your o
 
 *Actual local app using its built-in gardening sample and offline article plan. No model-generated article, publication result, ranking, or revenue is represented.*
 
-**[Source and quick start](https://github.com/LydiaTools/longform-atlas)** · [v0.2.0 ZIP](https://github.com/LydiaTools/longform-atlas/releases/tag/v0.2.0)
+**[Source and quick start](https://github.com/LydiaTools/longform-atlas)** · [Download v0.2.0 ZIP](https://github.com/LydiaTools/longform-atlas/releases/download/v0.2.0/longform-atlas-v0.2.0.zip) · [Release notes and checksum](https://github.com/LydiaTools/longform-atlas/releases/tag/v0.2.0)
 
 ---
 
@@ -197,8 +197,8 @@ I also work with the [BFTOOLS team](https://github.com/mercedesbestsupplier-make
 
 ## Downloads & early access
 
-- [Xiaohongshu NoteSignal: bilingual research extension and early-preview ZIP](https://github.com/LydiaTools/notesignal/releases/tag/v0.1.1)
-- [Global Longform SEO Studio: creator-IP article planner and v0.2.0 ZIP](https://github.com/LydiaTools/longform-atlas/releases/tag/v0.2.0)
+- [Xiaohongshu NoteSignal: early-preview ZIP](https://github.com/LydiaTools/notesignal/releases/download/v0.1.1/notesignal-v0.1.1.zip) / [setup and release notes](https://github.com/LydiaTools/notesignal/releases/tag/v0.1.1)
+- [Global Longform SEO Studio: v0.2.0 ZIP](https://github.com/LydiaTools/longform-atlas/releases/download/v0.2.0/longform-atlas-v0.2.0.zip) / [setup and release notes](https://github.com/LydiaTools/longform-atlas/releases/tag/v0.2.0)
 - [Lydia Foreign Trade System: source and setup](https://github.com/LydiaTools/lydia-foreign-trade-system)
 - [CoverCalc Pro: live open-source checker](https://lydiatools.github.io/covercalcpro-landscape-quantity-kit/tools/landscape-volume-check.html) / [full website calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) / [offline checker v0.1.1 download](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/download/v0.1.1/CoverCalcPro-Landscape-Volume-Check-v0.1.1.zip) / [source and formulas](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit)
 - [Say It Plainly: latest download](https://github.com/LydiaTools/shuorenhua/releases/latest)
