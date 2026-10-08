@@ -62,6 +62,8 @@ The single-area checker runs on GitHub Pages or as an HTML file you can open off
 | --- | --- | --- | --- |
 | A browser agent times out, loses its place, or submits twice, and you can't tell what happened | [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) | Reuse prompt modules and run a real local browser against a synthetic page to inspect checkpoints, risk gates, and resume boundaries | MIT; [project demo guide](https://lydiatools.github.io/browser-agent-blueprint/), and local recovery runner; model integrations not tested |
 | You want to check dimensions, volume, and bag counts before buying landscape materials | [CoverCalc Pro toolkit](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) | Check rectangular or circular volumes, formulas, pack sizes, and shopping quantities | MIT; [live open-source checker](https://lydiatools.github.io/covercalcpro-landscape-quantity-kit/tools/landscape-volume-check.html) / [offline HTML v0.1.1](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/tag/v0.1.1) / [full calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) |
+| You need source-linked Xiaohongshu examples for your own content research | [NoteSignal](https://github.com/LydiaTools/notesignal) | Review visible notes in a bilingual Chrome extension; optional bounded visible-browser collection saves a small sample for later checking | MIT; [v0.1.0 early preview](https://github.com/LydiaTools/notesignal/releases/tag/v0.1.0); live signed-in capture not yet accepted |
+| You have research for an overseas article but need a clear original angle and platform-ready draft | [Longform Atlas](https://github.com/LydiaTools/longform-atlas) | Keep evidence, sources and an editable bilingual draft together for X Articles, Medium, Quora, LinkedIn or Substack | MIT; [v0.1.0 local download](https://github.com/LydiaTools/longform-atlas/releases/tag/v0.1.0); offline outline works without an API |
 | You understand every word of a long message, but still don't know what you're being asked to do | [Say It Plainly](https://github.com/LydiaTools/shuorenhua/blob/main/README.en.md) | Identify actions and questions, then draft a reply that reflects what you actually mean | macOS v0.9.0; download available; Chinese interface |
 | A client's “small change” keeps growing, and nobody can say how much extra work it adds | [Scope Check](products/biefangong/README.md) | Compare a new request with the agreed scope; spot additions, changes, and unanswered questions | macOS v0.1.0; private testing; Chinese interface |
 | Ideas and tasks disappear while you switch between apps | [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) | Catch them on your desktop, save as Markdown, and connect to Obsidian or Codex when useful | macOS v1.0.0; Windows v1.0.3 |
@@ -164,6 +166,8 @@ I also work with the [BFTOOLS team](https://github.com/mercedesbestsupplier-make
 
 ## Downloads & early access
 
+- [NoteSignal: bilingual research extension and early-preview ZIP](https://github.com/LydiaTools/notesignal/releases/tag/v0.1.0)
+- [Longform Atlas: local writing workspace and v0.1.0 ZIP](https://github.com/LydiaTools/longform-atlas/releases/tag/v0.1.0)
 - [Lydia Foreign Trade System: source and setup](https://github.com/LydiaTools/lydia-foreign-trade-system)
 - [CoverCalc Pro: live open-source checker](https://lydiatools.github.io/covercalcpro-landscape-quantity-kit/tools/landscape-volume-check.html) / [full website calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) / [offline checker v0.1.1 download](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/download/v0.1.1/CoverCalcPro-Landscape-Volume-Check-v0.1.1.zip) / [source and formulas](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit)
 - [Say It Plainly: latest download](https://github.com/LydiaTools/shuorenhua/releases/latest)
@@ -182,6 +186,7 @@ Basic tools will continue to be shared for free. Custom features, deployment hel
 
 ## Recent updates
 
+- **2026-10-08:** released NoteSignal as an early preview and Longform Atlas as a local bilingual writing tool, with source, screenshots, tests and downloadable ZIPs.
 - **2026-10-07:** published the CoverCalc Pro landscape kit's first offline HTML download and live open-source checker, with source and a reproducible calculation example; opened the Blueprint synthetic fixture online while keeping the full recovery runner local.
 - **2026-10-06:** added Browser Agent Blueprint: original browser-agent prompt modules, a local resume demo, and integration contracts clearly labeled as not live-tested.
 - **2026-09-28:** added project links, setup guides, and demos for Lydia Foreign Trade System and the CoverCalc Pro toolkit; linked the English overview for Say It Plainly while keeping existing products, covers, and downloads.
