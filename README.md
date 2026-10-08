@@ -76,6 +76,14 @@ New creator tools: **[Xiaohongshu NoteSignal · 小红书笔记风向标](https:
 
 New here? Open the [getting-started page](GETTING-STARTED.md). Pick the problem you recognize and try one tool.
 
+### Social Post Image Maker · Show the same insight in four formats
+
+<a href="https://github.com/LydiaTools/aspectory"><img src="assets/social-post-image-maker-en.png" alt="Four actual Social Post Image Maker exports from one sample, showing Pinterest, Instagram, Lemon8, and Facebook layouts with platform labels outside the images" width="720"></a>
+
+*Actual sample exports from four platform and style combinations, arranged for comparison; this is not one batch export or a published campaign.*
+
+**[Try the English studio](https://lydiatools.github.io/aspectory/)** · [中文体验](https://lydiatools.github.io/aspectory/zh.html) · [Source and feedback](https://github.com/LydiaTools/aspectory)
+
 ### Xiaohongshu NoteSignal · Turn visible notes into source-linked observations
 
 Capture a note you can see, correct the extracted fields, add your own judgment, and compare saved examples. The optional visible-browser runner collects a small bounded sample into JSON for review; it stops at verification or account warnings.
