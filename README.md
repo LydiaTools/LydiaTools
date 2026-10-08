@@ -209,7 +209,7 @@ Basic tools will continue to be shared for free. Custom features, deployment hel
 
 ## Recent updates
 
-- **2026-10-08:** added Social Post Image Maker / 海外社媒配图工坊, a bilingual visual post studio with four platform layouts, four styles, and a four-image ZIP export.
+- **2026-10-08:** added Social Post Image Maker / 出海社媒配图助手, a bilingual visual post studio with four platform layouts, four styles, and a four-image ZIP export.
 - **2026-10-08:** released Xiaohongshu NoteSignal as an early preview and Global Longform SEO Studio as a local bilingual creator-IP writing tool, with source, screenshots, tests and downloadable ZIPs.
 - **2026-10-07:** published the CoverCalc Pro landscape kit's first offline HTML download and live open-source checker, with source and a reproducible calculation example; opened the Blueprint synthetic fixture online while keeping the full recovery runner local.
 - **2026-10-06:** added Browser Agent Blueprint: original browser-agent prompt modules, a local resume demo, and integration contracts clearly labeled as not live-tested.
