@@ -11,7 +11,7 @@
 >
 > Right now: a reproducible browser-agent recovery demo and a garden-material calculator that checks bags, bulk minimums, and delivery together.
 
-[Open the Blueprint demo guide](https://lydiatools.github.io/browser-agent-blueprint/) · [Try CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Explore the other tools](#choose-by-the-problem)
+[Open the Blueprint demo guide](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Try CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Explore the other tools](#choose-by-the-problem)
 
 Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products)
 
@@ -23,7 +23,7 @@ Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier
 
 ### Browser Agent Blueprint · Check what happened before trying again
 
-**Save timed out. Did the record go through?** The blueprint separates attempted actions from verified outcomes so a resumed run checks the page before retrying. The [project demo guide](https://lydiatools.github.io/browser-agent-blueprint/) explains the browser-only test fixture and the full local recovery runner. The browser-only fixture lets you save once, reload, and read back the saved count; it is a test page, not an agent demo. The local recovery runner uses two separate processes and finishes with one saved record. The repository includes 12 original plain-text prompt modules, 4 workflow templates, and 6 reproducible scenarios.
+**Save timed out. Did the record go through?** The blueprint separates attempted actions from verified outcomes so a resumed run checks the page before retrying. The [project demo guide](https://lydiatools.github.io/browser-agent-blueprint/demo/) explains the browser-only test fixture and the full local recovery runner. The browser-only fixture lets you save once, reload, and read back the saved count; it is a test page, not an agent demo. The local recovery runner uses two separate processes and finishes with one saved record. The repository includes 12 original plain-text prompt modules, 4 workflow templates, and 6 reproducible scenarios.
 
 <a href="https://github.com/LydiaTools/browser-agent-blueprint#quick-start"><img src="assets/browser-agent-recovery.png" alt="Browser Agent Blueprint recovery evidence: two separate processes, one saved record, and a DONE checkpoint after readback" width="720"></a>
 
@@ -31,7 +31,7 @@ Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier
 
 The demo uses deterministic host code and makes no model calls. Muse, Grok, and Codex integration contracts are provided but have not been live-tested. Automatic wake-up and production crash consistency need host support.
 
-**[Project overview and demo guide](https://lydiatools.github.io/browser-agent-blueprint/)** · [Modules and full recovery demo](https://github.com/LydiaTools/browser-agent-blueprint#quick-start) · [Report a synthetic failure case](https://github.com/LydiaTools/browser-agent-blueprint/issues)
+**[Project overview](https://lydiatools.github.io/browser-agent-blueprint/)** · [Demo guide](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Modules and full recovery demo](https://github.com/LydiaTools/browser-agent-blueprint#quick-start) · [Report a synthetic failure case](https://github.com/LydiaTools/browser-agent-blueprint/issues)
 
 ### CoverCalc Pro · Check the quantities before placing an order
 
@@ -62,7 +62,7 @@ New creator tools: **[Xiaohongshu NoteSignal · 小红书笔记风向标](https:
 
 | What is getting in your way? | Tool | What it helps you do | Current status |
 | --- | --- | --- | --- |
-| A browser agent times out, loses its place, or submits twice, and you can't tell what happened | [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) | Reuse prompt modules and run a real local browser against a synthetic page to inspect checkpoints, risk gates, and resume boundaries | MIT; [project demo guide](https://lydiatools.github.io/browser-agent-blueprint/), and local recovery runner; model integrations not tested |
+| A browser agent times out, loses its place, or submits twice, and you can't tell what happened | [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) | Reuse prompt modules and run a real local browser against a synthetic page to inspect checkpoints, risk gates, and resume boundaries | MIT; [project demo guide](https://lydiatools.github.io/browser-agent-blueprint/demo/), and local recovery runner; model integrations not tested |
 | You want to check dimensions, volume, and bag counts before buying landscape materials | [CoverCalc Pro toolkit](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) | Check rectangular or circular volumes, formulas, pack sizes, and shopping quantities | MIT; [live open-source checker](https://lydiatools.github.io/covercalcpro-landscape-quantity-kit/tools/landscape-volume-check.html) / [offline HTML v0.1.1](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/tag/v0.1.1) / [full calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) |
 | One useful idea needs four platform images, but reusing one crop loses the point | [Social Post Image Maker · 出海配图工坊](https://github.com/LydiaTools/aspectory) | Compose Pinterest, Instagram, Lemon8, and Facebook images from the same verified insight; pick a visual style and export four native PNGs in one ZIP | MIT; [English studio](https://lydiatools.github.io/aspectory/?lang=en) / [中文体验](https://lydiatools.github.io/aspectory/?lang=zh); local image composition, no automatic posting |
 | You need source-linked Xiaohongshu examples for your own content research | [Xiaohongshu NoteSignal](https://github.com/LydiaTools/notesignal) | Review visible notes in a bilingual Chrome extension; optional bounded visible-browser collection saves a small sample for later checking | MIT; [v0.1.1 early preview](https://github.com/LydiaTools/notesignal/releases/tag/v0.1.1); live signed-in capture not yet accepted |
