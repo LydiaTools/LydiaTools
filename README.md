@@ -1,10 +1,10 @@
 <div align="center">
 
-# LydiaHub
+# Lydia Tools
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
-  <img src="assets/hero.svg" alt="LydiaHub · Browser Agent Blueprint and CoverCalc Pro" width="100%">
+  <img src="assets/hero.svg" alt="Lydia Tools · Browser Agent Blueprint and CoverCalc Pro" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
