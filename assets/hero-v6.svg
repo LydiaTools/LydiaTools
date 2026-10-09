@@ -1,0 +1,79 @@
+<svg width="1200" height="660" viewBox="0 0 1200 660" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">LydiaTools | Practical tools for clearer work</title>
+  <desc id="description">Four real product views for browser recovery, garden buying, social visuals, and creator publishing, plus three tools for content research, trade inquiries, and clear communication.</desc>
+
+  <rect width="1200" height="660" fill="#101A29"/>
+  <circle cx="1195" cy="0" r="210" fill="#1C2A43"/>
+  <circle cx="0" cy="660" r="155" fill="#142735"/>
+
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="48" y="180" fill="#F7F9F7" font-size="183" font-weight="700" letter-spacing="-7">LydiaTools</text>
+    <rect x="54" y="207" width="142" height="6" rx="3" fill="#91D9E6"/>
+    <text x="54" y="240" fill="#D4DFE7" font-size="25">Small tools. Clearer next steps.</text>
+
+    <path d="M916 60V78" stroke="#91D9E6" stroke-width="4"/>
+    <text x="932" y="75" fill="#D4DFE7" font-size="16">Browser recovery</text>
+    <path d="M916 91V109" stroke="#F2C66D" stroke-width="4"/>
+    <text x="932" y="106" fill="#D4DFE7" font-size="16">Garden buying</text>
+    <path d="M916 122V140" stroke="#D0B8FF" stroke-width="4"/>
+    <text x="932" y="137" fill="#D4DFE7" font-size="16">Creator publishing</text>
+    <path d="M916 153V171" stroke="#F0A66A" stroke-width="4"/>
+    <text x="932" y="168" fill="#D4DFE7" font-size="16">Trade workflows</text>
+
+    <path d="M50 260H1150" stroke="#39495C" stroke-width="1.5"/>
+
+    <g>
+      <path d="M50 275H310" stroke="#91D9E6" stroke-width="4"/>
+      <rect x="50" y="281" width="260" height="105" fill="#F1F4F5" stroke="#39495C"/>
+      <image href="browser-agent-recovery.png" x="51" y="282" width="258" height="103" preserveAspectRatio="xMidYMin slice"/>
+      <text x="50" y="408" fill="#91D9E6" font-size="13" font-weight="700">Browser reliability</text>
+      <text x="50" y="432" fill="#F7F9F7" font-size="20" font-weight="700">Browser Agent Blueprint</text>
+      <text x="50" y="455" fill="#C5D1DD" font-size="15">Verify the save before a retry.</text>
+    </g>
+
+    <g>
+      <path d="M330 275H590" stroke="#F2C66D" stroke-width="4"/>
+      <rect x="330" y="281" width="260" height="105" fill="#F1F4F5" stroke="#39495C"/>
+      <image href="covercalc-cost-comparison.png" x="331" y="282" width="258" height="103" preserveAspectRatio="xMidYMid slice"/>
+      <text x="330" y="408" fill="#F2C66D" font-size="13" font-weight="700">Garden buying</text>
+      <text x="330" y="432" fill="#F7F9F7" font-size="20" font-weight="700">CoverCalc Pro</text>
+      <text x="330" y="455" fill="#C5D1DD" font-size="15">Compare bags, bulk, and delivery.</text>
+    </g>
+
+    <g>
+      <path d="M610 275H870" stroke="#8FE1B8" stroke-width="4"/>
+      <rect x="610" y="281" width="260" height="105" fill="#F1F4F5" stroke="#39495C"/>
+      <image href="social-post-image-maker-en.png" x="611" y="282" width="258" height="103" preserveAspectRatio="xMidYMid slice"/>
+      <text x="610" y="408" fill="#8FE1B8" font-size="13" font-weight="700">Social visuals</text>
+      <text x="610" y="432" fill="#F7F9F7" font-size="20" font-weight="700">Social Post Image Maker</text>
+      <text x="610" y="455" fill="#C5D1DD" font-size="15">One idea, four native layouts.</text>
+    </g>
+
+    <g>
+      <path d="M890 275H1150" stroke="#D0B8FF" stroke-width="4"/>
+      <rect x="890" y="281" width="260" height="105" fill="#F1F4F5" stroke="#39495C"/>
+      <image href="longform-atlas-ip-plan.png" x="891" y="282" width="258" height="103" preserveAspectRatio="xMidYMid slice"/>
+      <text x="890" y="408" fill="#D0B8FF" font-size="13" font-weight="700">Creator publishing</text>
+      <text x="890" y="432" fill="#F7F9F7" font-size="20" font-weight="700">Global Longform SEO Studio</text>
+      <text x="890" y="455" fill="#C5D1DD" font-size="15">Plan articles around your IP.</text>
+    </g>
+
+    <path d="M50 478H1150" stroke="#39495C" stroke-width="1.5"/>
+    <text x="50" y="504" fill="#A6B7C7" font-size="14" font-weight="700">More tools for the work around it</text>
+
+    <path d="M50 524V615" stroke="#F5A9B8" stroke-width="4"/>
+    <text x="68" y="545" fill="#F5A9B8" font-size="13" font-weight="700">CONTENT RESEARCH</text>
+    <text x="68" y="574" fill="#F7F9F7" font-size="20" font-weight="700">Xiaohongshu NoteSignal</text>
+    <text x="68" y="599" fill="#C5D1DD" font-size="15">Keep visible examples source-linked.</text>
+
+    <path d="M430 524V615" stroke="#F0A66A" stroke-width="4"/>
+    <text x="448" y="545" fill="#F0A66A" font-size="13" font-weight="700">TRADE INQUIRIES</text>
+    <text x="448" y="574" fill="#F7F9F7" font-size="20" font-weight="700">Lydia Foreign Trade System</text>
+    <text x="448" y="599" fill="#C5D1DD" font-size="15">Review evidence before follow-up.</text>
+
+    <path d="M810 524V615" stroke="#91D9E6" stroke-width="4"/>
+    <text x="828" y="545" fill="#91D9E6" font-size="13" font-weight="700">CLEAR COMMUNICATION</text>
+    <text x="828" y="574" fill="#F7F9F7" font-size="20" font-weight="700">Say It Plainly</text>
+    <text x="828" y="599" fill="#C5D1DD" font-size="15">Turn long messages into clear next steps.</text>
+  </g>
+</svg>

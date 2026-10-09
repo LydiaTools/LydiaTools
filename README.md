@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v5.svg">
-  <img src="assets/hero-v5.svg" alt="LydiaTools: seven practical projects for browser recovery, garden buying, social visuals, creator articles, content research, trade inquiries, and clear communication" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v6.png">
+  <img src="assets/hero-v6.png" alt="LydiaTools: real project views for browser recovery, garden buying, social visuals, and creator publishing, plus NoteSignal, a trade inquiry system, and Say It Plainly" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
