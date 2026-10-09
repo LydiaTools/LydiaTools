@@ -65,6 +65,7 @@ New creator tools: **[Xiaohongshu NoteSignal · 小红书笔记风向标](https:
 | One useful idea needs four platform images, but reusing one crop loses the point | [Social Post Image Maker](https://github.com/LydiaTools/aspectory) / 出海社媒配图助手 | Compose Pinterest, Instagram, Lemon8, and Facebook images from the same verified insight; pick a visual style and export four native PNGs in one ZIP | MIT; [English studio](https://lydiatools.github.io/aspectory/) / [中文体验](https://lydiatools.github.io/aspectory/zh.html); local image composition, no automatic posting |
 | You need source-linked Xiaohongshu examples for your own content research | [Xiaohongshu NoteSignal](https://github.com/LydiaTools/notesignal) | Review visible notes in a bilingual Chrome extension; optional bounded visible-browser collection saves a small sample for later checking | MIT; [v0.1.1 ZIP](https://github.com/LydiaTools/notesignal/releases/download/v0.1.1/notesignal-v0.1.1.zip) / [release notes](https://github.com/LydiaTools/notesignal/releases/tag/v0.1.1); live signed-in capture not yet accepted |
 | You have keywords but need a creator identity and a repeatable overseas article pipeline | [Global Longform SEO Studio](https://github.com/LydiaTools/longform-atlas) | Define your IP, build distinct evidence-led plans for X Articles, Quora, Medium, LinkedIn or Substack, then draft and export in English or Chinese | MIT; [browser planning demo](https://lydiatools.github.io/longform-atlas/) / [中文体验](https://lydiatools.github.io/longform-atlas/?lang=zh) / [v0.2.0 local ZIP](https://github.com/LydiaTools/longform-atlas/releases/download/v0.2.0/longform-atlas-v0.2.0.zip); AI drafting runs in the local app |
+| You want to follow a video tool from source research through narration, scenes and approved audio | [Video Studio · 视频制作](https://github.com/LydiaTools/video-studio-updates) | Follow the local production workflow and inspect what changed in each build | Internal macOS **0.3.1 build26**; [26-build history](https://github.com/LydiaTools/video-studio-updates/blob/main/CHANGELOG.md); general installer and complete voiced-episode acceptance pending |
 | You understand every word of a long message, but still don't know what you're being asked to do | [Say It Plainly](https://github.com/LydiaTools/shuorenhua/blob/main/README.en.md) | Identify actions and questions, then draft a reply that reflects what you actually mean | macOS v0.9.0; download available; Chinese interface |
 | A client's “small change” keeps growing, and nobody can say how much extra work it adds | [Scope Check](products/biefangong/README.md) | Compare a new request with the agreed scope; spot additions, changes, and unanswered questions | macOS v0.1.0; private testing; Chinese interface |
 | Ideas and tasks disappear while you switch between apps | [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) | Catch them on your desktop, save as Markdown, and connect to Obsidian or Codex when useful | macOS v1.0.0; Windows v1.0.3 |
@@ -103,6 +104,14 @@ Enter keywords and an audience to suggest a creator positioning, or write your o
 **[Try the browser planning demo](https://lydiatools.github.io/longform-atlas/)** · [中文体验](https://lydiatools.github.io/longform-atlas/?lang=zh) · [Source and quick start](https://github.com/LydiaTools/longform-atlas) · [Download v0.2.0 local ZIP](https://github.com/LydiaTools/longform-atlas/releases/download/v0.2.0/longform-atlas-v0.2.0.zip) · [Report a planning or export issue](https://github.com/LydiaTools/longform-atlas/issues/new?template=workflow-observation.yml)
 
 ---
+
+### Video Studio · See the production workflow improve, one build at a time
+
+**视频制作 / Video Studio** brings source research, original narration, scene planning, approved audio and a shared material library into one local macOS tool. The public journal explains the change, its verification and the remaining work for every numbered build.
+
+The current local version is **0.3.1 build26**. Remotion now renders the vertical information-card route, with a reviewed 16-second silent visual sample. The Hypit handoff and two experimental vertical diagram styles remain available. A complete source-backed, voiced episode and a general installer for other computers still need acceptance.
+
+**[All 26 build updates](https://github.com/LydiaTools/video-studio-updates/blob/main/CHANGELOG.md)** · **[Current build26](https://github.com/LydiaTools/video-studio-updates/releases/tag/v0.3.1-build26)** · [Each version's release record](https://github.com/LydiaTools/video-studio-updates/releases)
 
 ## Two more tools I keep improving
 
@@ -214,6 +223,8 @@ Basic tools will continue to be shared for free. Custom features, deployment hel
 <a id="最近更新"></a>
 
 ## Recent updates
+
+- **2026-10-09:** added [Video Studio · 视频制作](https://github.com/LydiaTools/video-studio-updates), with a public, verified build1–26 iteration journal and the current internal macOS build26 status.
 
 - **2026-10-08:** added Social Post Image Maker / 出海社媒配图助手, a bilingual visual post studio with four platform layouts, four styles, and a four-image ZIP export.
 - **2026-10-08:** released Xiaohongshu NoteSignal as an early preview and Global Longform SEO Studio as a local bilingual creator-IP writing tool, with source, screenshots, tests and downloadable ZIPs.
