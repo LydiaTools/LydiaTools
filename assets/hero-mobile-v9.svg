@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="1070" viewBox="0 0 390 1070" role="img" aria-labelledby="title description">
+  <title id="title">LydiaTools — eight practical tools</title>
+  <desc id="description">Eight real project views for browser reliability, garden buying, social visuals, creator publishing, source-linked research, trade inquiries, clearer communication, and desktop capture.</desc>
+  <defs>
+    <style>
+      .eyebrow { font: 700 10px Arial, Helvetica, sans-serif; letter-spacing: 2px; }
+      .brand { font: 700 80px Arial, Helvetica, sans-serif; letter-spacing: -6px; }
+      .tagline { font: 500 15px Arial, Helvetica, sans-serif; }
+      .scope { font: 700 9px Arial, Helvetica, sans-serif; letter-spacing: 1px; }
+      .category { font: 700 8px Arial, Helvetica, sans-serif; letter-spacing: .55px; }
+      .name { font: 700 15px Arial, Helvetica, sans-serif; }
+      .value { font: 400 10px Arial, Helvetica, sans-serif; }
+    </style>
+  </defs>
+  <rect width="390" height="1070" fill="#0d1828"/>
+  <circle cx="397" cy="-8" r="105" fill="#1c2d49" opacity=".68"/>
+  <circle cx="-34" cy="1080" r="80" fill="#123447" opacity=".58"/>
+
+  <text class="eyebrow" x="20" y="33" fill="#91a9be">INDEPENDENT MAKER · PRACTICAL SOFTWARE</text>
+  <text class="brand" x="13" y="118" fill="#f7f9f7">LydiaTools</text>
+  <text class="tagline" x="21" y="153" fill="#d4dfea">Small tools. Clearer next steps.</text>
+  <text class="scope" x="21" y="180" fill="#91a9be">BROWSER · GARDEN · CONTENT · TRADE</text>
+  <line x1="20" y1="196" x2="370" y2="196" stroke="#34475d" stroke-width="1.5"/>
+
+  <rect x="20" y="207" width="165" height="3" fill="#91d9e6"/>
+  <image x="20" y="214" width="165" height="78" preserveAspectRatio="xMidYMid slice" href="browser-agent-recovery.png" xlink:href="browser-agent-recovery.png"/>
+  <text class="category" x="20" y="310" fill="#91d9e6">BROWSER RELIABILITY</text>
+  <text class="name" x="20" y="333" fill="#f7f9f7">Browser Agent</text>
+  <text class="name" x="20" y="351" fill="#f7f9f7">Blueprint</text>
+  <text class="value" x="20" y="373" fill="#c5d1dd">Verify before retrying.</text>
+
+  <rect x="205" y="207" width="165" height="3" fill="#f2c66d"/>
+  <image x="205" y="214" width="165" height="78" preserveAspectRatio="xMidYMid slice" href="covercalc-cost-comparison.png" xlink:href="covercalc-cost-comparison.png"/>
+  <text class="category" x="205" y="310" fill="#f2c66d">GARDEN BUYING</text>
+  <text class="name" x="205" y="333" fill="#f7f9f7">CoverCalc Pro</text>
+  <text class="value" x="205" y="355" fill="#c5d1dd">Bags, bulk, and fees.</text>
+
+  <rect x="20" y="420" width="165" height="3" fill="#8fe1b8"/>
+  <image x="20" y="427" width="165" height="78" preserveAspectRatio="xMidYMid slice" href="social-post-image-maker-en.png" xlink:href="social-post-image-maker-en.png"/>
+  <text class="category" x="20" y="523" fill="#8fe1b8">SOCIAL VISUALS</text>
+  <text class="name" x="20" y="546" fill="#f7f9f7">Social Post</text>
+  <text class="name" x="20" y="564" fill="#f7f9f7">Image Maker</text>
+  <text class="value" x="20" y="586" fill="#c5d1dd">One idea, four layouts.</text>
+
+  <rect x="205" y="420" width="165" height="3" fill="#d0b8ff"/>
+  <image x="205" y="427" width="165" height="78" preserveAspectRatio="xMidYMid slice" href="longform-atlas-ip-plan.png" xlink:href="longform-atlas-ip-plan.png"/>
+  <text class="category" x="205" y="523" fill="#d0b8ff">CREATOR PUBLISHING</text>
+  <text class="name" x="205" y="546" fill="#f7f9f7">Global Longform</text>
+  <text class="name" x="205" y="564" fill="#f7f9f7">SEO Studio</text>
+  <text class="value" x="205" y="586" fill="#c5d1dd">Plan articles around your IP.</text>
+
+  <rect x="20" y="633" width="165" height="3" fill="#f5a9b8"/>
+  <image x="20" y="640" width="165" height="78" preserveAspectRatio="xMidYMid slice" href="notesignal-popup-empty.png" xlink:href="notesignal-popup-empty.png"/>
+  <text class="category" x="20" y="736" fill="#f5a9b8">CONTENT RESEARCH</text>
+  <text class="name" x="20" y="759" fill="#f7f9f7">Xiaohongshu</text>
+  <text class="name" x="20" y="777" fill="#f7f9f7">NoteSignal</text>
+  <text class="value" x="20" y="799" fill="#c5d1dd">Source-linked examples.</text>
+
+  <rect x="205" y="633" width="165" height="3" fill="#f0a66a"/>
+  <image x="205" y="640" width="165" height="78" preserveAspectRatio="xMidYMid slice" href="foreign-trade-demo.png" xlink:href="foreign-trade-demo.png"/>
+  <text class="category" x="205" y="736" fill="#f0a66a">TRADE INQUIRIES</text>
+  <text class="name" x="205" y="759" fill="#f7f9f7">Lydia Foreign</text>
+  <text class="name" x="205" y="777" fill="#f7f9f7">Trade System</text>
+  <text class="value" x="205" y="799" fill="#c5d1dd">Evidence-led follow-up.</text>
+
+  <rect x="20" y="846" width="165" height="3" fill="#f4a6a0"/>
+  <image x="20" y="853" width="165" height="78" preserveAspectRatio="xMidYMid slice" href="say-it-plainly-v0.9.0.png" xlink:href="say-it-plainly-v0.9.0.png"/>
+  <text class="category" x="20" y="949" fill="#f4a6a0">CLEARER COMMUNICATION</text>
+  <text class="name" x="20" y="972" fill="#f7f9f7">Say It Plainly</text>
+  <text class="value" x="20" y="994" fill="#c5d1dd">Find the action. Draft a reply.</text>
+
+  <rect x="205" y="846" width="165" height="3" fill="#8fc8f0"/>
+  <image x="205" y="853" width="165" height="78" preserveAspectRatio="xMidYMid slice" href="desktop-flow-capture-proof.png" xlink:href="desktop-flow-capture-proof.png"/>
+  <text class="category" x="205" y="949" fill="#8fc8f0">DESKTOP WORKFLOW</text>
+  <text class="name" x="205" y="972" fill="#f7f9f7">Desktop Flow</text>
+  <text class="value" x="205" y="994" fill="#c5d1dd">Capture a thought before switching.</text>
+</svg>
