@@ -25,9 +25,12 @@ PROJECTS = [
     ("browser-agent-recovery.png", "BROWSER RELIABILITY", "Browser Agent Blueprint", "Verify a save before retrying.", "#91d9e6"),
     ("covercalc-cost-comparison.png", "GARDEN BUYING", "CoverCalc Pro", "Compare bags, bulk and delivery.", "#f2c66d"),
     ("social-post-image-maker-en.png", "SOCIAL VISUALS", "Social Post Image Maker", "One idea, four native layouts.", "#8fe1b8"),
-    ("longform-atlas-ip-plan.png", "CREATOR PUBLISHING", "Global Longform SEO Studio", "Plan evidence-led articles around your IP.", "#d0b8ff"),
+    ("longform-atlas-ip-plan.png", "CREATOR PUBLISHING", "Global Longform SEO Studio", "Plan articles around a creator identity.", "#d0b8ff"),
     ("notesignal-popup-empty.png", "SOURCE-LINKED RESEARCH", "Xiaohongshu NoteSignal", "Keep visible notes tied to sources.", "#f5a9b8"),
     ("foreign-trade-demo.png", "TRADE INQUIRIES", "Lydia Foreign Trade System", "Review evidence before follow-up.", "#f0a66a"),
+    ("say-it-plainly-v0.9.0.png", "PRACTICAL REPLIES", "Say It Plainly", "Turn a message into clear next steps.", "#91d9e6"),
+    ("desktop-flow-capture-proof.png", "DESKTOP CAPTURE", "Desktop Flow", "Save a task before switching apps.", "#f2c66d"),
+    ("xiaoran-output-excerpt.png", "CONTENT RESEARCH", "Xiaoran Topic Assistant", "Shape research into usable topic briefs.", "#8fe1b8"),
 ]
 
 
@@ -92,7 +95,7 @@ def draw_card(canvas: Image.Image, project: tuple[str, str, str, str, str],
               x: int, y: int, width: int, mobile: bool) -> None:
     filename, category, name, value, accent = project
     draw = ImageDraw.Draw(canvas)
-    card_height = 112 if mobile else 140
+    card_height = 112 if mobile else 152
     card_bottom = y + card_height
     draw.rounded_rectangle(
         (x * SCALE, y * SCALE, (x + width) * SCALE, card_bottom * SCALE),
@@ -103,7 +106,7 @@ def draw_card(canvas: Image.Image, project: tuple[str, str, str, str, str],
         radius=2 * SCALE, fill=accent,
     )
 
-    image_height = 40 if mobile else 72
+    image_height = 38 if mobile else 66
     image_y = y + (7 if mobile else 8)
     preview = fitted_preview(filename, (width - 16, image_height))
     mask = Image.new("L", preview.size, 0)
@@ -120,7 +123,7 @@ def draw_card(canvas: Image.Image, project: tuple[str, str, str, str, str],
     draw.text((text_x * SCALE, (y + image_height + (9 if mobile else 11)) * SCALE),
               category, font=category_font, fill=accent)
 
-    name_y = y + image_height + (21 if mobile else 28)
+    name_y = y + image_height + (21 if mobile else 26)
     name_lines = wrap_text(name, name_font, content_width)[:2]
     name_line_height = 12 if mobile else 18
     draw_lines(draw, (text_x, name_y), name_lines, name_font, WHITE, name_line_height)
@@ -135,59 +138,69 @@ def finish(canvas: Image.Image, destination: Path) -> None:
 
 
 def render_desktop() -> None:
-    width, height = 1200, 720
+    width, height = 1200, 930
     canvas = Image.new("RGBA", (width * SCALE, height * SCALE), INK)
     draw = ImageDraw.Draw(canvas)
     draw.ellipse((1060 * SCALE, -190 * SCALE, 1380 * SCALE, 130 * SCALE), fill="#1c2d49")
-    draw.ellipse((-140 * SCALE, 590 * SCALE, 90 * SCALE, 820 * SCALE), fill="#123447")
+    draw.ellipse((-140 * SCALE, 820 * SCALE, 90 * SCALE, 1050 * SCALE), fill="#123447")
 
-    draw_tracked(draw, (46, 25), "INDEPENDENT MAKER · PRACTICAL SOFTWARE",
+    draw_tracked(draw, (42, 20), "INDEPENDENT MAKER · PRACTICAL SOFTWARE",
                  load_font(13, bold=True), MUTED, 2)
-    draw_tracked(draw, (20, 42), "LydiaTools", load_font(270, bold=True), WHITE, -27)
-    draw.text((50 * SCALE, 350 * SCALE), "Small tools. Clearer next steps.",
-              font=load_font(25), fill=TEXT)
-    draw_tracked(draw, (50, 383), "BROWSER RECOVERY · GARDEN BUYING · CREATOR TOOLS · RESEARCH",
-                 load_font(11, bold=True), MUTED, 1)
-    draw.rounded_rectangle((1000 * SCALE, 346 * SCALE, 1158 * SCALE, 379 * SCALE),
+    draw_tracked(draw, (34, 48), "Lydia", load_font(205, bold=True), WHITE, -8)
+    draw_tracked(draw, (34, 205), "Tools", load_font(205, bold=True), WHITE, -8)
+    draw.text((650 * SCALE, 105 * SCALE), "Small tools.",
+              font=load_font(34, bold=True), fill=TEXT)
+    draw.text((650 * SCALE, 152 * SCALE), "Clearer next steps.",
+              font=load_font(27), fill=TEXT)
+    draw_tracked(draw, (652, 215), "BROWSER RECOVERY · GARDEN BUYING",
+                 load_font(10, bold=True), MUTED, 1)
+    draw_tracked(draw, (652, 239), "CREATOR TOOLS · RESEARCH · DESKTOP WORKFLOWS",
+                 load_font(9, bold=True), MUTED, 1)
+    draw.rounded_rectangle((650 * SCALE, 290 * SCALE, 836 * SCALE, 326 * SCALE),
                            radius=14 * SCALE, outline="#42617d", width=1 * SCALE)
-    draw.text((1012 * SCALE, 354 * SCALE), "6 REAL PROJECTS", font=load_font(10, bold=True), fill="#9ad9d0")
-    draw.line((40 * SCALE, 405 * SCALE, 1160 * SCALE, 405 * SCALE), fill=RULE, width=2 * SCALE)
+    draw.text((663 * SCALE, 300 * SCALE), "9 PRACTICAL PROJECTS",
+              font=load_font(10, bold=True), fill="#9ad9d0")
+    draw.line((40 * SCALE, 400 * SCALE, 1160 * SCALE, 400 * SCALE), fill=RULE, width=2 * SCALE)
 
     margin, gap, card_width = 40, 20, 360
     x_positions = [margin + i * (card_width + gap) for i in range(3)]
     for index, project in enumerate(PROJECTS):
         row, column = divmod(index, 3)
-        draw_card(canvas, project, x_positions[column], 418 + row * 147, card_width, mobile=False)
+        draw_card(canvas, project, x_positions[column], 414 + row * 170, card_width, mobile=False)
 
-    finish(canvas, ASSETS / "hero-v12.png")
+    finish(canvas, ASSETS / "hero-v13.png")
 
 
 def render_mobile() -> None:
-    width, height = 390, 560
+    width, height = 390, 860
     canvas = Image.new("RGBA", (width * SCALE, height * SCALE), INK)
     draw = ImageDraw.Draw(canvas)
     draw.ellipse((285 * SCALE, -95 * SCALE, 470 * SCALE, 90 * SCALE), fill="#1c2d49")
-    draw.ellipse((-70 * SCALE, 495 * SCALE, 75 * SCALE, 640 * SCALE), fill="#123447")
+    draw.ellipse((-70 * SCALE, 790 * SCALE, 75 * SCALE, 940 * SCALE), fill="#123447")
 
     draw_tracked(draw, (17, 13), "INDEPENDENT MAKER · PRACTICAL SOFTWARE",
                  load_font(8, bold=True), MUTED, 1)
-    draw_tracked(draw, (12, 31), "LydiaTools", load_font(92, bold=True), WHITE, -12)
-    draw.text((19 * SCALE, 141 * SCALE), "Small tools. Clearer next steps.",
+    draw_tracked(draw, (12, 35), "Lydia", load_font(70, bold=True), WHITE, -3)
+    draw_tracked(draw, (12, 98), "Tools", load_font(70, bold=True), WHITE, -3)
+    draw.text((19 * SCALE, 177 * SCALE), "Small tools. Clearer next steps.",
               font=load_font(15), fill=TEXT)
-    draw_tracked(draw, (19, 164), "6 TOOLS · REAL SCREENS · CLEAR STATUS",
+    draw_tracked(draw, (19, 201), "9 TOOLS · REAL SCREENS · CLEAR STATUS",
                  load_font(7, bold=True), MUTED, 0)
-    draw.line((17 * SCALE, 184 * SCALE, 373 * SCALE, 184 * SCALE), fill=RULE, width=2 * SCALE)
+    draw.line((17 * SCALE, 222 * SCALE, 373 * SCALE, 222 * SCALE), fill=RULE, width=2 * SCALE)
 
     margin, gap, card_width = 17, 10, 173
     x_positions = [margin, margin + card_width + gap]
     for index, project in enumerate(PROJECTS):
         row, column = divmod(index, 2)
-        draw_card(canvas, project, x_positions[column], 192 + row * 120, card_width, mobile=True)
+        if index == len(PROJECTS) - 1:
+            draw_card(canvas, project, margin, 235 + row * 119, width - margin * 2, mobile=True)
+        else:
+            draw_card(canvas, project, x_positions[column], 235 + row * 119, card_width, mobile=True)
 
-    finish(canvas, ASSETS / "hero-mobile-v12.png")
+    finish(canvas, ASSETS / "hero-mobile-v13.png")
 
 
 if __name__ == "__main__":
     render_desktop()
     render_mobile()
-    print("Rendered assets/hero-v12.png and assets/hero-mobile-v12.png")
+    print("Rendered assets/hero-v13.png and assets/hero-mobile-v13.png")

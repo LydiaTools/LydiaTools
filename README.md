@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v12.png">
-  <img src="assets/hero-v12.png" alt="LydiaTools portfolio: six real projects shown in a compact, balanced grid—Browser Agent Blueprint for browser recovery, CoverCalc Pro for garden-material buying, Social Post Image Maker for platform-ready visuals, Global Longform SEO Studio for creator articles, Xiaohongshu NoteSignal for source-linked research, and Lydia Foreign Trade System for inquiry review" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v13.png">
+  <img src="assets/hero-v13.png" alt="LydiaTools portfolio: nine practical projects with real screens—Browser Agent Blueprint, CoverCalc Pro, Social Post Image Maker, Global Longform SEO Studio, Xiaohongshu NoteSignal, Lydia Foreign Trade System, Say It Plainly, Desktop Flow, and Xiaoran Topic Assistant" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
@@ -225,7 +225,7 @@ Basic tools will continue to be shared for free. Custom features, deployment hel
 
 ## Recent updates
 
-- **2026-10-09:** rebuilt the LydiaTools banner around six larger, real project previews, increased the wordmark, and tightened the mobile layout so more of the portfolio appears at first glance. The full project list remains below, and the Skin Workshop contribution stays credited to its original app creator.
+- **2026-10-09:** expanded the LydiaTools banner to nine real projects, gave the wordmark a stronger two-line composition, and rebuilt the mobile layout. Browser Agent Blueprint and CoverCalc Pro lead the grid; the Skin Workshop contribution stays credited to its original app creator.
 - **2026-10-09:** added [Video Studio · 视频制作](https://github.com/LydiaTools/video-studio-updates), with a public, verified build1–26 iteration journal and the current internal macOS build26 status.
 
 - **2026-10-08:** added Social Post Image Maker / 出海社媒配图助手, a bilingual visual post studio with four platform layouts, four styles, and a four-image ZIP export.
