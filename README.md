@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v10.png">
-  <img src="assets/hero-v10.png" alt="LydiaTools portfolio: ten real project and workflow views covering browser reliability, garden buying, social publishing, creator SEO, source-linked research, trade inquiries, clearer communication, desktop capture, content planning, and a credited Codex Skin Workshop contribution" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v11.png">
+  <img src="assets/hero-v11.png" alt="LydiaTools portfolio: six featured real projects with clear outcomes—Browser Agent Blueprint for reliable browser recovery, CoverCalc Pro for garden-material buying, Social Post Image Maker for platform-ready visuals, Global Longform SEO Studio for creator articles, Xiaohongshu NoteSignal for source-linked research, and Lydia Foreign Trade System for inquiry review" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
@@ -225,7 +225,7 @@ Basic tools will continue to be shared for free. Custom features, deployment hel
 
 ## Recent updates
 
-- **2026-10-09:** expanded the LydiaTools banner to ten real project and workflow previews, enlarged the wordmark, and refreshed desktop and mobile layouts. The Skin Workshop contribution is credited to its original app creator; six focused GitHub pins remain in place.
+- **2026-10-09:** rebuilt the LydiaTools banner around six larger, real project previews, increased the wordmark, and tightened the mobile layout so more of the portfolio appears at first glance. The full project list remains below, and the Skin Workshop contribution stays credited to its original app creator.
 - **2026-10-09:** added [Video Studio · 视频制作](https://github.com/LydiaTools/video-studio-updates), with a public, verified build1–26 iteration journal and the current internal macOS build26 status.
 
 - **2026-10-08:** added Social Post Image Maker / 出海社媒配图助手, a bilingual visual post studio with four platform layouts, four styles, and a four-image ZIP export.
