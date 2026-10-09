@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v13.png">
-  <img src="assets/hero-v13.png" alt="LydiaTools portfolio: nine practical projects with real screens—Browser Agent Blueprint, CoverCalc Pro, Social Post Image Maker, Global Longform SEO Studio, Xiaohongshu NoteSignal, Lydia Foreign Trade System, Say It Plainly, Desktop Flow, and Xiaoran Topic Assistant" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v14.png">
+  <img src="assets/hero-v14.png" alt="LydiaTools portfolio: eleven practical projects with real screens—Browser Agent Blueprint, CoverCalc Pro, Social Post Image Maker, Global Longform SEO Studio, Xiaohongshu NoteSignal, Lydia Foreign Trade System, Say It Plainly, Desktop Flow, Xiaoran Topic Assistant, Scope Check, and my enhancements and skins for the Codex Skin Workshop app originally created by luhaozwork" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
