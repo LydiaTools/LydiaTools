@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v11.png">
-  <img src="assets/hero-v11.png" alt="LydiaTools portfolio: six featured real projects with clear outcomes—Browser Agent Blueprint for reliable browser recovery, CoverCalc Pro for garden-material buying, Social Post Image Maker for platform-ready visuals, Global Longform SEO Studio for creator articles, Xiaohongshu NoteSignal for source-linked research, and Lydia Foreign Trade System for inquiry review" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v12.png">
+  <img src="assets/hero-v12.png" alt="LydiaTools portfolio: six real projects shown in a compact, balanced grid—Browser Agent Blueprint for browser recovery, CoverCalc Pro for garden-material buying, Social Post Image Maker for platform-ready visuals, Global Longform SEO Studio for creator articles, Xiaohongshu NoteSignal for source-linked research, and Lydia Foreign Trade System for inquiry review" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
