@@ -1,15 +1,16 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v9.png">
-  <img src="assets/hero-v9.png" alt="LydiaTools portfolio: eight real project views for browser reliability, garden buying, social publishing, creator SEO, source-linked research, trade inquiries, clearer communication, and desktop capture" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v10.png">
+  <img src="assets/hero-v10.png" alt="LydiaTools portfolio: ten real project and workflow views covering browser reliability, garden buying, social publishing, creator SEO, source-linked research, trade inquiries, clearer communication, desktop capture, content planning, and a credited Codex Skin Workshop contribution" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
 >
 > Check whether an agent saved, compare a garden order, turn one idea into platform-ready visuals, plan articles around a creator identity, keep research source-linked, or review trade inquiries before following up.
 
-[Browser-agent demo](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Garden calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social image maker](https://lydiatools.github.io/aspectory/) · [Longform planning studio](https://lydiatools.github.io/longform-atlas/) · [NoteSignal](https://github.com/LydiaTools/notesignal) · [Trade inquiry system](https://github.com/LydiaTools/lydia-foreign-trade-system) · [Say It Plainly](https://github.com/LydiaTools/shuorenhua)
+[Browser-agent demo](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Garden calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social image maker](https://lydiatools.github.io/aspectory/) · [Longform planning studio](https://lydiatools.github.io/longform-atlas/) · [NoteSignal](https://github.com/LydiaTools/notesignal) · [Trade inquiry system](https://github.com/LydiaTools/lydia-foreign-trade-system)<br>
+[Say It Plainly](https://github.com/LydiaTools/shuorenhua) · [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) · [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026) · [Codex Skin Workshop contributions](https://github.com/mercedesbestsupplier-maker/bifang-codex-skins) — original app by [@luhaozwork](https://github.com/luhaozwork)
 
 Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products)
 
@@ -224,7 +225,7 @@ Basic tools will continue to be shared for free. Custom features, deployment hel
 
 ## Recent updates
 
-- **2026-10-09:** redesigned the LydiaTools banner around eight real project previews, with a stronger wordmark and separate desktop and mobile layouts; the six focused GitHub pins remain in place.
+- **2026-10-09:** expanded the LydiaTools banner to ten real project and workflow previews, enlarged the wordmark, and refreshed desktop and mobile layouts. The Skin Workshop contribution is credited to its original app creator; six focused GitHub pins remain in place.
 - **2026-10-09:** added [Video Studio · 视频制作](https://github.com/LydiaTools/video-studio-updates), with a public, verified build1–26 iteration journal and the current internal macOS build26 status.
 
 - **2026-10-08:** added Social Post Image Maker / 出海社媒配图助手, a bilingual visual post studio with four platform layouts, four styles, and a four-image ZIP export.
