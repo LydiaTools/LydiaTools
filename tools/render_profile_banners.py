@@ -35,6 +35,8 @@ PROJECTS = [
     ("skin-workshop-library.png", "CODEX THEMING", "Codex Skin Workshop", "My enhancements and skins; original app by luhaozwork.", "#f5a9b8"),
 ]
 
+FEATURED_PROJECTS = PROJECTS[:4]
+
 
 def load_font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
     if bold:
@@ -140,6 +142,103 @@ def finish(canvas: Image.Image, destination: Path) -> None:
     canvas.convert("RGB").save(destination, format="PNG", optimize=True)
 
 
+def draw_feature_card(canvas: Image.Image, project: tuple[str, str, str, str, str],
+                      x: int, y: int, width: int, mobile: bool) -> None:
+    filename, category, name, value, accent = project
+    draw = ImageDraw.Draw(canvas)
+    card_height = 142 if mobile else 178
+    image_height = 56 if mobile else 98
+    image_top = y + (8 if mobile else 9)
+    inset = 8 if mobile else 12
+    image_width = width - inset * 2
+    draw.rounded_rectangle(
+        (x * SCALE, y * SCALE, (x + width) * SCALE, (y + card_height) * SCALE),
+        radius=(10 if mobile else 12) * SCALE, fill=PANEL,
+    )
+    draw.rounded_rectangle(
+        (x * SCALE, y * SCALE, (x + width) * SCALE, (y + 4) * SCALE),
+        radius=2 * SCALE, fill=accent,
+    )
+    preview = fitted_preview(filename, (image_width, image_height))
+    mask = Image.new("L", preview.size, 0)
+    ImageDraw.Draw(mask).rounded_rectangle(
+        (0, 0, preview.width - 1, preview.height - 1), radius=6 * SCALE, fill=255,
+    )
+    canvas.paste(preview, ((x + inset) * SCALE, image_top * SCALE), mask)
+
+    text_x = x + inset
+    content_width = width - inset * 2
+    category_size = 7 if mobile else 9
+    name_size = 10 if mobile else 16
+    value_size = 8 if mobile else 11
+    category_top = image_top + image_height + (7 if mobile else 9)
+    category_font = load_font(category_size, bold=True)
+    name_font = load_font(name_size, bold=True)
+    value_font = load_font(value_size)
+    draw.text((text_x * SCALE, category_top * SCALE), category,
+              font=category_font, fill=accent)
+
+    name_top = category_top + (12 if mobile else 16)
+    name_lines = wrap_text(name, name_font, content_width)[:2]
+    name_line_height = 12 if mobile else 19
+    draw_lines(draw, (text_x, name_top), name_lines, name_font, WHITE, name_line_height)
+
+    value_top = name_top + len(name_lines) * name_line_height + (0 if mobile else 2)
+    value_lines = wrap_text(value, value_font, content_width)[:2]
+    draw_lines(draw, (text_x, value_top), value_lines, value_font, TEXT,
+               10 if mobile else 13)
+
+
+def render_featured_desktop() -> None:
+    width, height = 1200, 670
+    canvas = Image.new("RGBA", (width * SCALE, height * SCALE), INK)
+    draw = ImageDraw.Draw(canvas)
+    draw.ellipse((1080 * SCALE, -185 * SCALE, 1370 * SCALE, 110 * SCALE), fill="#1c2d49")
+    draw.ellipse((-145 * SCALE, 660 * SCALE, 100 * SCALE, 900 * SCALE), fill="#123447")
+
+    draw_tracked(draw, (42, 20), "INDEPENDENT MAKER · PRACTICAL SOFTWARE",
+                 load_font(13, bold=True), MUTED, 2)
+    draw_tracked(draw, (38, 43), "LydiaTools", load_font(174, bold=True), WHITE, -6)
+    draw.text((45 * SCALE, 218 * SCALE), "Small tools for clearer next steps.",
+              font=load_font(23), fill=TEXT)
+    draw.text((914 * SCALE, 225 * SCALE), "FOUR PROJECTS TO START",
+              font=load_font(10, bold=True), fill="#9ad9d0")
+    draw.line((40 * SCALE, 252 * SCALE, 1160 * SCALE, 252 * SCALE), fill=RULE, width=2 * SCALE)
+
+    margin, gap = 40, 20
+    card_width = (width - margin * 2 - gap) // 2
+    for index, project in enumerate(FEATURED_PROJECTS):
+        row, column = divmod(index, 2)
+        draw_feature_card(canvas, project, margin + column * (card_width + gap),
+                          270 + row * 198, card_width, mobile=False)
+    finish(canvas, ASSETS / "hero-v15.png")
+
+
+def render_featured_mobile() -> None:
+    width, height = 390, 480
+    canvas = Image.new("RGBA", (width * SCALE, height * SCALE), INK)
+    draw = ImageDraw.Draw(canvas)
+    draw.ellipse((290 * SCALE, -82 * SCALE, 466 * SCALE, 96 * SCALE), fill="#1c2d49")
+    draw.ellipse((-72 * SCALE, 472 * SCALE, 76 * SCALE, 620 * SCALE), fill="#123447")
+
+    draw_tracked(draw, (17, 13), "INDEPENDENT MAKER · PRACTICAL SOFTWARE",
+                 load_font(8, bold=True), MUTED, 1)
+    draw_tracked(draw, (15, 31), "LydiaTools", load_font(64, bold=True), WHITE, -2)
+    draw.text((18 * SCALE, 106 * SCALE), "Small tools for clearer next steps.",
+              font=load_font(15), fill=TEXT)
+    draw_tracked(draw, (19, 132), "FOUR PROJECTS TO START",
+                 load_font(7, bold=True), "#9ad9d0", 0)
+    draw.line((17 * SCALE, 153 * SCALE, 373 * SCALE, 153 * SCALE), fill=RULE, width=2 * SCALE)
+
+    margin, gap = 17, 10
+    card_width = (width - margin * 2 - gap) // 2
+    for index, project in enumerate(FEATURED_PROJECTS):
+        row, column = divmod(index, 2)
+        draw_feature_card(canvas, project, margin + column * (card_width + gap),
+                          166 + row * 152, card_width, mobile=True)
+    finish(canvas, ASSETS / "hero-mobile-v15.png")
+
+
 def render_desktop() -> None:
     width, height = 1200, 930
     canvas = Image.new("RGBA", (width * SCALE, height * SCALE), INK)
@@ -207,4 +306,6 @@ def render_mobile() -> None:
 if __name__ == "__main__":
     render_desktop()
     render_mobile()
-    print("Rendered assets/hero-v14.png and assets/hero-mobile-v14.png")
+    render_featured_desktop()
+    render_featured_mobile()
+    print("Rendered v14 portfolio banners and v15 four-project banners")

@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v14.png">
-  <img src="assets/hero-v14.png" alt="LydiaTools portfolio: eleven practical projects with real screens—Browser Agent Blueprint, CoverCalc Pro, Social Post Image Maker, Global Longform SEO Studio, Xiaohongshu NoteSignal, Lydia Foreign Trade System, Say It Plainly, Desktop Flow, Xiaoran Topic Assistant, Scope Check, and my enhancements and skins for the Codex Skin Workshop app originally created by luhaozwork" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v15.png">
+  <img src="assets/hero-v15.png" alt="LydiaTools: four featured projects with real screens—Browser Agent Blueprint, CoverCalc Pro, Social Post Image Maker, and Global Longform SEO Studio" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
@@ -11,6 +11,8 @@
 
 [Browser-agent demo](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Garden calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social image maker](https://lydiatools.github.io/aspectory/) · [Longform planning studio](https://lydiatools.github.io/longform-atlas/) · [NoteSignal](https://github.com/LydiaTools/notesignal) · [Trade inquiry system](https://github.com/LydiaTools/lydia-foreign-trade-system)<br>
 [Say It Plainly](https://github.com/LydiaTools/shuorenhua) · [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) · [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026) · [Scope Check](products/biefangong/README.md) · [Codex Skin Workshop contributions](https://github.com/mercedesbestsupplier-maker/bifang-codex-skins) — original app by [@luhaozwork](https://github.com/luhaozwork)
+
+**Featured in the banner:** [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) · [CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social Post Image Maker](https://github.com/LydiaTools/aspectory) · [Global Longform SEO Studio](https://github.com/LydiaTools/longform-atlas)
 
 Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products)
 
@@ -39,6 +41,8 @@ The demo uses deterministic host code and makes no model calls. Muse, Grok, and 
 <a href="https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator"><picture><source media="(max-width: 600px)" srcset="assets/covercalc-cost-mobile.png"><img src="assets/covercalc-cost-comparison.png" alt="Real CoverCalc Pro result: 14 whole bags cost USD 80 including delivery; the 2-cubic-yard minimum bulk order costs USD 105" width="720"></picture></a>
 
 *Real calculator output using the site's example inputs: 100 ft² at 3 in, 10% allowance, a 2 yd³ bulk minimum, and illustrative prices.*
+
+Also featured: [Social Post Image Maker](https://lydiatools.github.io/aspectory/) · [Global Longform SEO Studio](https://lydiatools.github.io/longform-atlas/)
 
 <details>
 <summary>See the measurements, allowance, and supplier rules behind that result</summary>
