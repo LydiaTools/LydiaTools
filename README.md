@@ -20,7 +20,7 @@ Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier
 
 ---
 
-## Start here · Pick the step that needs to move forward
+## Start here · Four featured projects for real work
 
 ### Browser Agent Blueprint · Check what happened before trying again
 
