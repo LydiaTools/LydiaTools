@@ -223,7 +223,7 @@ Basic tools will continue to be shared for free. Custom features, deployment hel
 
 ## Find me online
 
-[Facebook · Mercedes Costa](https://www.facebook.com/people/Mercedes-Costa/100074622692401/) · [Quora · MercedesCosta](https://www.quora.com/profile/MercedesCosta) · [TikTok · @covercalcpro](https://www.tiktok.com/@covercalcpro) · [X · MA HIBBERD](https://x.com/LRosamarina)
+[Facebook · Mercedes Costa](https://www.facebook.com/people/Mercedes-Costa/100074622692401/) · [Quora · MercedesCosta](https://www.quora.com/profile/MercedesCosta) · [TikTok · @covercalcpro](https://www.tiktok.com/@covercalcpro) · [X · @LRosamarina (MA HIBBERD)](https://x.com/LRosamarina)
 
 <a id="最近更新"></a>
 
