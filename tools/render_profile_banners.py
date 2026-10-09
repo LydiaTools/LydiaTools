@@ -35,7 +35,7 @@ PROJECTS = [
     ("skin-workshop-library.png", "CODEX THEMING", "Codex Skin Workshop", "My enhancements and skins; original app by luhaozwork.", "#f5a9b8"),
 ]
 
-FEATURED_PROJECTS = PROJECTS[:6]
+FEATURED_PROJECTS = PROJECTS[:9]
 
 
 def load_font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
@@ -190,53 +190,63 @@ def draw_feature_card(canvas: Image.Image, project: tuple[str, str, str, str, st
 
 
 def render_featured_desktop() -> None:
-    width, height = 1200, 700
+    width, height = 1200, 900
     canvas = Image.new("RGBA", (width * SCALE, height * SCALE), INK)
     draw = ImageDraw.Draw(canvas)
-    draw.ellipse((1080 * SCALE, -185 * SCALE, 1370 * SCALE, 110 * SCALE), fill="#1c2d49")
-    draw.ellipse((-145 * SCALE, 665 * SCALE, 100 * SCALE, 900 * SCALE), fill="#123447")
+    draw.ellipse((1075 * SCALE, -170 * SCALE, 1370 * SCALE, 125 * SCALE), fill="#1c2d49")
+    draw.ellipse((-145 * SCALE, 835 * SCALE, 100 * SCALE, 1070 * SCALE), fill="#123447")
 
     draw_tracked(draw, (42, 15), "INDEPENDENT MAKER · PRACTICAL SOFTWARE",
                  load_font(12, bold=True), MUTED, 2)
-    draw_tracked(draw, (38, 37), "LydiaTools", load_font(196, bold=True), WHITE, -6)
-    draw.text((43 * SCALE, 264 * SCALE), "Small tools for clearer next steps.",
-              font=load_font(18), fill=TEXT)
-    draw.text((902 * SCALE, 266 * SCALE), "6 PROJECTS · REAL SCREENS",
-              font=load_font(11, bold=True), fill="#9ad9d0")
-    draw.line((40 * SCALE, 294 * SCALE, 1160 * SCALE, 294 * SCALE), fill=RULE, width=2 * SCALE)
+    title_font = load_font(154, bold=True)
+    draw.text((39 * SCALE, 34 * SCALE), "Lydia", font=title_font, fill=WHITE)
+    draw.text((39 * SCALE, 147 * SCALE), "Tools", font=title_font, fill=WHITE)
+    draw.text((640 * SCALE, 82 * SCALE), "Small tools for",
+              font=load_font(31, bold=True), fill=TEXT)
+    draw.text((640 * SCALE, 124 * SCALE), "clearer next steps.",
+              font=load_font(27), fill=TEXT)
+    draw.text((642 * SCALE, 190 * SCALE), "9 PROJECTS · REAL SCREENS",
+              font=load_font(12, bold=True), fill="#9ad9d0")
+    draw.line((40 * SCALE, 308 * SCALE, 1160 * SCALE, 308 * SCALE), fill=RULE, width=2 * SCALE)
 
     margin, gap = 40, 20
     card_width = (width - margin * 2 - gap * 2) // 3
     for index, project in enumerate(FEATURED_PROJECTS):
         row, column = divmod(index, 3)
         draw_feature_card(canvas, project, margin + column * (card_width + gap),
-                          306 + row * 188, card_width, mobile=False)
-    finish(canvas, ASSETS / "hero-v16.png")
+                          320 + row * 188, card_width, mobile=False)
+    finish(canvas, ASSETS / "hero-v17.png")
 
 
 def render_featured_mobile() -> None:
-    width, height = 390, 630
+    width, height = 390, 975
     canvas = Image.new("RGBA", (width * SCALE, height * SCALE), INK)
     draw = ImageDraw.Draw(canvas)
     draw.ellipse((290 * SCALE, -82 * SCALE, 466 * SCALE, 96 * SCALE), fill="#1c2d49")
-    draw.ellipse((-72 * SCALE, 600 * SCALE, 76 * SCALE, 750 * SCALE), fill="#123447")
+    draw.ellipse((-72 * SCALE, 890 * SCALE, 76 * SCALE, 1040 * SCALE), fill="#123447")
 
     draw_tracked(draw, (17, 11), "INDEPENDENT MAKER · PRACTICAL SOFTWARE",
                  load_font(7, bold=True), MUTED, 1)
-    draw_tracked(draw, (15, 27), "LydiaTools", load_font(68, bold=True), WHITE, -2)
-    draw.text((18 * SCALE, 100 * SCALE), "Small tools for clearer next steps.",
+    title_font = load_font(68, bold=True)
+    draw.text((15 * SCALE, 25 * SCALE), "Lydia", font=title_font, fill=WHITE)
+    draw.text((15 * SCALE, 76 * SCALE), "Tools", font=title_font, fill=WHITE)
+    draw.text((18 * SCALE, 158 * SCALE), "Small tools for clearer next steps.",
               font=load_font(14), fill=TEXT)
-    draw_tracked(draw, (19, 125), "6 PROJECTS · REAL SCREENS",
+    draw_tracked(draw, (19, 179), "9 PROJECTS · REAL SCREENS",
                  load_font(7, bold=True), "#9ad9d0", 0)
-    draw.line((17 * SCALE, 149 * SCALE, 373 * SCALE, 149 * SCALE), fill=RULE, width=2 * SCALE)
+    draw.line((17 * SCALE, 197 * SCALE, 373 * SCALE, 197 * SCALE), fill=RULE, width=2 * SCALE)
 
     margin, gap = 17, 10
     card_width = (width - margin * 2 - gap) // 2
     for index, project in enumerate(FEATURED_PROJECTS):
         row, column = divmod(index, 2)
-        draw_feature_card(canvas, project, margin + column * (card_width + gap),
-                          161 + row * 152, card_width, mobile=True)
-    finish(canvas, ASSETS / "hero-mobile-v16.png")
+        y = 208 + row * 152
+        if index == len(FEATURED_PROJECTS) - 1 and len(FEATURED_PROJECTS) % 2:
+            draw_feature_card(canvas, project, margin, y, width - margin * 2, mobile=True)
+        else:
+            draw_feature_card(canvas, project, margin + column * (card_width + gap),
+                              y, card_width, mobile=True)
+    finish(canvas, ASSETS / "hero-mobile-v17.png")
 
 
 def render_desktop() -> None:
@@ -308,4 +318,4 @@ if __name__ == "__main__":
     render_mobile()
     render_featured_desktop()
     render_featured_mobile()
-    print("Rendered v14 portfolio banners and v16 six-project banners")
+    print("Rendered v14 portfolio banners and v17 nine-project banners")

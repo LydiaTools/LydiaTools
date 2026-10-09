@@ -1,18 +1,18 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v16.png">
-  <img src="assets/hero-v16.png" alt="LydiaTools: six featured projects with real product screens—Browser Agent Blueprint, CoverCalc Pro, Social Post Image Maker, Global Longform SEO Studio, Xiaohongshu NoteSignal, and Lydia Foreign Trade System" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v17.png">
+  <img src="assets/hero-v17.png" alt="LydiaTools: nine practical projects with real product screens—Browser Agent Blueprint, CoverCalc Pro, Social Post Image Maker, Global Longform SEO Studio, Xiaohongshu NoteSignal, Lydia Foreign Trade System, Say It Plainly, Desktop Flow, and Xiaoran Topic Assistant" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
 >
-> Check whether an agent saved, compare a garden order, turn one idea into platform-ready visuals, plan articles around a creator identity, keep research source-linked, or review trade inquiries before following up.
+> Start with browser reliability, garden buying, or platform-ready visuals. Explore creator publishing, source-linked research, trade workflows, clearer replies, desktop capture, and content research.
 
 [Browser-agent demo](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Garden calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social image maker](https://lydiatools.github.io/aspectory/) · [Longform planning studio](https://lydiatools.github.io/longform-atlas/) · [NoteSignal](https://github.com/LydiaTools/notesignal) · [Trade inquiry system](https://github.com/LydiaTools/lydia-foreign-trade-system)<br>
 [Say It Plainly](https://github.com/LydiaTools/shuorenhua) · [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) · [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026) · [Scope Check](products/biefangong/README.md) · [Codex Skin Workshop contributions](https://github.com/mercedesbestsupplier-maker/bifang-codex-skins) — original app by [@luhaozwork](https://github.com/luhaozwork)
 
-**Featured in the banner:** [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) · [CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social Post Image Maker](https://github.com/LydiaTools/aspectory) · [Global Longform SEO Studio](https://github.com/LydiaTools/longform-atlas) · [Xiaohongshu NoteSignal](https://github.com/LydiaTools/notesignal) · [Lydia Foreign Trade System](https://github.com/LydiaTools/lydia-foreign-trade-system)
+**Nine projects in the banner:** [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) · [CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social Post Image Maker](https://github.com/LydiaTools/aspectory) · [Global Longform SEO Studio](https://github.com/LydiaTools/longform-atlas) · [Xiaohongshu NoteSignal](https://github.com/LydiaTools/notesignal) · [Lydia Foreign Trade System](https://github.com/LydiaTools/lydia-foreign-trade-system) · [Say It Plainly](https://github.com/LydiaTools/shuorenhua) · [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) · [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026)
 
 Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products)
 
@@ -229,7 +229,7 @@ Basic tools will continue to be shared for free. Custom features, deployment hel
 
 ## Recent updates
 
-- **2026-10-09:** expanded the LydiaTools banner to nine real projects, gave the wordmark a stronger two-line composition, and rebuilt the mobile layout. Browser Agent Blueprint and CoverCalc Pro lead the grid; the Skin Workshop contribution stays credited to its original app creator.
+- **2026-10-09:** expanded the LydiaTools banner from six to nine real projects, split the wordmark into a stronger two-line masthead, and rebuilt the mobile layout. Browser Agent Blueprint, CoverCalc Pro, and Social Post Image Maker lead the grid; the Skin Workshop contribution stays credited to its original app creator.
 - **2026-10-09:** added [Video Studio · 视频制作](https://github.com/LydiaTools/video-studio-updates), with a public, verified build1–26 iteration journal and the current internal macOS build26 status.
 
 - **2026-10-08:** added Social Post Image Maker / 出海社媒配图助手, a bilingual visual post studio with four platform layouts, four styles, and a four-image ZIP export.
