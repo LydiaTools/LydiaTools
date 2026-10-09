@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v15.png">
-  <img src="assets/hero-v15.png" alt="LydiaTools: four featured projects with real screens—Browser Agent Blueprint, CoverCalc Pro, Social Post Image Maker, and Global Longform SEO Studio" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v16.png">
+  <img src="assets/hero-v16.png" alt="LydiaTools: six featured projects with real product screens—Browser Agent Blueprint, CoverCalc Pro, Social Post Image Maker, Global Longform SEO Studio, Xiaohongshu NoteSignal, and Lydia Foreign Trade System" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
@@ -12,7 +12,7 @@
 [Browser-agent demo](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Garden calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social image maker](https://lydiatools.github.io/aspectory/) · [Longform planning studio](https://lydiatools.github.io/longform-atlas/) · [NoteSignal](https://github.com/LydiaTools/notesignal) · [Trade inquiry system](https://github.com/LydiaTools/lydia-foreign-trade-system)<br>
 [Say It Plainly](https://github.com/LydiaTools/shuorenhua) · [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) · [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026) · [Scope Check](products/biefangong/README.md) · [Codex Skin Workshop contributions](https://github.com/mercedesbestsupplier-maker/bifang-codex-skins) — original app by [@luhaozwork](https://github.com/luhaozwork)
 
-**Featured in the banner:** [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) · [CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social Post Image Maker](https://github.com/LydiaTools/aspectory) · [Global Longform SEO Studio](https://github.com/LydiaTools/longform-atlas)
+**Featured in the banner:** [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) · [CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social Post Image Maker](https://github.com/LydiaTools/aspectory) · [Global Longform SEO Studio](https://github.com/LydiaTools/longform-atlas) · [Xiaohongshu NoteSignal](https://github.com/LydiaTools/notesignal) · [Lydia Foreign Trade System](https://github.com/LydiaTools/lydia-foreign-trade-system)
 
 Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products)
 
