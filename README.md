@@ -1,15 +1,15 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v4.svg">
-  <img src="assets/hero-v4.svg" alt="LydiaTools: six practical projects for browser recovery, garden buying, social visuals, creator articles, source-linked research, and trade inquiry review" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v5.svg">
+  <img src="assets/hero-v5.svg" alt="LydiaTools: seven practical projects for browser recovery, garden buying, social visuals, creator articles, content research, trade inquiries, and clear communication" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
 >
-> Recover a timed-out browser workflow, compare garden-material orders, create platform-native visuals, plan creator-led articles, review visible note examples, or sort trade inquiries.
+> Recover a timed-out browser workflow, compare garden-material orders, create platform-native visuals, plan creator-led articles, review source-linked examples, sort trade inquiries, or make a long message clearer.
 
-[Browser-agent demo](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Garden calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social image maker](https://lydiatools.github.io/aspectory/) · [Longform planning studio](https://lydiatools.github.io/longform-atlas/) · [NoteSignal](https://github.com/LydiaTools/notesignal) · [Trade inquiry system](https://github.com/LydiaTools/lydia-foreign-trade-system)
+[Browser-agent demo](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Garden calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social image maker](https://lydiatools.github.io/aspectory/) · [Longform planning studio](https://lydiatools.github.io/longform-atlas/) · [NoteSignal](https://github.com/LydiaTools/notesignal) · [Trade inquiry system](https://github.com/LydiaTools/lydia-foreign-trade-system) · [Say It Plainly](https://github.com/LydiaTools/shuorenhua)
 
 Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products)
 
@@ -224,7 +224,7 @@ Basic tools will continue to be shared for free. Custom features, deployment hel
 
 ## Recent updates
 
-- **2026-10-09:** redesigned the Lydia Tools profile banner around four practical projects, with a larger brand title and a mobile-specific layout.
+- **2026-10-09:** expanded the LydiaTools profile banner to seven public projects, with a larger wordmark, two featured projects, and compact mobile cards.
 - **2026-10-09:** added [Video Studio · 视频制作](https://github.com/LydiaTools/video-studio-updates), with a public, verified build1–26 iteration journal and the current internal macOS build26 status.
 
 - **2026-10-08:** added Social Post Image Maker / 出海社媒配图助手, a bilingual visual post studio with four platform layouts, four styles, and a four-image ZIP export.

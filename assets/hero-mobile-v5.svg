@@ -1,0 +1,65 @@
+<svg width="390" height="790" viewBox="0 0 390 790" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">LydiaTools | Seven practical projects</title>
+  <desc id="description">Seven tools for browser recovery, garden buying, social visuals, creator articles, content research, trade inquiries, and clear communication.</desc>
+
+  <rect width="390" height="790" rx="24" fill="#101A29"/>
+  <circle cx="405" cy="-4" r="124" fill="#1C2A43"/>
+  <circle cx="-12" cy="790" r="92" fill="#142735"/>
+
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="24" y="36" fill="#A6B7C7" font-size="11" font-weight="700">Independent maker</text>
+    <text x="17" y="124" fill="#F7F9F7" font-size="68" font-weight="700" letter-spacing="-3.2">LydiaTools</text>
+    <rect x="24" y="142" width="96" height="5" rx="2.5" fill="#91D9E6"/>
+    <text x="24" y="174" fill="#D4DFE7" font-size="15">Small tools. Clearer next steps.</text>
+    <text x="24" y="198" fill="#AEBECD" font-size="12">Seven projects built around real work.</text>
+    <path d="M20 214H370" stroke="#39495C"/>
+
+    <rect x="20" y="226" width="169" height="128" rx="13" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="226" width="4" height="128" rx="2" fill="#91D9E6"/>
+    <text x="36" y="249" fill="#91D9E6" font-size="9" font-weight="700">Browser reliability</text>
+    <text x="36" y="277" fill="#F7F9F7" font-size="15" font-weight="700">Browser Agent</text>
+    <text x="36" y="295" fill="#F7F9F7" font-size="15" font-weight="700">Blueprint</text>
+    <text x="36" y="326" fill="#C5D1DD" font-size="11">Check before retrying.</text>
+
+    <rect x="201" y="226" width="169" height="128" rx="13" fill="#18283A" stroke="#35465A"/>
+    <rect x="201" y="226" width="4" height="128" rx="2" fill="#F2C66D"/>
+    <text x="217" y="249" fill="#F2C66D" font-size="9" font-weight="700">Garden buying</text>
+    <text x="217" y="282" fill="#F7F9F7" font-size="16" font-weight="700">CoverCalc Pro</text>
+    <text x="217" y="311" fill="#C5D1DD" font-size="11">Compare quantities, bags</text>
+    <text x="217" y="327" fill="#C5D1DD" font-size="11">and delivery.</text>
+
+    <rect x="20" y="366" width="169" height="122" rx="13" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="366" width="4" height="122" rx="2" fill="#8FE1B8"/>
+    <text x="36" y="389" fill="#8FE1B8" font-size="9" font-weight="700">Social visuals</text>
+    <text x="36" y="417" fill="#F7F9F7" font-size="14" font-weight="700">Social Post Image</text>
+    <text x="36" y="434" fill="#F7F9F7" font-size="14" font-weight="700">Maker</text>
+    <text x="36" y="465" fill="#C5D1DD" font-size="10">Four platform layouts.</text>
+
+    <rect x="201" y="366" width="169" height="122" rx="13" fill="#18283A" stroke="#35465A"/>
+    <rect x="201" y="366" width="4" height="122" rx="2" fill="#D0B8FF"/>
+    <text x="217" y="389" fill="#D0B8FF" font-size="9" font-weight="700">Creator publishing</text>
+    <text x="217" y="417" fill="#F7F9F7" font-size="14" font-weight="700">Global Longform</text>
+    <text x="217" y="434" fill="#F7F9F7" font-size="14" font-weight="700">SEO Studio</text>
+    <text x="217" y="465" fill="#C5D1DD" font-size="10">Plan around your profile.</text>
+
+    <rect x="20" y="500" width="169" height="122" rx="13" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="500" width="4" height="122" rx="2" fill="#F5A9B8"/>
+    <text x="36" y="523" fill="#F5A9B8" font-size="9" font-weight="700">Content research</text>
+    <text x="36" y="551" fill="#F7F9F7" font-size="14" font-weight="700">Xiaohongshu</text>
+    <text x="36" y="568" fill="#F7F9F7" font-size="14" font-weight="700">NoteSignal</text>
+    <text x="36" y="599" fill="#C5D1DD" font-size="10">Keep examples source-linked.</text>
+
+    <rect x="201" y="500" width="169" height="122" rx="13" fill="#18283A" stroke="#35465A"/>
+    <rect x="201" y="500" width="4" height="122" rx="2" fill="#F0A66A"/>
+    <text x="217" y="523" fill="#F0A66A" font-size="9" font-weight="700">Trade inquiries</text>
+    <text x="217" y="551" fill="#F7F9F7" font-size="14" font-weight="700">Lydia Foreign</text>
+    <text x="217" y="568" fill="#F7F9F7" font-size="14" font-weight="700">Trade System</text>
+    <text x="217" y="599" fill="#C5D1DD" font-size="10">Review before follow-up.</text>
+
+    <rect x="20" y="634" width="350" height="122" rx="13" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="634" width="4" height="122" rx="2" fill="#91D9E6"/>
+    <text x="40" y="659" fill="#91D9E6" font-size="10" font-weight="700">Clear communication</text>
+    <text x="40" y="692" fill="#F7F9F7" font-size="17" font-weight="700">Say It Plainly</text>
+    <text x="40" y="725" fill="#C5D1DD" font-size="12">Turn long messages into clear next steps.</text>
+  </g>
+</svg>
