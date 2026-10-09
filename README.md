@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v7.png">
-  <img src="assets/hero-v7.png" alt="LydiaTools portfolio: six real project views for browser recovery, garden buying, social publishing, creator SEO, source-linked research, and trade inquiry review" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v8.png">
+  <img src="assets/hero-v8.png" alt="LydiaTools portfolio: six real project views for browser recovery, garden buying, social publishing, creator SEO, source-linked research, and trade inquiry review" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
@@ -224,7 +224,7 @@ Basic tools will continue to be shared for free. Custom features, deployment hel
 
 ## Recent updates
 
-- **2026-10-09:** rebuilt the LydiaTools profile banner around six practical projects, with a larger wordmark and a dedicated mobile layout.
+- **2026-10-09:** expanded the LydiaTools profile's pinned projects to six, and increased the banner wordmark while keeping all six real project previews visible on desktop and mobile.
 - **2026-10-09:** added [Video Studio · 视频制作](https://github.com/LydiaTools/video-studio-updates), with a public, verified build1–26 iteration journal and the current internal macOS build26 status.
 
 - **2026-10-08:** added Social Post Image Maker / 出海社媒配图助手, a bilingual visual post studio with four platform layouts, four styles, and a four-image ZIP export.
