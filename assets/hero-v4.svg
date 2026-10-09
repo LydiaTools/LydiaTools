@@ -1,0 +1,56 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">LydiaTools · six practical projects</title>
+  <desc id="description">Six tools for browser recovery, garden buying, social visuals, creator articles, source-linked research, and trade inquiry review.</desc>
+
+  <rect width="1200" height="600" rx="28" fill="#101A29"/>
+  <circle cx="1174" cy="-8" r="218" fill="#1C2A43"/>
+  <circle cx="-18" cy="600" r="150" fill="#142735"/>
+  <path d="M52 220H1148" stroke="#39495C"/>
+
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="58" y="43" fill="#A6B7C7" font-size="13" font-weight="700" letter-spacing="2.2">INDEPENDENT MAKER · SOFTWARE FOR REAL WORK</text>
+    <text x="52" y="145" fill="#F7F9F7" font-size="120" font-weight="700" letter-spacing="-5">LydiaTools</text>
+    <rect x="60" y="164" width="112" height="6" rx="3" fill="#91D9E6"/>
+    <text x="60" y="201" fill="#D4DFE7" font-size="21">Small tools. Clearer next steps.</text>
+
+    <text x="820" y="83" fill="#91D9E6" font-size="17" font-weight="700" letter-spacing="1">SIX PRACTICAL PROJECTS</text>
+    <text x="820" y="119" fill="#F7F9F7" font-size="21" font-weight="700">Browser · garden · creator · trade</text>
+    <text x="820" y="153" fill="#AEBECD" font-size="15">Each one helps make a real task clearer.</text>
+
+    <rect x="50" y="239" width="350" height="143" rx="15" fill="#18283A" stroke="#35465A"/>
+    <rect x="50" y="239" width="5" height="143" rx="2.5" fill="#91D9E6"/>
+    <text x="72" y="269" fill="#91D9E6" font-size="12" font-weight="700" letter-spacing="1">AGENT RECOVERY</text>
+    <text x="72" y="307" fill="#F7F9F7" font-size="20" font-weight="700">Browser Agent Blueprint</text>
+    <text x="72" y="349" fill="#C5D1DD" font-size="15">Verify saved state before retrying.</text>
+
+    <rect x="425" y="239" width="350" height="143" rx="15" fill="#18283A" stroke="#35465A"/>
+    <rect x="425" y="239" width="5" height="143" rx="2.5" fill="#F2C66D"/>
+    <text x="447" y="269" fill="#F2C66D" font-size="12" font-weight="700" letter-spacing="1">GARDEN BUYING</text>
+    <text x="447" y="307" fill="#F7F9F7" font-size="21" font-weight="700">CoverCalc Pro</text>
+    <text x="447" y="349" fill="#C5D1DD" font-size="15">Compare bags, bulk rules, and delivery.</text>
+
+    <rect x="800" y="239" width="350" height="143" rx="15" fill="#18283A" stroke="#35465A"/>
+    <rect x="800" y="239" width="5" height="143" rx="2.5" fill="#8FE1B8"/>
+    <text x="822" y="269" fill="#8FE1B8" font-size="12" font-weight="700" letter-spacing="1">SOCIAL VISUALS</text>
+    <text x="822" y="307" fill="#F7F9F7" font-size="20" font-weight="700">Social Post Image Maker</text>
+    <text x="822" y="349" fill="#C5D1DD" font-size="15">Export four layouts from one idea.</text>
+
+    <rect x="50" y="402" width="350" height="143" rx="15" fill="#18283A" stroke="#35465A"/>
+    <rect x="50" y="402" width="5" height="143" rx="2.5" fill="#D0B8FF"/>
+    <text x="72" y="432" fill="#D0B8FF" font-size="12" font-weight="700" letter-spacing="1">CREATOR ARTICLES</text>
+    <text x="72" y="470" fill="#F7F9F7" font-size="19" font-weight="700">Global Longform SEO Studio</text>
+    <text x="72" y="512" fill="#C5D1DD" font-size="15">Build platform plans around your IP.</text>
+
+    <rect x="425" y="402" width="350" height="143" rx="15" fill="#18283A" stroke="#35465A"/>
+    <rect x="425" y="402" width="5" height="143" rx="2.5" fill="#F5A9B8"/>
+    <text x="447" y="432" fill="#F5A9B8" font-size="12" font-weight="700" letter-spacing="1">CONTENT RESEARCH</text>
+    <text x="447" y="470" fill="#F7F9F7" font-size="20" font-weight="700">Xiaohongshu NoteSignal</text>
+    <text x="447" y="512" fill="#C5D1DD" font-size="15">Keep visible notes tied to sources.</text>
+
+    <rect x="800" y="402" width="350" height="143" rx="15" fill="#18283A" stroke="#35465A"/>
+    <rect x="800" y="402" width="5" height="143" rx="2.5" fill="#F0A66A"/>
+    <text x="822" y="432" fill="#F0A66A" font-size="12" font-weight="700" letter-spacing="1">TRADE INQUIRIES</text>
+    <text x="822" y="470" fill="#F7F9F7" font-size="19" font-weight="700">Lydia Foreign Trade System</text>
+    <text x="822" y="512" fill="#C5D1DD" font-size="15">Review buyer evidence before follow-up.</text>
+  </g>
+</svg>

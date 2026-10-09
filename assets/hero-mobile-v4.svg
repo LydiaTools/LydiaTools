@@ -1,0 +1,53 @@
+<svg width="390" height="1120" viewBox="0 0 390 1120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">LydiaTools · six practical projects</title>
+  <desc id="description">Six tools for browser recovery, garden buying, social visuals, creator articles, source-linked research, and trade inquiry review.</desc>
+
+  <rect width="390" height="1120" rx="24" fill="#101A29"/>
+  <circle cx="410" cy="-10" r="145" fill="#1C2A43"/>
+  <circle cx="-12" cy="1120" r="105" fill="#142735"/>
+
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="24" y="38" fill="#A6B7C7" font-size="10" font-weight="700" letter-spacing="1.4">INDEPENDENT MAKER</text>
+    <text x="20" y="105" fill="#F7F9F7" font-size="58" font-weight="700" letter-spacing="-2.8">LydiaTools</text>
+    <rect x="25" y="126" width="84" height="5" rx="2.5" fill="#91D9E6"/>
+    <text x="25" y="158" fill="#D4DFE7" font-size="16">Small tools. Clearer next steps.</text>
+    <text x="25" y="190" fill="#AEBECD" font-size="13">Six projects built around real work.</text>
+    <path d="M24 215H366" stroke="#39495C"/>
+
+    <rect x="20" y="232" width="350" height="132" rx="14" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="232" width="5" height="132" rx="2.5" fill="#91D9E6"/>
+    <text x="40" y="258" fill="#91D9E6" font-size="10" font-weight="700" letter-spacing="0.9">AGENT RECOVERY</text>
+    <text x="40" y="291" fill="#F7F9F7" font-size="19" font-weight="700">Browser Agent Blueprint</text>
+    <text x="40" y="327" fill="#C5D1DD" font-size="13">Verify saved state before retrying.</text>
+
+    <rect x="20" y="376" width="350" height="132" rx="14" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="376" width="5" height="132" rx="2.5" fill="#F2C66D"/>
+    <text x="40" y="402" fill="#F2C66D" font-size="10" font-weight="700" letter-spacing="0.9">GARDEN BUYING</text>
+    <text x="40" y="435" fill="#F7F9F7" font-size="20" font-weight="700">CoverCalc Pro</text>
+    <text x="40" y="471" fill="#C5D1DD" font-size="13">Compare bags, bulk rules &amp; delivery.</text>
+
+    <rect x="20" y="520" width="350" height="132" rx="14" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="520" width="5" height="132" rx="2.5" fill="#8FE1B8"/>
+    <text x="40" y="546" fill="#8FE1B8" font-size="10" font-weight="700" letter-spacing="0.9">SOCIAL VISUALS</text>
+    <text x="40" y="579" fill="#F7F9F7" font-size="19" font-weight="700">Social Post Image Maker</text>
+    <text x="40" y="615" fill="#C5D1DD" font-size="13">Export four layouts from one idea.</text>
+
+    <rect x="20" y="664" width="350" height="132" rx="14" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="664" width="5" height="132" rx="2.5" fill="#D0B8FF"/>
+    <text x="40" y="690" fill="#D0B8FF" font-size="10" font-weight="700" letter-spacing="0.9">CREATOR ARTICLES</text>
+    <text x="40" y="723" fill="#F7F9F7" font-size="18" font-weight="700">Global Longform SEO Studio</text>
+    <text x="40" y="759" fill="#C5D1DD" font-size="13">Build platform plans around your IP.</text>
+
+    <rect x="20" y="808" width="350" height="132" rx="14" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="808" width="5" height="132" rx="2.5" fill="#F5A9B8"/>
+    <text x="40" y="834" fill="#F5A9B8" font-size="10" font-weight="700" letter-spacing="0.9">CONTENT RESEARCH</text>
+    <text x="40" y="867" fill="#F7F9F7" font-size="19" font-weight="700">Xiaohongshu NoteSignal</text>
+    <text x="40" y="903" fill="#C5D1DD" font-size="13">Keep visible notes tied to sources.</text>
+
+    <rect x="20" y="952" width="350" height="132" rx="14" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="952" width="5" height="132" rx="2.5" fill="#F0A66A"/>
+    <text x="40" y="978" fill="#F0A66A" font-size="10" font-weight="700" letter-spacing="0.9">TRADE INQUIRIES</text>
+    <text x="40" y="1011" fill="#F7F9F7" font-size="18" font-weight="700">Lydia Foreign Trade System</text>
+    <text x="40" y="1047" fill="#C5D1DD" font-size="13">Review buyer evidence before follow-up.</text>
+  </g>
+</svg>

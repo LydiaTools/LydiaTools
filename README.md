@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v3.svg">
-  <img src="assets/hero-v3.svg" alt="Lydia Tools features six practical projects: Browser Agent Blueprint, CoverCalc Pro, Social Post Image Maker, Global Longform SEO Studio, Xiaohongshu NoteSignal, and Lydia Foreign Trade System" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v4.svg">
+  <img src="assets/hero-v4.svg" alt="LydiaTools: six practical projects for browser recovery, garden buying, social visuals, creator articles, source-linked research, and trade inquiry review" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
