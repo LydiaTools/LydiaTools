@@ -1,15 +1,15 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v2.svg">
-  <img src="assets/hero-v2.svg" alt="Lydia Tools features four practical projects: Browser Agent Blueprint, CoverCalc Pro, Social Post Image Maker, and Global Longform SEO Studio" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v3.svg">
+  <img src="assets/hero-v3.svg" alt="Lydia Tools features six practical projects: Browser Agent Blueprint, CoverCalc Pro, Social Post Image Maker, Global Longform SEO Studio, Xiaohongshu NoteSignal, and Lydia Foreign Trade System" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
 >
-> Recover a timed-out browser workflow, compare a real garden-material order, adapt one idea for four social platforms, or plan articles around a creator identity.
+> Recover a timed-out browser workflow, compare garden-material orders, create platform-native visuals, plan creator-led articles, review visible note examples, or sort trade inquiries.
 
-[Browser-agent demo](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Garden calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social image maker](https://lydiatools.github.io/aspectory/) · [Longform planning studio](https://lydiatools.github.io/longform-atlas/)
+[Browser-agent demo](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Garden calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social image maker](https://lydiatools.github.io/aspectory/) · [Longform planning studio](https://lydiatools.github.io/longform-atlas/) · [NoteSignal](https://github.com/LydiaTools/notesignal) · [Trade inquiry system](https://github.com/LydiaTools/lydia-foreign-trade-system)
 
 Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products)
 
@@ -17,7 +17,7 @@ Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier
 
 ---
 
-## Start here · Four tools for real tasks
+## Start here · Pick a task to improve
 
 ### Browser Agent Blueprint · Check what happened before trying again
 

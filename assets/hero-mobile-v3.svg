@@ -1,0 +1,53 @@
+<svg width="390" height="1150" viewBox="0 0 390 1150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Lydia Tools · six practical projects</title>
+  <desc id="description">Six practical tools for browser-agent recovery, garden calculations, social visuals, creator articles, Xiaohongshu research, and trade inquiry review.</desc>
+
+  <rect width="390" height="1150" rx="24" fill="#101A29"/>
+  <circle cx="410" cy="-10" r="145" fill="#1C2A43"/>
+  <circle cx="-12" cy="1150" r="105" fill="#142735"/>
+
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="24" y="44" fill="#A6B7C7" font-size="11" font-weight="700" letter-spacing="1.4">INDEPENDENT PROJECTS</text>
+    <text x="18" y="119" fill="#F7F9F7" font-size="62" font-weight="700" letter-spacing="-2.8">Lydia Tools</text>
+    <rect x="26" y="140" width="82" height="6" rx="3" fill="#91D9E6"/>
+    <text x="26" y="177" fill="#D4DFE7" font-size="18">Small tools. Clearer next steps.</text>
+    <path d="M24 205H366" stroke="#39495C"/>
+    <text x="26" y="231" fill="#91D9E6" font-size="12" font-weight="700" letter-spacing="1">SIX TOOLS TO EXPLORE</text>
+
+    <rect x="20" y="250" width="350" height="134" rx="14" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="250" width="5" height="134" rx="2.5" fill="#91D9E6"/>
+    <text x="40" y="276" fill="#91D9E6" font-size="11" font-weight="700" letter-spacing="0.9">AGENT WORKFLOWS</text>
+    <text x="40" y="308" fill="#F7F9F7" font-size="21" font-weight="700">Browser Agent Blueprint</text>
+    <text x="40" y="344" fill="#C5D1DD" font-size="14">Check saved state before retrying.</text>
+
+    <rect x="20" y="396" width="350" height="134" rx="14" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="396" width="5" height="134" rx="2.5" fill="#F2C66D"/>
+    <text x="40" y="422" fill="#F2C66D" font-size="11" font-weight="700" letter-spacing="0.9">GARDEN CALCULATIONS</text>
+    <text x="40" y="454" fill="#F7F9F7" font-size="21" font-weight="700">CoverCalc Pro</text>
+    <text x="40" y="490" fill="#C5D1DD" font-size="14">Compare bags, bulk minimums, and delivery.</text>
+
+    <rect x="20" y="542" width="350" height="134" rx="14" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="542" width="5" height="134" rx="2.5" fill="#8FE1B8"/>
+    <text x="40" y="568" fill="#8FE1B8" font-size="11" font-weight="700" letter-spacing="0.9">SOCIAL VISUALS</text>
+    <text x="40" y="600" fill="#F7F9F7" font-size="20" font-weight="700">Social Post Image Maker</text>
+    <text x="40" y="636" fill="#C5D1DD" font-size="14">One idea, four platform-ready layouts.</text>
+
+    <rect x="20" y="688" width="350" height="134" rx="14" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="688" width="5" height="134" rx="2.5" fill="#D0B8FF"/>
+    <text x="40" y="714" fill="#D0B8FF" font-size="11" font-weight="700" letter-spacing="0.9">CREATOR ARTICLES</text>
+    <text x="40" y="746" fill="#F7F9F7" font-size="19" font-weight="700">Global Longform SEO Studio</text>
+    <text x="40" y="782" fill="#C5D1DD" font-size="14">Plan creator-led articles for each platform.</text>
+
+    <rect x="20" y="834" width="350" height="134" rx="14" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="834" width="5" height="134" rx="2.5" fill="#F5A9B8"/>
+    <text x="40" y="860" fill="#F5A9B8" font-size="11" font-weight="700" letter-spacing="0.9">CONTENT RESEARCH</text>
+    <text x="40" y="892" fill="#F7F9F7" font-size="20" font-weight="700">Xiaohongshu NoteSignal</text>
+    <text x="40" y="928" fill="#C5D1DD" font-size="14">Keep visible notes linked to their source.</text>
+
+    <rect x="20" y="980" width="350" height="134" rx="14" fill="#18283A" stroke="#35465A"/>
+    <rect x="20" y="980" width="5" height="134" rx="2.5" fill="#F0A66A"/>
+    <text x="40" y="1006" fill="#F0A66A" font-size="11" font-weight="700" letter-spacing="0.9">TRADE INQUIRIES</text>
+    <text x="40" y="1038" fill="#F7F9F7" font-size="19" font-weight="700">Lydia Foreign Trade System</text>
+    <text x="40" y="1074" fill="#C5D1DD" font-size="14">Review evidence before following up.</text>
+  </g>
+</svg>
