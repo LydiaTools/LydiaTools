@@ -1,19 +1,32 @@
-<svg width="600" height="500" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
-  <title id="title">Lydia Tools · Browser Agent Blueprint and CoverCalc Pro</title>
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="600" y2="500" gradientUnits="userSpaceOnUse"><stop stop-color="#111827"/><stop offset="0.55" stop-color="#1F2937"/><stop offset="1" stop-color="#312E81"/></linearGradient></defs>
-  <rect width="600" height="500" rx="24" fill="url(#bg)"/>
-  <circle cx="540" cy="25" r="180" fill="#67E8F9" fill-opacity="0.06"/>
-  <text x="44" y="62" fill="#A5F3FC" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="24">Lydia Tools · Small tools, real use</text>
-  <g fill="white" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="49" font-weight="700"><text x="42" y="130">Make the next</text><text x="42" y="191">step clearer.</text></g>
-  <text x="44" y="232" fill="#CBD5E1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="21">Two projects you can try.</text>
-  <g fill="#F8FAFC"><rect x="44" y="267" width="512" height="92" rx="15"/><rect x="44" y="380" width="512" height="92" rx="15"/></g>
-  <circle cx="76" cy="306" r="15" fill="#06B6D4"/>
-  <rect x="69" y="300" width="14" height="11" rx="2" stroke="white" stroke-width="2"/>
-  <path d="M69 304h14" stroke="white" stroke-width="2"/>
-  <text x="105" y="310" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="28" font-weight="700">Browser Agent Blueprint</text>
-  <text x="68" y="338" fill="#475569" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20">Two runs. One saved record.</text>
-  <circle cx="76" cy="419" r="15" fill="#F59E0B"/>
-  <path d="M69 415h14M72 411v13M80 411v13M69 424h14" stroke="white" stroke-width="2" stroke-linecap="round"/>
-  <text x="105" y="423" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="28" font-weight="700">CoverCalc Pro</text>
-  <text x="68" y="451" fill="#475569" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20">Compare bags, bulk and delivery.</text>
+<svg width="600" height="760" viewBox="0 0 600 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Lydia Tools · practical tools you can try</title>
+  <desc id="description">Browser Agent Blueprint, CoverCalc Pro, Social Post Image Maker, and Global Longform SEO Studio.</desc>
+
+  <rect width="600" height="760" rx="24" fill="#111B2A"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="40" y="100" fill="#F7F9F7" font-size="69" font-weight="700" letter-spacing="-3">Lydia Tools</text>
+    <rect x="42" y="124" width="65" height="5" fill="#91D9E6"/>
+    <text x="40" y="169" fill="#D4DFE7" font-size="23">Small tools. Clearer next steps.</text>
+    <path d="M40 196H560M40 333H560M40 470H560M40 607H560" stroke="#435366"/>
+
+    <rect x="42" y="222" width="5" height="18" fill="#91D9E6"/>
+    <text x="61" y="239" fill="#91D9E6" font-size="19">Agent reliability</text>
+    <text x="42" y="276" fill="#F7F9F7" font-size="29" font-weight="700">Browser Agent Blueprint</text>
+    <text x="42" y="312" fill="#C5D1DD" font-size="20">Check the outcome before retrying.</text>
+
+    <rect x="42" y="359" width="5" height="18" fill="#F2C66D"/>
+    <text x="61" y="376" fill="#F2C66D" font-size="19">Garden buying</text>
+    <text x="42" y="413" fill="#F7F9F7" font-size="29" font-weight="700">CoverCalc Pro</text>
+    <text x="42" y="449" fill="#C5D1DD" font-size="20">Compare bags, bulk and delivery.</text>
+
+    <rect x="42" y="496" width="5" height="18" fill="#8FE1B8"/>
+    <text x="61" y="513" fill="#8FE1B8" font-size="19">Social visuals</text>
+    <text x="42" y="550" fill="#F7F9F7" font-size="29" font-weight="700">Social Post Image Maker</text>
+    <text x="42" y="586" fill="#C5D1DD" font-size="20">Make four platform-sized images.</text>
+
+    <rect x="42" y="633" width="5" height="18" fill="#D0B8FF"/>
+    <text x="61" y="650" fill="#D0B8FF" font-size="19">Creator publishing</text>
+    <text x="42" y="687" fill="#F7F9F7" font-size="27" font-weight="700">Global Longform SEO Studio</text>
+    <text x="42" y="723" fill="#C5D1DD" font-size="20">Plan articles for X, Quora, Medium.</text>
+  </g>
 </svg>

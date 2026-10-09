@@ -1,17 +1,15 @@
 <div align="center">
 
-# Lydia Tools
-
 <picture>
   <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
-  <img src="assets/hero.svg" alt="Lydia Tools · Browser Agent Blueprint and CoverCalc Pro" width="100%">
+  <img src="assets/hero.svg" alt="Lydia Tools: browser-agent recovery, garden buying, social images, and longform article planning" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
 >
-> Right now: a reproducible browser-agent recovery demo and a garden-material calculator that checks bags, bulk minimums, and delivery together.
+> Start with a browser-agent recovery demo and a garden-material calculator. Explore the social image maker and longform planning studio below.
 
-[Open the Blueprint demo guide](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Try CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Explore the other tools](#choose-by-the-problem)
+[Browser-agent demo](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Garden calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social image maker](https://lydiatools.github.io/aspectory/) · [Longform planning studio](https://lydiatools.github.io/longform-atlas/)
 
 Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products)
 
@@ -19,7 +17,7 @@ Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier
 
 ---
 
-## Start here · Two projects you can try
+## Start here · Two featured projects
 
 ### Browser Agent Blueprint · Check what happened before trying again
 

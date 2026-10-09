@@ -4,6 +4,7 @@ The profile previews highlight concrete workflows and outputs. Capture date: 6 O
 
 | Preview | Source and what is shown |
 | --- | --- |
+| Profile hero | Authored 9 October 2026 as an SVG project map, not product screenshots or performance data. The four named projects are public under `LydiaTools`; their linked demo or site destinations returned HTTP 200 that day. Browser Agent Blueprint and CoverCalc Pro remain the two detailed featured projects. |
 | CoverCalc Pro | The live website's worked example was entered into the real calculator: 100 ft², 3 in, 10% allowance, a 2 yd³ bulk minimum, and a 0.5 yd³ increment. Example prices and fees produce 14 bags / USD 80 and 2 yd³ bulk / USD 105. These are illustrative inputs from the site's own example. |
 | Browser Agent Blueprint | The existing deterministic prepare/resume run, source commit `f6ed4f796efcbb40795369476e2d1a741ab49b03`, supplies the fixture screenshot and recorded result: save count 1, checkpoint DONE, revision 2. The surrounding explanation is authored. Vendor/model integrations were not live-tested. |
 | Say It Plainly | The published v0.9.0 macOS package was checked against its release SHA-256 manifest. A fictional work message produced an action list and missing-time question. A second real generation used the stated delivery intent and produced the displayed reply. The draft remained unsent. |

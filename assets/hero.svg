@@ -1,40 +1,42 @@
-<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#111827"/>
-      <stop offset="0.55" stop-color="#1F2937"/>
-      <stop offset="1" stop-color="#312E81"/>
-    </linearGradient>
-    <linearGradient id="glow" x1="70" y1="50" x2="1040" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#67E8F9" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#A78BFA" stop-opacity="0.08"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
-      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity="0.24"/>
-    </filter>
-  </defs>
+<svg width="1200" height="450" viewBox="0 0 1200 450" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Lydia Tools · practical tools you can try</title>
+  <desc id="description">Four projects: Browser Agent Blueprint for checking a timed-out action, CoverCalc Pro for comparing garden-material orders, Social Post Image Maker for four platform-sized images, and Global Longform SEO Studio for planning articles.</desc>
 
-  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
-  <circle cx="1040" cy="-10" r="260" fill="url(#glow)"/>
-  <circle cx="80" cy="380" r="220" fill="#0EA5E9" fill-opacity="0.07"/>
+  <rect width="1200" height="450" rx="24" fill="#111B2A"/>
+  <path d="M454 44V406" stroke="#435366"/>
 
-  <text x="72" y="92" fill="#A5F3FC" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="18" letter-spacing="4">LYDIA TOOLS · SMALL TOOLS, REAL USE</text>
-  <text x="72" y="158" fill="white" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="52" font-weight="700">Make the next step clearer.</text>
-  <text x="74" y="199" fill="#CBD5E1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20">Two projects built around decisions worth checking.</text>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="54" y="145" fill="#F7F9F7" font-size="89" font-weight="700" letter-spacing="-4">Lydia</text>
+    <text x="54" y="238" fill="#F7F9F7" font-size="89" font-weight="700" letter-spacing="-4">Tools</text>
+    <rect x="56" y="270" width="76" height="5" fill="#91D9E6"/>
+    <text x="54" y="321" fill="#D4DFE7" font-size="22">Small tools.</text>
+    <text x="54" y="353" fill="#D4DFE7" font-size="22">Clearer next steps.</text>
+    <text x="54" y="404" fill="#92A6B8" font-size="16">Independent projects by Lydia</text>
 
-  <g filter="url(#shadow)">
-    <rect x="72" y="252" width="510" height="112" rx="18" fill="#F8FAFC"/>
-    <rect x="602" y="252" width="526" height="112" rx="18" fill="#F8FAFC"/>
+    <path d="M821 52V398M494 225H1150" stroke="#435366"/>
+
+    <rect x="496" y="69" width="5" height="17" fill="#91D9E6"/>
+    <text x="515" y="84" fill="#91D9E6" font-size="17">Agent reliability</text>
+    <text x="496" y="126" fill="#F7F9F7" font-size="23" font-weight="700">Browser Agent Blueprint</text>
+    <text x="496" y="164" fill="#C5D1DD" font-size="17">Check the outcome before</text>
+    <text x="496" y="190" fill="#C5D1DD" font-size="17">repeating a timed-out action.</text>
+
+    <rect x="842" y="69" width="5" height="17" fill="#F2C66D"/>
+    <text x="861" y="84" fill="#F2C66D" font-size="17">Garden buying</text>
+    <text x="842" y="126" fill="#F7F9F7" font-size="23" font-weight="700">CoverCalc Pro</text>
+    <text x="842" y="164" fill="#C5D1DD" font-size="17">Compare whole bags, bulk</text>
+    <text x="842" y="190" fill="#C5D1DD" font-size="17">minimums and delivery.</text>
+
+    <rect x="496" y="254" width="5" height="17" fill="#8FE1B8"/>
+    <text x="515" y="269" fill="#8FE1B8" font-size="17">Social visuals</text>
+    <text x="496" y="311" fill="#F7F9F7" font-size="22" font-weight="700">Social Post Image Maker</text>
+    <text x="496" y="349" fill="#C5D1DD" font-size="17">Turn one idea into four</text>
+    <text x="496" y="375" fill="#C5D1DD" font-size="17">platform-sized images.</text>
+
+    <rect x="842" y="254" width="5" height="17" fill="#D0B8FF"/>
+    <text x="861" y="269" fill="#D0B8FF" font-size="17">Creator publishing</text>
+    <text x="842" y="311" fill="#F7F9F7" font-size="21" font-weight="700">Global Longform SEO Studio</text>
+    <text x="842" y="349" fill="#C5D1DD" font-size="17">Plan English articles for X,</text>
+    <text x="842" y="375" fill="#C5D1DD" font-size="17">Quora and Medium.</text>
   </g>
-
-  <circle cx="108" cy="288" r="17" fill="#06B6D4"/>
-  <rect x="100" y="282" width="16" height="12" rx="2" stroke="white" stroke-width="2"/>
-  <path d="M100 286h16" stroke="white" stroke-width="2"/>
-  <text x="140" y="294" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="23" font-weight="700">Browser Agent Blueprint</text>
-  <text x="96" y="331" fill="#475569" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17">Two processes. One saved record after resume.</text>
-
-  <circle cx="638" cy="288" r="17" fill="#F59E0B"/>
-  <path d="M630 286h16M633 282v12M641 282v12M630 294h16" stroke="white" stroke-width="2" stroke-linecap="round"/>
-  <text x="670" y="294" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="23" font-weight="700">CoverCalc Pro</text>
-  <text x="626" y="331" fill="#475569" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17">Compare whole bags, bulk minimums and delivery.</text>
 </svg>
