@@ -10,7 +10,7 @@
 > Check whether an agent saved, compare a garden order, turn one idea into platform-ready visuals, plan articles around a creator identity, keep research source-linked, or review trade inquiries before following up.
 
 [Browser-agent demo](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Garden calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social image maker](https://lydiatools.github.io/aspectory/) · [Longform planning studio](https://lydiatools.github.io/longform-atlas/) · [NoteSignal](https://github.com/LydiaTools/notesignal) · [Trade inquiry system](https://github.com/LydiaTools/lydia-foreign-trade-system)<br>
-[Say It Plainly](https://github.com/LydiaTools/shuorenhua) · [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) · [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026) · [Codex Skin Workshop contributions](https://github.com/mercedesbestsupplier-maker/bifang-codex-skins) — original app by [@luhaozwork](https://github.com/luhaozwork)
+[Say It Plainly](https://github.com/LydiaTools/shuorenhua) · [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) · [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026) · [Scope Check](products/biefangong/README.md) · [Codex Skin Workshop contributions](https://github.com/mercedesbestsupplier-maker/bifang-codex-skins) — original app by [@luhaozwork](https://github.com/luhaozwork)
 
 Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products)
 

@@ -89,8 +89,9 @@ def draw_lines(draw: ImageDraw.ImageDraw, xy: tuple[int, int], lines: list[str],
 
 def fitted_preview(filename: str, size: tuple[int, int]) -> Image.Image:
     source = Image.open(ASSETS / filename).convert("RGB")
+    centering = (0.5, 0.12) if filename == "skin-workshop-library.png" else (0.5, 0.5)
     return ImageOps.fit(source, (size[0] * SCALE, size[1] * SCALE),
-                        method=Image.Resampling.LANCZOS, centering=(0.5, 0.5))
+                        method=Image.Resampling.LANCZOS, centering=centering)
 
 
 def draw_card(canvas: Image.Image, project: tuple[str, str, str, str, str],
