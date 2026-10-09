@@ -1,13 +1,13 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
-  <img src="assets/hero.svg" alt="Lydia Tools: browser-agent recovery, garden buying, social images, and longform article planning" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile-v2.svg">
+  <img src="assets/hero-v2.svg" alt="Lydia Tools features four practical projects: Browser Agent Blueprint, CoverCalc Pro, Social Post Image Maker, and Global Longform SEO Studio" width="100%">
 </picture>
 
 > **I turn those “there must be a clearer way” moments into small tools people can try.**
 >
-> Start with a browser-agent recovery demo and a garden-material calculator. Explore the social image maker and longform planning studio below.
+> Recover a timed-out browser workflow, compare a real garden-material order, adapt one idea for four social platforms, or plan articles around a creator identity.
 
 [Browser-agent demo](https://lydiatools.github.io/browser-agent-blueprint/demo/) · [Garden calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social image maker](https://lydiatools.github.io/aspectory/) · [Longform planning studio](https://lydiatools.github.io/longform-atlas/)
 
@@ -17,7 +17,7 @@ Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier
 
 ---
 
-## Start here · Two featured projects
+## Start here · Four tools for real tasks
 
 ### Browser Agent Blueprint · Check what happened before trying again
 
@@ -52,11 +52,29 @@ The single-area checker runs on GitHub Pages or as an HTML file you can open off
 
 **[Try the open-source checker](https://lydiatools.github.io/covercalcpro-landscape-quantity-kit/tools/landscape-volume-check.html)** · **[Open the full live calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator)** · **[Download the offline checker](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/download/v0.1.1/CoverCalcPro-Landscape-Volume-Check-v0.1.1.zip)** · [Toolkit and source](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) · [Try the example](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/blob/main/docs/TRY-IT.md)
 
+### Social Post Image Maker · Give one idea four platform-native layouts
+
+Start with one verified insight, pick a visual style, and export separate images for Pinterest, Instagram, Lemon8, and Facebook. This is local image composition; it does not publish posts.
+
+<a href="https://github.com/LydiaTools/aspectory"><img src="assets/social-post-image-maker-en.png" alt="Four actual Social Post Image Maker exports from one sample, showing Pinterest, Instagram, Lemon8, and Facebook layouts" width="720"></a>
+
+*Four sample exports arranged for comparison; they are not one batch export or a published campaign.*
+
+**[Try the English studio](https://lydiatools.github.io/aspectory/)** · [中文体验](https://lydiatools.github.io/aspectory/zh.html) · [Source](https://github.com/LydiaTools/aspectory) · [Report an export or layout issue](https://github.com/LydiaTools/aspectory/issues/new?template=use-feedback.yml)
+
+### Global Longform SEO Studio · Turn a creator identity into article plans
+
+Define the audience and creator positioning, then build distinct plans for X Articles, Quora Answers, Medium, LinkedIn Articles, and Substack. Add evidence, draft locally with your own compatible model, edit, and export Markdown.
+
+<a href="https://github.com/LydiaTools/longform-atlas"><img src="assets/longform-atlas-ip-plan.png" alt="Actual Longform Atlas article plan using a CoverCalc Pro creator profile with different X Articles, Quora, and Medium angles and separate evidence fields" width="720"></a>
+
+*Actual local app using its built-in gardening sample; no publication, ranking, or revenue result is represented.*
+
+**[Try the browser planning demo](https://lydiatools.github.io/longform-atlas/)** · [中文体验](https://lydiatools.github.io/longform-atlas/?lang=zh) · [Source and quick start](https://github.com/LydiaTools/longform-atlas) · [Download v0.2.0 local ZIP](https://github.com/LydiaTools/longform-atlas/releases/download/v0.2.0/longform-atlas-v0.2.0.zip) · [Report a planning or export issue](https://github.com/LydiaTools/longform-atlas/issues/new?template=workflow-observation.yml)
+
 ---
 
 ## Choose by the problem
-
-New creator tools: **[Xiaohongshu NoteSignal · 小红书笔记风向标](https://github.com/LydiaTools/notesignal)** and **[Global Longform SEO Studio · 海外长文 SEO 量产](https://github.com/LydiaTools/longform-atlas)**. Their working screens and download links are directly below the table.
 
 | What is getting in your way? | Tool | What it helps you do | Current status |
 | --- | --- | --- | --- |
@@ -75,14 +93,6 @@ New creator tools: **[Xiaohongshu NoteSignal · 小红书笔记风向标](https:
 
 New here? Open the [getting-started page](GETTING-STARTED.md). Pick the problem you recognize and try one tool.
 
-### Social Post Image Maker · Show the same insight in four formats
-
-<a href="https://github.com/LydiaTools/aspectory"><img src="assets/social-post-image-maker-en.png" alt="Four actual Social Post Image Maker exports from one sample, showing Pinterest, Instagram, Lemon8, and Facebook layouts with platform labels outside the images" width="720"></a>
-
-*Actual sample exports from four platform and style combinations, arranged for comparison; this is not one batch export or a published campaign.*
-
-**[Try the English studio](https://lydiatools.github.io/aspectory/)** · [中文体验](https://lydiatools.github.io/aspectory/zh.html) · [Source](https://github.com/LydiaTools/aspectory) · [Report an export or layout issue](https://github.com/LydiaTools/aspectory/issues/new?template=use-feedback.yml)
-
 ### Xiaohongshu NoteSignal · Turn visible notes into source-linked observations
 
 Capture a note you can see, correct the extracted fields, add your own judgment, and compare saved examples. The optional visible-browser runner collects a small bounded sample into JSON for review; it stops at verification or account warnings.
@@ -92,16 +102,6 @@ Capture a note you can see, correct the extracted fields, add your own judgment,
 *Actual popup interface with an empty local library. Live signed-in Xiaohongshu capture is not yet accepted; this screenshot does not show collected content.*
 
 **[Source and setup](https://github.com/LydiaTools/notesignal)** · [Download early-preview ZIP](https://github.com/LydiaTools/notesignal/releases/download/v0.1.1/notesignal-v0.1.1.zip) · [Release notes and checksum](https://github.com/LydiaTools/notesignal/releases/tag/v0.1.1) · [Report a capture or setup issue](https://github.com/LydiaTools/notesignal/issues/new?template=use-feedback.yml)
-
-### Global Longform SEO Studio · Build a creator IP and its article pipeline
-
-Enter keywords and an audience to suggest a creator positioning, or write your own. Turn that IP into distinct article plans for X Articles, Quora Answers, Medium, LinkedIn Articles, and Substack. Add article-specific evidence, then create an offline outline or draft up to three pieces with your own compatible model. Edit and export Markdown.
-
-<a href="https://github.com/LydiaTools/longform-atlas"><img src="assets/longform-atlas-ip-plan.png" alt="Actual Longform Atlas local article plan: CoverCalc Pro creator positioning with different X Articles, Quora, and Medium angles and separate evidence fields" width="720"></a>
-
-*Actual local app using its built-in gardening sample and offline article plan. No model-generated article, publication result, ranking, or revenue is represented.*
-
-**[Try the browser planning demo](https://lydiatools.github.io/longform-atlas/)** · [中文体验](https://lydiatools.github.io/longform-atlas/?lang=zh) · [Source and quick start](https://github.com/LydiaTools/longform-atlas) · [Download v0.2.0 local ZIP](https://github.com/LydiaTools/longform-atlas/releases/download/v0.2.0/longform-atlas-v0.2.0.zip) · [Report a planning or export issue](https://github.com/LydiaTools/longform-atlas/issues/new?template=workflow-observation.yml)
 
 ---
 
@@ -224,6 +224,7 @@ Basic tools will continue to be shared for free. Custom features, deployment hel
 
 ## Recent updates
 
+- **2026-10-09:** redesigned the Lydia Tools profile banner around four practical projects, with a larger brand title and a mobile-specific layout.
 - **2026-10-09:** added [Video Studio · 视频制作](https://github.com/LydiaTools/video-studio-updates), with a public, verified build1–26 iteration journal and the current internal macOS build26 status.
 
 - **2026-10-08:** added Social Post Image Maker / 出海社媒配图助手, a bilingual visual post studio with four platform layouts, four styles, and a four-image ZIP export.

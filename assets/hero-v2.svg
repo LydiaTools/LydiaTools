@@ -1,0 +1,44 @@
+<svg width="1200" height="540" viewBox="0 0 1200 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Lydia Tools · four practical projects</title>
+  <desc id="description">A prominent Lydia Tools title above four projects: Browser Agent Blueprint checks a saved result before retrying; CoverCalc Pro compares garden-material orders; Social Post Image Maker creates four platform-sized images; Global Longform SEO Studio plans creator articles.</desc>
+
+  <rect width="1200" height="540" rx="28" fill="#101A29"/>
+  <circle cx="1160" cy="-8" r="218" fill="#1C2A43"/>
+  <circle cx="-16" cy="540" r="150" fill="#142735"/>
+  <path d="M52 213H1148" stroke="#39495C"/>
+
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="58" y="62" fill="#A6B7C7" font-size="14" font-weight="700" letter-spacing="2.6">INDEPENDENT PROJECTS · BUILT AROUND REAL WORK</text>
+    <text x="52" y="143" fill="#F7F9F7" font-size="88" font-weight="700" letter-spacing="-4">Lydia Tools</text>
+    <rect x="58" y="164" width="102" height="5" rx="2.5" fill="#91D9E6"/>
+    <text x="58" y="196" fill="#D4DFE7" font-size="21">Small tools. Clearer next steps.</text>
+
+    <text x="833" y="108" fill="#91D9E6" font-size="18" font-weight="700" letter-spacing="1.2">FOUR PROJECTS</text>
+    <text x="833" y="139" fill="#F7F9F7" font-size="22" font-weight="700">to solve real tasks</text>
+    <text x="833" y="169" fill="#AEBECD" font-size="16">Open a demo, inspect the work, try a tool.</text>
+
+    <rect x="50" y="234" width="535" height="128" rx="16" fill="#18283A" stroke="#35465A"/>
+    <rect x="50" y="234" width="5" height="128" rx="2.5" fill="#91D9E6"/>
+    <text x="76" y="262" fill="#91D9E6" font-size="14" font-weight="700" letter-spacing="1.3">AGENT RELIABILITY</text>
+    <text x="76" y="299" fill="#F7F9F7" font-size="23" font-weight="700">Browser Agent Blueprint</text>
+    <text x="76" y="333" fill="#C5D1DD" font-size="16">Verify a saved result before repeating a timed-out action.</text>
+
+    <rect x="615" y="234" width="535" height="128" rx="16" fill="#18283A" stroke="#35465A"/>
+    <rect x="615" y="234" width="5" height="128" rx="2.5" fill="#F2C66D"/>
+    <text x="641" y="262" fill="#F2C66D" font-size="14" font-weight="700" letter-spacing="1.3">GARDEN BUYING</text>
+    <text x="641" y="299" fill="#F7F9F7" font-size="23" font-weight="700">CoverCalc Pro</text>
+    <text x="641" y="333" fill="#C5D1DD" font-size="16">Compare bag counts, bulk minimums, and delivery.</text>
+
+    <rect x="50" y="382" width="535" height="128" rx="16" fill="#18283A" stroke="#35465A"/>
+    <rect x="50" y="382" width="5" height="128" rx="2.5" fill="#8FE1B8"/>
+    <text x="76" y="410" fill="#8FE1B8" font-size="14" font-weight="700" letter-spacing="1.3">VISUAL PUBLISHING</text>
+    <text x="76" y="447" fill="#F7F9F7" font-size="23" font-weight="700">Social Post Image Maker</text>
+    <text x="76" y="481" fill="#C5D1DD" font-size="16">Turn one useful idea into four platform-native layouts.</text>
+
+    <rect x="615" y="382" width="535" height="128" rx="16" fill="#18283A" stroke="#35465A"/>
+    <rect x="615" y="382" width="5" height="128" rx="2.5" fill="#D0B8FF"/>
+    <text x="641" y="410" fill="#D0B8FF" font-size="14" font-weight="700" letter-spacing="1.3">CREATOR PUBLISHING</text>
+    <text x="641" y="447" fill="#F7F9F7" font-size="22" font-weight="700">Global Longform SEO Studio</text>
+    <text x="641" y="481" fill="#C5D1DD" font-size="16">Shape a creator identity; plan articles for each platform.</text>
+  </g>
+</svg>
