@@ -14,7 +14,7 @@
 
 **Nine projects in the banner:** [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) · [CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social Post Image Maker](https://github.com/LydiaTools/aspectory) · [Global Longform SEO Studio](https://github.com/LydiaTools/longform-atlas) · [Xiaohongshu NoteSignal](https://github.com/LydiaTools/notesignal) · [Lydia Foreign Trade System](https://github.com/LydiaTools/lydia-foreign-trade-system) · [Say It Plainly](https://github.com/LydiaTools/shuorenhua) · [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) · [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026)
 
-Team products I contribute to: [BFTOOLS](https://github.com/mercedesbestsupplier-maker#products)
+BFTOOLS team product: [BFTiles — Windows window-layout utility](https://github.com/mercedesbestsupplier-maker/BFTiles) · [Product and download page](https://www.bifang.tools/window-layout-assistant/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=bftiles_team_product) · [More team projects](https://github.com/mercedesbestsupplier-maker#products)
 
 </div>
 
