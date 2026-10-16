@@ -178,7 +178,7 @@ Keep a fleeting task or idea on your desktop, then move it into Obsidian, Codex,
 
 I promote these company products:
 
-- **BFTiles:** organize Windows windows and save familiar desktop layouts.
+- **BFTiles:** organize application windows on Windows and save familiar desktop layouts.
 - **Content Production Assistant:** organize article references, drafting, and human review.
 - **Codex Skin Workshop:** preview and choose a Codex workspace appearance.
 
