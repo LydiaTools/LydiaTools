@@ -32,7 +32,7 @@ PROJECTS = [
     ("desktop-flow-capture-proof.png", "DESKTOP CAPTURE", "Desktop Flow", "Save a task before switching apps.", "#f2c66d"),
     ("xiaoran-output-excerpt.png", "CONTENT RESEARCH", "Xiaoran Topic Assistant", "Shape research into usable topic briefs.", "#8fe1b8"),
     ("biefangong-v0.1.0.png", "SCOPE CHANGES", "Scope Check", "Compare a request with the agreed scope.", "#d0b8ff"),
-    ("skin-workshop-library.png", "CODEX THEMING", "Codex Skin Workshop", "My enhancements and skins; original app by luhaozwork.", "#f5a9b8"),
+    ("skin-workshop-library.png", "CODEX THEMING", "Codex Skin Workshop", "BFTOOLS company product; Lydia handles promotion.", "#f5a9b8"),
 ]
 
 FEATURED_PROJECTS = PROJECTS[:9]

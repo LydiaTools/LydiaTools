@@ -10,11 +10,11 @@
 > Start with browser reliability, garden buying, or platform-ready visuals. Explore creator publishing, source-linked research, trade workflows, clearer replies, desktop capture, and content research.
 
 [Browser-agent demo](https://lydiatools.github.io/browser-agent-blueprint/demo/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=browser_agent_demo) · [Garden calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social image maker](https://lydiatools.github.io/aspectory/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=top_links) · [Longform planning studio](https://lydiatools.github.io/longform-atlas/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=top_links) · [NoteSignal](https://github.com/LydiaTools/notesignal) · [Trade inquiry system](https://github.com/LydiaTools/lydia-foreign-trade-system)<br>
-[Say It Plainly](https://github.com/LydiaTools/shuorenhua) · [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) · [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026) · [Scope Check](products/biefangong/README.md) · [Codex Skin Workshop contributions](https://github.com/mercedesbestsupplier-maker/bifang-codex-skins) — original app by [@luhaozwork](https://github.com/luhaozwork)
+[Say It Plainly](https://github.com/LydiaTools/shuorenhua) · [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) · [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026) · [Scope Check](products/biefangong/README.md)
 
 **Nine projects in the banner:** [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) · [CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social Post Image Maker](https://github.com/LydiaTools/aspectory) · [Global Longform SEO Studio](https://github.com/LydiaTools/longform-atlas) · [Xiaohongshu NoteSignal](https://github.com/LydiaTools/notesignal) · [Lydia Foreign Trade System](https://github.com/LydiaTools/lydia-foreign-trade-system) · [Say It Plainly](https://github.com/LydiaTools/shuorenhua) · [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) · [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026)
 
-BFTOOLS team product: [BFTiles — Windows window-layout utility](https://github.com/mercedesbestsupplier-maker/BFTiles) · [Product and download page](https://www.bifang.tools/window-layout-assistant/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=bftiles_team_product) · [More team projects](https://github.com/mercedesbestsupplier-maker#products)
+I also promote BFTOOLS company products. The company handles their development, maintenance, and release decisions.
 
 </div>
 
@@ -92,7 +92,7 @@ Define the audience and creator positioning, then build distinct plans for X Art
 | You understand every word of a long message, but still don't know what you're being asked to do | [Say It Plainly](https://github.com/LydiaTools/shuorenhua/blob/main/README.en.md) | Identify actions and questions, then draft a reply that reflects what you actually mean | macOS v0.9.0; download available; Chinese interface |
 | A client's “small change” keeps growing, and nobody can say how much extra work it adds | [Scope Check](products/biefangong/README.md) | Compare a new request with the agreed scope; spot additions, changes, and unanswered questions | macOS v0.1.0; private testing; Chinese interface |
 | Ideas and tasks disappear while you switch between apps | [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) | Catch them on your desktop, save as Markdown, and connect to Obsidian or Codex when useful | macOS v1.0.0; Windows v1.0.3 |
-| You spend hours in Codex and want a workspace that feels more like yours | [Codex Skin Workshop](https://afdian.com/album/26288eaca83511f19cc352540025c377) | Search, preview, install, switch, and restore skins | macOS; free access; original app by [@luhaozwork](https://github.com/luhaozwork), my enhancements and skins |
+| You spend hours in Codex and want a workspace that feels more like yours | Codex Skin Workshop | Preview and choose a workspace appearance | BFTOOLS company product; my role is promotion |
 | Every new content topic sends you back through the same research and sorting steps | [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026) | Put repeated research steps into a workflow, leaving the judgment to you | Released; see the access page |
 | Inquiries sit in a spreadsheet, with no clear priority or next step | [Lydia Foreign Trade System](https://github.com/LydiaTools/lydia-foreign-trade-system) | Import CSV or JSON; review grades, missing evidence, and next actions before confirming follow-up | MIT; local setup with Node.js 20+ |
 
@@ -174,13 +174,15 @@ Keep a fleeting task or idea on your desktop, then move it into Obsidian, Codex,
 
 *macOS v1.0.0. Actual app capture and Markdown readback; an explanatory layout. Optional Codex review was not run for this capture.*
 
-### Codex Skin Workshop · Make the daily workspace yours
+### BFTOOLS company products · Promotion
 
-Make a daily workspace more comfortable, with a way to restore the original appearance. [@luhaozwork](https://github.com/luhaozwork) developed the original app; I contribute feature enhancements and a collection of several hundred skins.
+I promote these company products:
 
-<a href="https://github.com/mercedesbestsupplier-maker/bifang-codex-skins"><img src="assets/skin-workshop-library.png" alt="Actual Skin Workshop manager: searchable preview library, import controls, and apply-and-verify buttons" width="720"></a>
+- **BFTiles:** organize Windows windows and save familiar desktop layouts.
+- **Content Production Assistant:** organize article references, drafting, and human review.
+- **Codex Skin Workshop:** preview and choose a Codex workspace appearance.
 
-*The manager shows 151 skins in this installed build, searchable previews, and an apply-and-verify control. Original application by @luhaozwork; my contributions are the enhancements and skin collection.*
+These are BFTOOLS company projects. BFTiles was originally developed by dingzd1995; the original Skin Workshop app was developed by luhaozwork. My current responsibility is promotion. The company handles development, maintenance, testing, releases, and decisions about public access.
 
 ### Xiaoran Topic Assistant · Turn a brief into topics you can develop
 
@@ -198,7 +200,7 @@ Put repeated research and topic-sorting steps into a workflow, leaving the judgm
 
 Projects without a public download are labeled in development or in testing. A local build is a different state from a public release.
 
-I also work with the [BFTOOLS team](https://github.com/mercedesbestsupplier-maker) on product direction, user experience, and public product pages, with a current focus on promoting the content-operations tool. [BFTiles](https://github.com/mercedesbestsupplier-maker/BFTiles) was originally developed by [@dingzd1995](https://github.com/dingzd1995).
+BFTOOLS product availability and access are determined by the company.
 
 ## What matters to me
 
@@ -229,7 +231,7 @@ Basic tools will continue to be shared for free. Custom features, deployment hel
 
 ## Recent updates
 
-- **2026-10-09:** expanded the LydiaTools banner from six to nine real projects, split the wordmark into a stronger two-line masthead, and rebuilt the mobile layout. Browser Agent Blueprint, CoverCalc Pro, and Social Post Image Maker lead the grid; the Skin Workshop contribution stays credited to its original app creator.
+- **2026-10-09:** expanded the LydiaTools banner from six to nine real projects, split the wordmark into a stronger two-line masthead, and rebuilt the mobile layout. Browser Agent Blueprint, CoverCalc Pro, and Social Post Image Maker lead the grid; original product creators remain credited.
 - **2026-10-09:** added [Video Studio · 视频制作](https://github.com/LydiaTools/video-studio-updates), with a public, verified build1–26 iteration journal and the current internal macOS build26 status.
 
 - **2026-10-08:** added Social Post Image Maker / 出海社媒配图助手, a bilingual visual post studio with four platform layouts, four styles, and a four-image ZIP export.
