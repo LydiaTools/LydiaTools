@@ -87,6 +87,7 @@ Define the audience and creator positioning, then build distinct plans for X Art
 | A browser action timed out, and you need to see what the follow-up check found | [StepReceipt](https://github.com/LydiaTools/stepreceipt) | Review tool errors beside explicit observations; share an HTML report or gate recorded checks in CI | MIT; [live report](https://lydiatools.github.io/stepreceipt/) / [v0.2.0 ZIP](https://github.com/LydiaTools/stepreceipt/releases/tag/v0.2.0); three local-browser cases tested; native agent adapters unverified |
 | A PDF conversion keeps the numbers but puts them under the wrong headers | [PDF Table Traps](https://github.com/LydiaTools/pdf-table-traps) | Check explicit row/header/value relationships against original synthetic fixtures; export JSON or HTML results | MIT; [measured reports](https://lydiatools.github.io/pdf-table-traps/) / [v0.1.0 kit](https://github.com/LydiaTools/pdf-table-traps/releases/tag/v0.1.0); three small cases, not a general accuracy benchmark |
 | An SVG is almost right, but a label or object needs a small adjustment | [NudgeSVG](https://github.com/LydiaTools/nudgesvg) | Drag, nudge, edit plain text, and inspect the exact source fragments changed | MIT; [open editor](https://lydiatools.github.io/nudgesvg/) / [v0.1.0 offline preview](https://github.com/LydiaTools/nudgesvg/releases/tag/v0.1.0); static SVG, English/Chinese |
+| You want to share a diagram PNG without its embedded editing text | [PNG Share Check](https://github.com/LydiaTools/png-share-check) | Read supported scene text, remove PNG text metadata, and verify image data stayed unchanged | MIT early preview; [try the demo](https://lydiatools.github.io/png-share-check/) / [offline ZIP](https://github.com/LydiaTools/png-share-check/releases/tag/v0.1.0); static PNG, English/Chinese |
 | You found a promising GitHub issue but need to check the later discussion first | [GapCue](https://github.com/LydiaTools/gapcue) | Read source samples, inspect mentioned PR states, and save your own decision with the report | MIT; [English/Chinese review desk](https://lydiatools.github.io/gapcue/) / [v0.1.0 preview](https://github.com/LydiaTools/gapcue/releases/tag/v0.1.0); bounded public reads, no demand score |
 | You want to connect an AI app without rebuilding its provider-specific integration | [ChinaGenAI](https://chinagenai.com/connect?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=problem_selector_api) | Start with a copy-ready OpenAI-compatible Chat Completions setup, then build and inspect requests in the browser | Free API access and connection guide |
 | You want to check dimensions, volume, and bag counts before buying landscape materials | [CoverCalc Pro toolkit](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit) | Check rectangular or circular volumes, formulas, pack sizes, and shopping quantities | MIT; [live open-source checker](https://lydiatools.github.io/covercalcpro-landscape-quantity-kit/tools/landscape-volume-check.html) / [offline HTML v0.1.1](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/tag/v0.1.1) / [full calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) |
@@ -217,6 +218,8 @@ BFTOOLS product availability and access are determined by the company.
 
 ## Downloads & early access
 
+- [PNG Share Check: v0.1.0 offline PNG inspection preview](https://github.com/LydiaTools/png-share-check/releases/tag/v0.1.0) / [open the app](https://lydiatools.github.io/png-share-check/)
+
 - [GapCue: v0.1.0 GitHub issue-research preview](https://github.com/LydiaTools/gapcue/releases/tag/v0.1.0) / [open the bilingual review desk](https://lydiatools.github.io/gapcue/)
 - [StepReceipt: browser-action report and v0.2.0 download](https://github.com/LydiaTools/stepreceipt) / [open the live report](https://lydiatools.github.io/stepreceipt/)
 - [PDF Table Traps: v0.1.0 source and fixture kit](https://github.com/LydiaTools/pdf-table-traps/releases/tag/v0.1.0) / [measured reports](https://lydiatools.github.io/pdf-table-traps/)
@@ -240,6 +243,8 @@ Basic tools will continue to be shared for free. Custom features, deployment hel
 <a id="最近更新"></a>
 
 ## Recent updates
+
+- **2026-10-21:** published [PNG Share Check](https://github.com/LydiaTools/png-share-check): inspect embedded scene text and remove PNG text metadata without re-encoding image data. Bilingual, offline-capable early preview.
 
 - **2026-10-20:** published [GapCue](https://github.com/LydiaTools/gapcue): public issue/comment samples, mentioned PR states and a local review file for your own next-step decision. Early preview; source coverage is shown explicitly.
 - **2026-10-20:** published [PDF Table Traps](https://github.com/LydiaTools/pdf-table-traps): three original PDFs, explicit cell-relationship checks and six reproducible measured reports. Small synthetic cases, not a parser ranking.
