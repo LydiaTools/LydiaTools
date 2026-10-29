@@ -5,22 +5,35 @@
   <img src="assets/hero-v17.png" alt="LydiaTools: nine practical projects with real product screens—Browser Agent Blueprint, CoverCalc Pro, Social Post Image Maker, Global Longform SEO Studio, Xiaohongshu NoteSignal, Lydia Foreign Trade System, Say It Plainly, Desktop Flow, and Xiaoran Topic Assistant" width="100%">
 </picture>
 
-> **I turn those “there must be a clearer way” moments into small tools people can try.**
+> **I share agent skills, small tools, and notes from using them in real projects.**
 >
-> Start with browser reliability, garden buying, or platform-ready visuals. Explore creator publishing, source-linked research, trade workflows, clearer replies, desktop capture, and content research.
+> Here you can explore the workflows I use, try the examples, and adapt them to your own work. Questions, bug reports, and improvements are welcome.
 
-[Browser-agent demo](https://lydiatools.github.io/browser-agent-blueprint/demo/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=browser_agent_demo) · [Free OpenAI-compatible API](https://chinagenai.com/connect?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=api_top_link) · [Garden calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social image maker](https://lydiatools.github.io/aspectory/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=top_links) · [Longform planning studio](https://lydiatools.github.io/longform-atlas/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=top_links) · [NoteSignal](https://github.com/LydiaTools/notesignal) · [Trade inquiry system](https://github.com/LydiaTools/lydia-foreign-trade-system)<br>
+[Browser-agent demo](https://lydiatools.github.io/browser-agent-blueprint/demo/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=browser_agent_demo) · [API connection guide](https://chinagenai.com/connect?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=api_top_link) · [Garden calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social image maker](https://lydiatools.github.io/aspectory/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=top_links) · [Longform planning studio](https://lydiatools.github.io/longform-atlas/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=top_links) · [NoteSignal](https://github.com/LydiaTools/notesignal) · [Trade inquiry system](https://github.com/LydiaTools/lydia-foreign-trade-system)<br>
 [Say It Plainly](https://github.com/LydiaTools/shuorenhua) · [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) · [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026) · [Scope Check](products/biefangong/README.md)
 
 **Nine projects in the banner:** [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) · [CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social Post Image Maker](https://github.com/LydiaTools/aspectory) · [Global Longform SEO Studio](https://github.com/LydiaTools/longform-atlas) · [Xiaohongshu NoteSignal](https://github.com/LydiaTools/notesignal) · [Lydia Foreign Trade System](https://github.com/LydiaTools/lydia-foreign-trade-system) · [Say It Plainly](https://github.com/LydiaTools/shuorenhua) · [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) · [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026)
 
-I also promote BFTOOLS company products. The company handles their development, maintenance, and release decisions.
 
 </div>
 
 ---
 
-## Start here · Four featured projects for real work
+## Skills & workflows I share
+
+These are workflows and examples I use while making things. Each repository includes its own setup notes and credits.
+
+| Skill or workflow | What you can try |
+| --- | --- |
+| [Paper Collage for WorkBuddy](https://github.com/LydiaTools/paper-collage-workbuddy) | Turn a topic into a paper collage animation with editable scenes and music. Includes a 12-second example, Chinese setup notes, and credits to Vox Director. |
+| [GapCue Agent Skill](https://github.com/LydiaTools/gapcue#use-it-from-your-coding-agent) | Gather public project discussions and keep the evidence beside your product decisions. |
+| [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) | Explore reusable prompt modules and a local example of saving and resuming a browser task. |
+
+[Browse the new animation skill](https://github.com/LydiaTools/paper-collage-workbuddy/blob/main/SKILL.md) · [Download the repository ZIP](https://github.com/LydiaTools/paper-collage-workbuddy/archive/refs/heads/main.zip) · [Watch the included example](https://github.com/LydiaTools/paper-collage-workbuddy/blob/main/media/work-focus-12s.mp4)
+
+---
+
+## Projects you can explore
 
 ### Browser Agent Blueprint · Check what happened before trying again
 
@@ -111,7 +124,6 @@ Define the audience and creator positioning, then build distinct plans for X Art
 | You understand every word of a long message, but still don't know what you're being asked to do | [Say It Plainly](https://github.com/LydiaTools/shuorenhua/blob/main/README.en.md) | Identify actions and questions, then draft a reply that reflects what you actually mean | macOS v0.9.0; download available; Chinese interface |
 | A client's “small change” keeps growing, and nobody can say how much extra work it adds | [Scope Check](products/biefangong/README.md) | Compare a new request with the agreed scope; spot additions, changes, and unanswered questions | macOS v0.1.0; private testing; Chinese interface |
 | Ideas and tasks disappear while you switch between apps | [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) | Catch them on your desktop, save as Markdown, and connect to Obsidian or Codex when useful | macOS v1.0.0; Windows v1.0.3 |
-| You spend hours in Codex and want a workspace that feels more like yours | Codex Skin Workshop | Preview and choose a workspace appearance | BFTOOLS company product; my role is promotion |
 | Every new content topic sends you back through the same research and sorting steps | [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026) | Put repeated research steps into a workflow, leaving the judgment to you | Released; see the access page |
 | Inquiries sit in a spreadsheet, with no clear priority or next step | [Lydia Foreign Trade System](https://github.com/LydiaTools/lydia-foreign-trade-system) | Import CSV or JSON; review grades, missing evidence, and next actions before confirming follow-up | MIT; local setup with Node.js 20+ |
 
@@ -193,16 +205,6 @@ Keep a fleeting task or idea on your desktop, then move it into Obsidian, Codex,
 
 *macOS v1.0.0. Actual app capture and Markdown readback; an explanatory layout. Optional Codex review was not run for this capture.*
 
-### BFTOOLS company products · Promotion
-
-I promote these company products:
-
-- **BFTiles:** organize application windows on Windows and save familiar desktop layouts.
-- **Content Production Assistant:** organize article references, drafting, and human review.
-- **Codex Skin Workshop:** preview and choose a Codex workspace appearance.
-
-These are BFTOOLS company projects. BFTiles was originally developed by dingzd1995; the original Skin Workshop app was developed by luhaozwork. My current responsibility is promotion. The company handles development, maintenance, testing, releases, and decisions about public access.
-
 ### Xiaoran Topic Assistant · Turn a brief into topics you can develop
 
 Put repeated research and topic-sorting steps into a workflow, leaving the judgment to you.
@@ -219,7 +221,6 @@ Put repeated research and topic-sorting steps into a workflow, leaving the judgm
 
 Projects without a public download are labeled in development or in testing. A local build is a different state from a public release.
 
-BFTOOLS product availability and access are determined by the company.
 
 ## What matters to me
 
@@ -228,7 +229,7 @@ BFTOOLS product availability and access are determined by the company.
 - **Keep key decisions yours.** Replies are reviewed before sending; project scope changes after your confirmation.
 - **Be honest about status.** Tests, device verification, signing, notarization, and public release are reported separately.
 
-## Downloads & early access
+## Downloads & source
 
 - [OpenClaw Fallback Check: v0.1.0 bilingual CLI preview](https://github.com/LydiaTools/openclaw-fallback-check/releases/tag/v0.1.0) / [ready-to-install wheel](https://github.com/LydiaTools/openclaw-fallback-check/releases/download/v0.1.0/openclaw_fallback_check-0.1.0-py3-none-any.whl) / [source and quick start](https://github.com/LydiaTools/openclaw-fallback-check)
 - [PNG Share Check: v0.1.1 offline PNG inspection preview](https://github.com/LydiaTools/png-share-check/releases/tag/v0.1.1) / [open the app](https://lydiatools.github.io/png-share-check/)
@@ -243,12 +244,9 @@ BFTOOLS product availability and access are determined by the company.
 - [Lydia Foreign Trade System: source and setup](https://github.com/LydiaTools/lydia-foreign-trade-system)
 - [CoverCalc Pro: live open-source checker](https://lydiatools.github.io/covercalcpro-landscape-quantity-kit/tools/landscape-volume-check.html) / [full website calculator](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) / [offline checker v0.1.1 download](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit/releases/download/v0.1.1/CoverCalcPro-Landscape-Volume-Check-v0.1.1.zip) / [source and formulas](https://github.com/LydiaTools/covercalcpro-landscape-quantity-kit)
 - [Say It Plainly: latest download](https://github.com/LydiaTools/shuorenhua/releases/latest)
-- [Afdian: tools and updates](https://afdian.com/a/lydiahub2026)
-- [Feishu: product collection (opens sign-in for guests)](https://jcnrbes3t04e.feishu.cn/drive/folder/VRnafPFVDlcNXrdtpSwcWaWFnEj)
 - Bugs and feature ideas: open an Issue in the relevant public repository.
-- Early access, custom work, and maintenance: WeChat `lydiahub2026`.
 
-Basic tools will continue to be shared for free. Custom features, deployment help, data migration, and ongoing maintenance can be discussed separately. Some linked interfaces and distribution pages currently use Chinese.
+Some linked interfaces and guides are currently in Chinese. Setup notes and source are available in each public repository.
 
 ## Find me online
 
@@ -257,6 +255,8 @@ Basic tools will continue to be shared for free. Custom features, deployment hel
 <a id="最近更新"></a>
 
 ## Recent updates
+
+- **2026-10-29:** shared [Paper Collage for WorkBuddy](https://github.com/LydiaTools/paper-collage-workbuddy), with editable scenes, a sample video, and the original project credits.
 
 - **2026-10-27:** published [Codex Rollout Audit](https://github.com/LydiaTools/codex-rollout-audit), a read-only CLI that groups local rollout storage by session-family metadata. The public example uses synthetic files and does not read conversation text.
 
