@@ -26,6 +26,7 @@ These are workflows and examples I use while making things. Each repository incl
 | Skill or workflow | What you can try |
 | --- | --- |
 | [Paper Collage for WorkBuddy](https://github.com/LydiaTools/paper-collage-workbuddy) | Turn a topic into a paper collage animation with editable scenes and music. Includes a 12-second example, Chinese setup notes, and credits to Vox Director. |
+| [Art Motion for WorkBuddy](https://github.com/LydiaTools/art-motion-workbuddy) | Make editable motion graphics; includes a short whiteboard example and credits to huashu-art-motion. |
 | [GapCue Agent Skill](https://github.com/LydiaTools/gapcue#use-it-from-your-coding-agent) | Gather public project discussions and keep the evidence beside your product decisions. |
 | [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) | Explore reusable prompt modules and a local example of saving and resuming a browser task. |
 
