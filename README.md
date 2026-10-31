@@ -9,7 +9,7 @@
 >
 > Here you can explore the workflows I use, try the examples, and adapt them to your own work. Questions, bug reports, and improvements are welcome.
 
-[Skills & workflows](#skills--workflows-i-share) · [Explore projects](#projects-you-can-explore) · [Find me online](#find-me-online)
+[Skills & workflows](#user-content-skills--workflows-i-share) · [Explore projects](#user-content-projects-you-can-explore) · [Find me online](#user-content-find-me-online)
 
 **Nine projects in the banner:** [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) · [CoverCalc Pro](https://covercalcpro.com/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile#calculator) · [Social Post Image Maker](https://github.com/LydiaTools/aspectory) · [Global Longform SEO Studio](https://github.com/LydiaTools/longform-atlas) · [Xiaohongshu NoteSignal](https://github.com/LydiaTools/notesignal) · [Lydia Foreign Trade System](https://github.com/LydiaTools/lydia-foreign-trade-system) · [Say It Plainly](https://github.com/LydiaTools/shuorenhua) · [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) · [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026)
 
