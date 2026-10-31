@@ -24,6 +24,7 @@ These are workflows and examples I use while making things. Each repository incl
 
 | Skill or workflow | What you can try |
 | --- | --- |
+| [Show the Change](https://github.com/LydiaTools/show-the-change) | Understand a project change in plain language and find out how to check the result. |
 | [Paper Collage for WorkBuddy](https://github.com/LydiaTools/paper-collage-workbuddy) | Turn a topic into a paper collage animation with editable scenes and music. Includes a 12-second example, Chinese setup notes, and credits to Vox Director. |
 | [Art Motion for WorkBuddy](https://github.com/LydiaTools/art-motion-workbuddy) | Make editable motion graphics; includes a short whiteboard example and credits to huashu-art-motion. |
 | [GapCue Agent Skill](https://github.com/LydiaTools/gapcue#use-it-from-your-coding-agent) | Gather public project discussions and keep the evidence beside your product decisions. |
