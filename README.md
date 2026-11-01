@@ -47,6 +47,8 @@ These are workflows and examples I use while making things. Each repository incl
 
 The demo uses deterministic host code and makes no model calls. Muse, Grok, and Codex integration contracts are provided but have not been live-tested. Automatic wake-up and production crash consistency need host support.
 
+After context compaction, what if a previous save is still unconfirmed? [Explore the checkpoint-and-ledger example](https://github.com/LydiaTools/browser-agent-blueprint/blob/main/docs/compact-handoff.md), a synthetic demonstration combining a task reminder with an action record.
+
 **[Build a task profile without setup](https://lydiatools.github.io/browser-agent-blueprint/builder/)** · **[Project overview](https://lydiatools.github.io/browser-agent-blueprint/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=browser_agent_project_overview)** · [Demo guide](https://lydiatools.github.io/browser-agent-blueprint/demo/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=browser_agent_featured_demo) · [Try the lost-reply simulation](https://lydiatools.github.io/browser-agent-blueprint/demo/lost-reply.html) · [Modules and full recovery demo](https://github.com/LydiaTools/browser-agent-blueprint#quick-start) · [Report a synthetic failure case](https://github.com/LydiaTools/browser-agent-blueprint/issues)
 
 ### CoverCalc Pro · Check the quantities before placing an order
