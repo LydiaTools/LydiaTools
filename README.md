@@ -103,6 +103,7 @@ Define the audience and creator positioning, then build distinct plans for X Art
 | What is getting in your way? | Tool | What it helps you do | Current status |
 | --- | --- | --- | --- |
 | A browser agent times out, loses its place, or submits twice, and you can't tell what happened | [Browser Agent Blueprint](https://github.com/LydiaTools/browser-agent-blueprint) | Reuse prompt modules and risk gates; persist intent before a write and inspect recovery after a real worker or browser kill | MIT; [online profile builder](https://lydiatools.github.io/browser-agent-blueprint/builder/) / [v0.2.6 preview source and reports](https://github.com/LydiaTools/browser-agent-blueprint/releases/tag/v0.2.6) / [browser-crash method](https://github.com/LydiaTools/browser-agent-blueprint/blob/v0.2.3/docs/browser-profile-kill.md); synthetic macOS/Linux host test, model integrations not tested |
+| A Playwright CDP connection succeeds, but you need to know which browser operations actually work | [Playwright CDP Compat](https://github.com/LydiaTools/playwright-cdp-compat) | Run a small fixture matrix for navigation, locators and forms, frames, cookie isolation, emulation, and request routing; export a JSON or HTML report | MIT; source-only early preview; live Chrome and Lightpanda endpoints not yet checked |
 | A browser-use action reports success, but you need an independent check of what actually happened | [StepReceipt](https://github.com/LydiaTools/stepreceipt) | Compare a native action result with a separate outcome check; review a self-contained HTML report or gate recorded checks in CI | MIT; [live disabled-click report](https://lydiatools.github.io/stepreceipt/browser-use/disabled.html) / [v0.8.1 ZIP](https://github.com/LydiaTools/stepreceipt/releases/download/v0.8.1/stepreceipt-v0.8.1.zip) / [two-tab example](https://lydiatools.github.io/stepreceipt/page-click/unbound.html) / [Agno retry report](https://lydiatools.github.io/stepreceipt/agno/retry.html) / [release notes](https://github.com/LydiaTools/stepreceipt/releases/tag/v0.8.1); synthetic local cases; browser-use fixture has no `Agent.run`; Agno uses a scripted local model |
 | A Skill installs successfully, but its files or agent directory are hard to find | [Skill Bundle Check](https://github.com/LydiaTools/skill-bundle-check) | Check installation destinations and references, compare copies, and inspect single-Skill ZIP structure | MIT; [compare folders](https://lydiatools.github.io/skill-bundle-check/web/diff.html) / [review a ZIP](https://lydiatools.github.io/skill-bundle-check/web/zip.html) / [v0.14.4 source](https://github.com/LydiaTools/skill-bundle-check/releases/tag/v0.14.4); read-only file checks, not runtime activation |
 | Claude Code sessions contain embedded screenshots, and you want a local byte-level view | [Claude Session Image Audit](https://github.com/LydiaTools/claude-session-image-audit) | Count image payloads and duplicates; optionally check base64, media types and common image signatures | MIT; [v0.1.0 preview wheel](https://github.com/LydiaTools/claude-session-image-audit/releases/tag/v0.1.0); Python 3.10+; byte counts, not token estimates |
@@ -129,7 +130,6 @@ Define the audience and creator positioning, then build distinct plans for X Art
 | You have keywords but need a creator identity and a repeatable overseas article pipeline | [Global Longform SEO Studio](https://github.com/LydiaTools/longform-atlas) | Define your IP, build distinct evidence-led plans for X Articles, Quora, Medium, LinkedIn or Substack, then draft and export in English or Chinese | MIT; [browser planning demo](https://lydiatools.github.io/longform-atlas/?utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=problem_selector_longform_en) / [Chinese demo](https://lydiatools.github.io/longform-atlas/?lang=zh&utm_source=github&utm_medium=referral&utm_campaign=lydiatools_profile&utm_content=problem_selector_longform_zh) / [v0.2.0 local ZIP](https://github.com/LydiaTools/longform-atlas/releases/download/v0.2.0/longform-atlas-v0.2.0.zip); AI drafting runs in the local app |
 | You want to follow a video tool from source research through narration, scenes and approved audio | [Video Studio](https://github.com/LydiaTools/video-studio-updates) | Follow the local production workflow and inspect what changed in each build | Internal macOS **0.3.1 build26**; [26-build history](https://github.com/LydiaTools/video-studio-updates/blob/main/CHANGELOG.md); general installer and complete voiced-episode acceptance pending |
 | You understand every word of a long message, but still don't know what you're being asked to do | [Say It Plainly](https://github.com/LydiaTools/shuorenhua/blob/main/README.en.md) | Identify actions and questions, then draft a reply that reflects what you actually mean | macOS v0.9.0; download available; Chinese interface |
-| A client's “small change” keeps growing, and nobody can say how much extra work it adds | [Scope Check](products/biefangong/README.md) | Compare a new request with the agreed scope; spot additions, changes, and unanswered questions | macOS v0.1.0; private testing; Chinese interface |
 | Ideas and tasks disappear while you switch between apps | [Desktop Flow](https://afdian.com/album/1f24622aa83511f184a452540025c377) | Catch them on your desktop, save as Markdown, and connect to Obsidian or Codex when useful | macOS v1.0.0; Windows v1.0.3 |
 | Every new content topic sends you back through the same research and sorting steps | [Xiaoran Topic Assistant](https://afdian.com/a/lydiahub2026) | Put repeated research steps into a workflow, leaving the judgment to you | Released; see the access page |
 | Inquiries sit in a spreadsheet, with no clear priority or next step | [Lydia Foreign Trade System](https://github.com/LydiaTools/lydia-foreign-trade-system) | Import CSV or JSON; review grades, missing evidence, and next actions before confirming follow-up | MIT; local setup with Node.js 20+ |
@@ -171,20 +171,6 @@ Say It Plainly breaks a message into actions and the questions worth checking, t
 *v0.9.0, Chinese interface. Real generated results from a fictional work message; the reply remained unsent.*
 
 **[Product and v0.9.0 downloads](https://github.com/LydiaTools/shuorenhua)** · [English overview](https://github.com/LydiaTools/shuorenhua/blob/main/README.en.md)
-
-### Scope Check · Make the extra work clear before doing it
-
-To a client, it may be “just add a mobile version.” For the person doing the work, it can change the pages, APIs, tests, and delivery date together.
-
-Scope Check keeps the agreement currently confirmed for each project. Paste a new client message and it highlights additions, changes to the agreement, and details that need clarification before work starts. It also drafts a calm confirmation reply that doesn't commit you in advance.
-
-<img src="assets/biefangong-v0.1.0.png" alt="Scope Check identifies mobile adaptation and data export as additions to the saved agreement, asks about the unchanged deadline, and drafts a confirmation reply" width="440">
-
-*v0.1.0, Chinese interface. Fictional scope-change example; the saved agreement is the comparison baseline.*
-
-**[Features and testing status](products/biefangong/README.md)**
-
----
 
 ## Open-source projects · See the code and try it yourself
 
@@ -263,6 +249,7 @@ Some linked interfaces and guides are currently in Chinese. Setup notes and sour
 
 ## Recent updates
 
+- **2026-11-02:** published [Playwright CDP Compat](https://github.com/LydiaTools/playwright-cdp-compat), an English-first, bilingual-docs early preview that records a small browser-operation matrix as JSON or HTML. Live Chrome and Lightpanda runs are still pending.
 - **2026-10-29:** shared [Paper Collage for WorkBuddy](https://github.com/LydiaTools/paper-collage-workbuddy), with editable scenes, a sample video, and the original project credits.
 
 - **2026-10-27:** published [Codex Rollout Audit](https://github.com/LydiaTools/codex-rollout-audit), a read-only CLI that groups local rollout storage by session-family metadata. The public example uses synthetic files and does not read conversation text.
@@ -284,10 +271,8 @@ Some linked interfaces and guides are currently in Chinese. Setup notes and sour
 - **2026-10-07:** published the CoverCalc Pro landscape kit's first offline HTML download and live open-source checker, with source and a reproducible calculation example; opened the Blueprint synthetic fixture online while keeping the full recovery runner local.
 - **2026-10-06:** added Browser Agent Blueprint: original browser-agent prompt modules, a local resume demo, and integration contracts clearly labeled as not live-tested.
 - **2026-09-28:** added project links, setup guides, and demos for Lydia Foreign Trade System and the CoverCalc Pro toolkit; linked the English overview for Say It Plainly while keeping existing products, covers, and downloads.
-- **2026-09-08:** Scope Check reached its v0.1.0 testing candidate, identifying added work, changed agreements, and questions needing confirmation.
 - **2026-09-07:** Say It Plainly v0.9.0 became available through GitHub Releases.
 - **2026-09-04:** Desktop Flow updated to Windows v1.0.3, with its core workflow verified on Windows 10 and 11; Mac uses the v1.0.0 DMG.
-- **2026-09-04:** reorganized the Afdian page around Desktop Flow, Codex Skin Workshop, and the combined product entry.
 
 ---
 
